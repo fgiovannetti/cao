@@ -1,2 +1,2 @@
-# ontologies-cao
+# cao
 Critical Apparatus Ontology (CAO) 
