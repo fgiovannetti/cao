@@ -92,8 +92,8 @@ for app in root.findall('.//tei:app', ns):
 			g.add( (rdg_uri, RDF.type, cao.Reading))
 		if rdg.tag == '{http://www.tei-c.org/ns/1.0}lem':
 			g.add( (app_uri, cao.hasBaseReading, rdg_uri))
-			g.add( (rdg_uri, RDF.type, cao.Lemma))
-		g.add( (rdg_uri, prov.hadPrimarySource, expr_frag_uri))
+			g.add( (rdg_uri, RDF.type, cao.BaseReading))
+		g.add( (rdg_uri, cao.isWitnessedBy, expr_frag_uri))
 		g.add( (rdg_uri, RDF.value, rdg_value))
 
 # expression fragment bearing the reading
@@ -107,7 +107,7 @@ for app in root.findall('.//tei:app', ns):
 			i = 0
 			while i < len(wit_id):
 				wit_uri = URIRef(ex + 'wit/' + wit_id[i].replace('#', ''))
-				g.add( (expr_frag_uri, cao.witnessedBy, wit_uri))
+				g.add( (expr_frag_uri, frbroo.R4_carriers_provided_by, wit_uri))
 				i += 1
 
 		if rdg.get('type') is not None:			
@@ -151,7 +151,7 @@ for app in root.findall('.//tei:app', ns):
 						source_uri = URIRef(path.get('sameAs'))
 					else:
 						source_uri = URIRef(ex + 'source-edition/' + source_id[i])
-					g.add( (rdg_uri, prov.wasAttributedTo, source_uri))
+					g.add( (rdg_uri, prov.hadPrimarySource, source_uri))
 				i += 1
 				
 # variants sequence for each tei:app
@@ -187,7 +187,7 @@ for app in root.findall('.//tei:app', ns):
 						source_uri = URIRef(path.get('sameAs'))
 					else:
 						source_uri = URIRef(ex + 'source-edition/' + source_id[i])
-					g.add( (note_uri, prov.wasAttributedTo, source_uri)) 
+					g.add( (note_uri, prov.hadPrimarySource, source_uri)) 
 				i += 1
 
 		if note.get('target') is not None:
