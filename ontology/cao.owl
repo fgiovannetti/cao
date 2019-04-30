@@ -185,6 +185,19 @@
         <rdfs:isDefinedBy>http://purl.org/cao/</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">follows</rdfs:label>
     </owl:ObjectProperty>
+
+
+
+    <!-- http://purl.org/cao/hasAttributedHand -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/cao/hasAttributedHand">
+        <owl:inverseOf rdf:resource="http://purl.org/cao/isAttributedHandOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/cao/Reading"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:comment xml:lang="en">This property relates a reading to a specific scribal hand.</rdfs:comment>
+        <rdfs:comment xml:lang="en">has attributed hand</rdfs:comment>
+        <rdfs:isDefinedBy>http://purl.org/cao/</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
     
 
 
@@ -263,6 +276,16 @@
         <rdfs:label xml:lang="en">has variant</rdfs:label>
     </owl:ObjectProperty>
     
+
+
+    <!-- http://purl.org/cao/isAttributedHandOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/cao/isAttributedHandOf">
+        <owl:inverseOf rdf:resource="http://purl.org/cao/hasAttributedHand"/>
+        <rdfs:isDefinedBy>http://purl.org/cao/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">is attributed hand of</rdfs:label>
+    </owl:ObjectProperty>
+
 
 
     <!-- http://purl.org/cao/isBaseReadingOf -->
