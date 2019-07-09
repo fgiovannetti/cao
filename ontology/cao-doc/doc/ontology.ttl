@@ -1,0 +1,615 @@
+@prefix : <http://purl.org/cao/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://purl.org/cao/> .
+
+<http://purl.org/cao/> rdf:type owl:Ontology ;
+                        owl:versionIRI <http://purl.org/cao/9.0> ;
+                        owl:imports <http://purl.org/emmedi/hico> ,
+                                    <http://www.w3.org/ns/oa#> ;
+                        <http://purl.org/dc/elements/1.1/date> "08.07.2019" ;
+                        <http://purl.org/dc/elements/1.1/title> "Critical Apparatus Ontology (CAO)" ;
+                        <http://purl.org/dc/terms/creator> "Francesca Giovannetti" ;
+                        <http://purl.org/dc/terms/license> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en ;
+                        rdfs:comment "The Critical Apparatus Ontology (CAO) is an OWL 2 DL ontology for representing the apparatus of textual variants and philological arguments that accompanies a digital critical edition."@en ;
+                        owl:versionInfo 0.9 .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R15
+<http://iflastandards.info/ns/fr/frbr/frbroo/R15> rdf:type owl:ObjectProperty ;
+                                                  owl:inverseOf <http://iflastandards.info/ns/fr/frbr/frbroo/R15i> ;
+                                                  rdfs:domain <http://iflastandards.info/ns/fr/frbr/frbroo/F2> ;
+                                                  rdfs:range <http://iflastandards.info/ns/fr/frbr/frbroo/F23> ;
+                                                  rdfs:comment "This property associates the fragment of an expression and the expression of which it is a fragment."@en ;
+                                                  rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                  rdfs:label "has fragment"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R15i
+<http://iflastandards.info/ns/fr/frbr/frbroo/R15i> rdf:type owl:ObjectProperty ;
+                                                   rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                   rdfs:label "is fragment of"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R4
+<http://iflastandards.info/ns/fr/frbr/frbroo/R4> rdf:type owl:ObjectProperty ;
+                                                 owl:inverseOf <http://iflastandards.info/ns/fr/frbr/frbroo/R4i> ;
+                                                 rdfs:domain <http://iflastandards.info/ns/fr/frbr/frbroo/F2> ;
+                                                 rdfs:range <http://iflastandards.info/ns/fr/frbr/frbroo/F3> ;
+                                                 rdfs:comment "This property associates a publication, i.e. an instance of F3 Manifestation Product Type, with an instance of F2 Expression, which all exemplars of that publication should carry, as long as they are recognised as complete exemplars of that publication."@en ;
+                                                 rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                 rdfs:label "carriers provided by"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R41
+<http://iflastandards.info/ns/fr/frbr/frbroo/R41> rdf:type owl:ObjectProperty ;
+                                                  owl:inverseOf <http://iflastandards.info/ns/fr/frbr/frbroo/R41i> ;
+                                                  rdfs:domain <http://iflastandards.info/ns/fr/frbr/frbroo/F2> ;
+                                                  rdfs:range <http://iflastandards.info/ns/fr/frbr/frbroo/F3> ;
+                                                  rdfs:comment "This property identifies an instance of F3 Manifestation Product Type that has been chosen as the most characteristic Manifestation Product Type of the instance of F2 Expression of which it is a manifestation."@en ;
+                                                  rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                  rdfs:label "has representative manifestation product type"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R41i
+<http://iflastandards.info/ns/fr/frbr/frbroo/R41i> rdf:type owl:ObjectProperty ;
+                                                   rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                   rdfs:label "is representative manifestation product type for"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R42
+<http://iflastandards.info/ns/fr/frbr/frbroo/R42> rdf:type owl:ObjectProperty ;
+                                                  owl:inverseOf <http://iflastandards.info/ns/fr/frbr/frbroo/R42i> ;
+                                                  rdfs:domain <http://iflastandards.info/ns/fr/frbr/frbroo/F4> ;
+                                                  rdfs:range <http://iflastandards.info/ns/fr/frbr/frbroo/F2> ;
+                                                  rdfs:comment "This property identifies an instance of Manifestation Singleton that has been declared as the unique representative for an instance of F2 Expression by some bibliographic agency. This property identifies an instance of F4 Manifestation Singleton that has been chosen as the most characteristic Manifestation Singleton of the instance of F2 Expression of which it is a manifestation."@en ;
+                                                  rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                  rdfs:label "is representative manifestation singleton for"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R42i
+<http://iflastandards.info/ns/fr/frbr/frbroo/R42i> rdf:type owl:ObjectProperty ;
+                                                   rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                   rdfs:label "has representative manifestation singleton"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R4i
+<http://iflastandards.info/ns/fr/frbr/frbroo/R4i> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                  rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                  rdfs:label "comprises carriers of"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R7
+<http://iflastandards.info/ns/fr/frbr/frbroo/R7> rdf:type owl:ObjectProperty ;
+                                                 owl:inverseOf <http://iflastandards.info/ns/fr/frbr/frbroo/R7i> ;
+                                                 rdfs:domain <http://iflastandards.info/ns/fr/frbr/frbroo/F5> ;
+                                                 rdfs:range <http://iflastandards.info/ns/fr/frbr/frbroo/F3> ;
+                                                 rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                 rdfs:label "is example of"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/R7i
+<http://iflastandards.info/ns/fr/frbr/frbroo/R7i> rdf:type owl:ObjectProperty ;
+                                                  rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                  rdfs:label "has example"@en .
+
+
+###  http://purl.org/cao/follows
+:follows rdf:type owl:ObjectProperty ;
+         owl:inverseOf :isFollowedBy ;
+         rdfs:isDefinedBy "http://purl.org/cao/" ;
+         rdfs:label "follows"@en .
+
+
+###  http://purl.org/cao/hasAttributedHand
+:hasAttributedHand rdf:type owl:ObjectProperty ;
+                   owl:inverseOf :isAttributedHandOf ;
+                   rdfs:domain :Reading ;
+                   rdfs:range <http://www.w3.org/ns/prov#Agent> ;
+                   rdfs:comment "This property relates a reading to a specific scribal hand."@en ;
+                   rdfs:isDefinedBy "http://purl.org/cao/" ;
+                   rdfs:label "has attributed hand"@en .
+
+
+###  http://purl.org/cao/hasBaseReading
+:hasBaseReading rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasReading ;
+                owl:inverseOf :isBaseReadingOf ;
+                rdfs:domain :VariationUnit ;
+                rdfs:range <http://iflastandards.info/ns/fr/frbr/frbroo/F2> ,
+                           :BaseReading ;
+                rdfs:comment "This property relates a HiCO interpretation act to the primary source being interpreted."@en ,
+                             "This property relates a unit of variation to its base reading (if there exists one)."@en ,
+                             "has base reading"@en ,
+                             "has interpreted entity"@en ;
+                rdfs:isDefinedBy "http://purl.org/cao/" .
+
+
+###  http://purl.org/cao/hasReading
+:hasReading rdf:type owl:ObjectProperty ;
+            owl:inverseOf :isReadingOf ;
+            rdfs:domain :VariationUnit ;
+            rdfs:range :Reading ;
+            rdfs:comment "This property relates a unit of variation to a reading."@en ;
+            rdfs:isDefinedBy "http://purl.org/cao/" ;
+            rdfs:label "has reading"@en .
+
+
+###  http://purl.org/cao/hasReadingCause
+:hasReadingCause rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :isReadingCauseOf ;
+                 rdfs:domain :Reading ;
+                 rdfs:range :ReadingCause ;
+                 rdfs:comment "This property relates a reading to the possible cause for it."@en ;
+                 rdfs:isDefinedBy "http://purl.org/cao/" ;
+                 rdfs:label "has reading cause"@en .
+
+
+###  http://purl.org/cao/hasReadingType
+:hasReadingType rdf:type owl:ObjectProperty ;
+                owl:inverseOf :isReadingTypeOf ;
+                rdfs:domain :Reading ;
+                rdfs:range :ReadingType ;
+                rdfs:comment "This property relates a reading to a reading category or type."@en ;
+                rdfs:isDefinedBy "http://purl.org/cao/" ;
+                rdfs:label "has reading type"@en .
+
+
+###  http://purl.org/cao/hasSubvariationUnit
+:hasSubvariationUnit rdf:type owl:ObjectProperty ;
+                     rdfs:domain :VariationUnit ;
+                     rdfs:range :VariationUnit ;
+                     rdfs:comment "This property relates a unit of variation to a subunit of variation."@en ;
+                     rdfs:isDefinedBy "http://purl.org/cao/" ;
+                     rdfs:label "has subvariation unit"@en .
+
+
+###  http://purl.org/cao/hasVariant
+:hasVariant rdf:type owl:ObjectProperty ;
+            owl:inverseOf :isVariantOf ;
+            rdfs:domain :BaseReading ;
+            rdfs:range :Reading ;
+            rdfs:comment "This property relates a base reading to an attested variant reading."@en ;
+            rdfs:isDefinedBy "http://purl.org/cao/" ;
+            rdfs:label "has variant"@en .
+
+
+###  http://purl.org/cao/isAttributedHandOf
+:isAttributedHandOf rdf:type owl:ObjectProperty ;
+                    rdfs:isDefinedBy "http://purl.org/cao/" ;
+                    rdfs:label "is attributed hand of"@en .
+
+
+###  http://purl.org/cao/isBaseReadingOf
+:isBaseReadingOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :isReadingOf ;
+                 rdfs:isDefinedBy "http://purl.org/cao/" ;
+                 rdfs:label "is base reading of"@en .
+
+
+###  http://purl.org/cao/isFollowedBy
+:isFollowedBy rdf:type owl:ObjectProperty ;
+              rdfs:domain :Reading ;
+              rdfs:range :Reading ;
+              rdfs:comment "This property relates two readings which, chronologically, come one after another. E.g. Reading A is followed by Reading B"@en ;
+              rdfs:isDefinedBy "http://purl.org/cao/" ;
+              rdfs:label "is followed by"@en .
+
+
+###  http://purl.org/cao/isReadingCauseOf
+:isReadingCauseOf rdf:type owl:ObjectProperty ;
+                  rdfs:isDefinedBy "http://purl.org/cao/" ;
+                  rdfs:label "is reading cause of"@en .
+
+
+###  http://purl.org/cao/isReadingOf
+:isReadingOf rdf:type owl:ObjectProperty ;
+             rdfs:isDefinedBy "http://purl.org/cao/" ;
+             rdfs:label "is reading of"@en .
+
+
+###  http://purl.org/cao/isReadingTypeOf
+:isReadingTypeOf rdf:type owl:ObjectProperty ;
+                 rdfs:isDefinedBy "http://purl.org/cao/" ;
+                 rdfs:label "is reading type of"@en .
+
+
+###  http://purl.org/cao/isVariantOf
+:isVariantOf rdf:type owl:ObjectProperty ;
+             rdfs:isDefinedBy "http://purl.org/cao/" ;
+             rdfs:label "is variant of"@en .
+
+
+###  http://purl.org/cao/isWitnessedBy
+:isWitnessedBy rdf:type owl:ObjectProperty ;
+               owl:inverseOf :witnesses ;
+               rdfs:domain :Reading ;
+               rdfs:range <http://iflastandards.info/ns/fr/frbr/frbroo/F2> ;
+               rdfs:comment "This property relates a reading to the supporting expression or expression fragment in the witness."@en ;
+               rdfs:isDefinedBy "http://purl.org/cao/" ;
+               rdfs:label "is witnessed by"@en .
+
+
+###  http://purl.org/cao/wasCorrectedTo
+:wasCorrectedTo rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :isFollowedBy ;
+                owl:inverseOf :wasCorrectionOf ;
+                rdfs:domain :Reading ;
+                rdfs:range :Reading ;
+                rdfs:comment "The property relates a corrected reading to the previous state before correction (also a reading)."@en ;
+                rdfs:isDefinedBy "http://purl.org/cao/" ;
+                rdfs:label "was corrected to"@en .
+
+
+###  http://purl.org/cao/wasCorrectionOf
+:wasCorrectionOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :follows ;
+                 rdfs:label "was correction of"@en .
+
+
+###  http://purl.org/cao/witnesses
+:witnesses rdf:type owl:ObjectProperty ;
+           rdfs:isDefinedBy "http://purl.org/cao/" ;
+           rdfs:label "witnesses"@en .
+
+
+###  http://www.w3.org/ns/prov#hadDerivation
+<http://www.w3.org/ns/prov#hadDerivation> rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf :isFollowedBy ;
+                                          owl:inverseOf <http://www.w3.org/ns/prov#wasDerivedFrom> ;
+                                          rdfs:isDefinedBy "http://www.w3.org/ns/prov#" ;
+                                          rdfs:label "had derivation"@en .
+
+
+###  http://www.w3.org/ns/prov#hadPrimarySource
+<http://www.w3.org/ns/prov#hadPrimarySource> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf <http://www.w3.org/ns/prov#wasDerivedFrom> ;
+                                             owl:inverseOf <http://www.w3.org/ns/prov#wasPrimarySourceOf> ;
+                                             rdfs:domain :Reading ;
+                                             rdfs:range <http://iflastandards.info/ns/fr/frbr/frbroo/F3> ;
+                                             rdfs:comment "A primary source for a topic refers to something produced by some agent with direct experience and knowledge about the topic, at the time of the topic's study, without benefit from hindsight. Because of the directness of primary sources, they 'speak for themselves' in ways that cannot be captured through the filter of secondary sources. As such, it is important for secondary sources to reference those primary sources from which they were derived, so that their reliability can be investigated. A primary source relation is a particular case of derivation of secondary materials from their primary sources. It is recognized that the determination of primary sources can be up to interpretation, and should be done according to conventions accepted within the application's domain."@en ;
+                                             rdfs:isDefinedBy "http://www.w3.org/ns/prov#" ;
+                                             rdfs:label "had primary source"@en .
+
+
+###  http://www.w3.org/ns/prov#hadRevision
+<http://www.w3.org/ns/prov#hadRevision> rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf <http://www.w3.org/ns/prov#hadDerivation> ;
+                                        owl:inverseOf <http://www.w3.org/ns/prov#wasRevisionOf> ;
+                                        rdfs:isDefinedBy "http://www.w3.org/ns/prov#" ;
+                                        rdfs:label "had revision"@en .
+
+
+###  http://www.w3.org/ns/prov#wasAttributedTo
+<http://www.w3.org/ns/prov#wasAttributedTo> rdf:type owl:ObjectProperty ;
+                                            rdfs:domain :Reading ;
+                                            rdfs:range <http://www.w3.org/ns/prov#Agent> ;
+                                            rdfs:comment "Attribution is the ascribing of an entity to an agent."@en ;
+                                            rdfs:isDefinedBy "http://www.w3.org/ns/prov#" ;
+                                            rdfs:label "was attributed to"@en .
+
+
+###  http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf :follows ;
+                                           rdfs:domain :Reading ;
+                                           rdfs:range :Reading ;
+                                           rdfs:comment "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity. The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."@en ;
+                                           rdfs:isDefinedBy "http://www.w3.org/ns/prov#" ;
+                                           rdfs:label "was derived from"@en .
+
+
+###  http://www.w3.org/ns/prov#wasPrimarySourceOf
+<http://www.w3.org/ns/prov#wasPrimarySourceOf> rdf:type owl:ObjectProperty ;
+                                               rdfs:subPropertyOf <http://www.w3.org/ns/prov#hadDerivation> ;
+                                               rdfs:isDefinedBy "http://www.w3.org/ns/prov#"@http://www.w3.org/ns/prov#hadprimarysource ;
+                                               rdfs:label "was primary source of"@en .
+
+
+###  http://www.w3.org/ns/prov#wasRevisionOf
+<http://www.w3.org/ns/prov#wasRevisionOf> rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf <http://www.w3.org/ns/prov#wasDerivedFrom> ;
+                                          rdfs:domain :Reading ;
+                                          rdfs:range :Reading ;
+                                          rdfs:comment "A revision is a derivation for which the resulting entity is a revised version of some original. The implication here is that the resulting entity contains substantial content from the original. Revision is a particular case of derivation."@en ;
+                                          rdfs:isDefinedBy "http://www.w3.org/ns/prov#" ;
+                                          rdfs:label "was revision of"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/NET/cidoc-crm/core#P3_has_note
+<http://purl.org/NET/cidoc-crm/core#P3_has_note> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#value
+rdf:value rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/F2
+<http://iflastandards.info/ns/fr/frbr/frbroo/F2> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> ;
+                                                 rdfs:comment "This class comprises the intellectual or artistic realisations of works in the form of identifiable immaterial objects, such as texts, poems, jokes, musical or choreographic notations, movement pattern, sound pattern, images, multimedia objects, or any combination of such forms that have objectively recognisable structures."@en ;
+                                                 rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                 rdfs:label "F2 Expression"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/F23
+<http://iflastandards.info/ns/fr/frbr/frbroo/F23> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://iflastandards.info/ns/fr/frbr/frbroo/F2> ;
+                                                  rdfs:comment "This class comprises parts of Expressions and these parts are not Self-contained Expressions themselves."@en ;
+                                                  rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                  rdfs:label "F23 Expression Fragment"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/F3
+<http://iflastandards.info/ns/fr/frbr/frbroo/F3> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+                                                 rdfs:comment "This class comprises the definitions of publication products. An instance of F3 Manifestation Product Type is the \"species\", and all copies of a given object are \"specimens\" of it. An instance of F3 Manifestation Product Type defines all of the features or traits that instances of F5 Item normally display in order that they may be recognised as copies of a particular publication. However, due to production problems or subsequent events, one or more instances of F5 Item may not exhibit all these features or traits; yet such instances still retain their relationship to the same instance of F3 Manifestation Product Type."@en ;
+                                                 rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                 rdfs:label "F3 Manifestation Product Type"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/F4
+<http://iflastandards.info/ns/fr/frbr/frbroo/F4> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing> ;
+                                                 rdfs:comment "This class comprises physical objects that each carry an instance of F2 Expression, and that were produced as unique objects, with no siblings intended in the course of their production. It should be noted that if all but one copy of a given publication are destroyed, then that copy does not become an instance of F4 Manifestation Singleton, because it was produced together with sibling copies, even though it now happens to be unique. Examples of instances of F4 Manifestation Singleton include manuscripts, preparatory sketches and the final clean draft sent by an author or a composer to a publisher."@en ;
+                                                 rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                 rdfs:label "F4 Manifestation Singleton"@en .
+
+
+###  http://iflastandards.info/ns/fr/frbr/frbroo/F5
+<http://iflastandards.info/ns/fr/frbr/frbroo/F5> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier> ;
+                                                 rdfs:comment "This class comprises physical objects (printed books, scores, CDs, DVDs, CD-ROMS, etc.) that carry a F24 Publication Expression and were produced by an industrial process involving a F3 Manifestation Product Type."@en ;
+                                                 rdfs:isDefinedBy "http://iflastandards.info/ns/fr/frbr/frbroo/" ;
+                                                 rdfs:label "F5 Item"@en .
+
+
+###  http://purl.org/cao/BaseReading
+:BaseReading rdf:type owl:Class ;
+             rdfs:subClassOf :Reading ;
+             rdfs:comment "This class comprises special types of readings, i.e. the one reading within the same unit of variation preferred by the editor over the others."@en ;
+             rdfs:isDefinedBy "http://purl.org/cao/" ;
+             rdfs:label "Base Reading"@en .
+
+
+###  http://purl.org/cao/Reading
+:Reading rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty rdf:value ;
+                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] ;
+         rdfs:comment "A reading is a scholarly claim about or interpretation of a particular textual fragment contained in a witness. Multiple readings may be given for the same textual fragment."@en ;
+         rdfs:isDefinedBy "http://purl.org/cao/" ;
+         rdfs:label "Reading"@en .
+
+
+###  http://purl.org/cao/ReadingCause
+:ReadingCause rdf:type owl:Class ;
+              rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+              rdfs:comment "This class comprises reading causes. A reading cause is the cause for a variant reading (e.g. homeoteleuton, dittography, interpolation)."@en ;
+              rdfs:isDefinedBy "http://purl.org/cao/" ;
+              rdfs:label "Reading Cause"@en .
+
+
+###  http://purl.org/cao/ReadingType
+:ReadingType rdf:type owl:Class ;
+             rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+             rdfs:comment "This class comprises reading types. A reading type is the category for a variant reading (e.g. omission, conjecture, addition)."@en ;
+             rdfs:isDefinedBy "http://purl.org/cao/" ;
+             rdfs:label "Reading Type"@en .
+
+
+###  http://purl.org/cao/VariationLocation
+:VariationLocation rdf:type owl:Class ;
+                   owl:disjointWith :VariationUnit ;
+                   rdfs:comment "A location of variation is the locus in a collated text where textual variation is recognized to occur."@en ;
+                   rdfs:isDefinedBy "http://purl.org/cao/" ;
+                   rdfs:label "Variation Location"@en .
+
+
+###  http://purl.org/cao/VariationUnit
+:VariationUnit rdf:type owl:Class ;
+               rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasReading ;
+                                 owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                 owl:onClass :Reading
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasBaseReading ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass :BaseReading
+                               ] ;
+               rdfs:comment "A unit of variation is a set of alternative readings that refer to the same locus in a collated text. A unit of variation features a maximum of 1 base reading and a minimum of 2 readings."@en ;
+               rdfs:isDefinedBy "http://purl.org/cao/" ;
+               rdfs:label "Variation Unit"@en .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object
+<http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing> .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing
+<http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing> rdf:type owl:Class .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/E55_Type
+<http://www.cidoc-crm.org/cidoc-crm/E55_Type> rdf:type owl:Class .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object
+<http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier
+<http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object
+<http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/prov#Agent
+<http://www.w3.org/ns/prov#Agent> rdf:type owl:Class ;
+                                  rdfs:comment "An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity."@en ;
+                                  rdfs:isDefinedBy "http://www.w3.org/ns/prov#" ;
+                                  rdfs:label "Agent"@en .
+
+
+###  http://www.w3.org/ns/prov#Person
+<http://www.w3.org/ns/prov#Person> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://www.w3.org/ns/prov#Agent> ;
+                                   rdfs:comment "Person agents are people."@en ;
+                                   rdfs:isDefinedBy "http://www.w3.org/ns/prov#" ;
+                                   rdfs:label "Person"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://lawd.info/ontology/addition
+<http://lawd.info/ontology/addition> rdf:type owl:NamedIndividual ;
+                                     owl:sameAs :addition .
+
+
+###  http://lawd.info/ontology/conjecture
+<http://lawd.info/ontology/conjecture> rdf:type owl:NamedIndividual ;
+                                       owl:sameAs :conjecture .
+
+
+###  http://lawd.info/ontology/correction
+<http://lawd.info/ontology/correction> rdf:type owl:NamedIndividual ;
+                                       owl:sameAs :correction .
+
+
+###  http://lawd.info/ontology/deletion
+<http://lawd.info/ontology/deletion> rdf:type owl:NamedIndividual ;
+                                     owl:sameAs :deletion .
+
+
+###  http://lawd.info/ontology/omission
+<http://lawd.info/ontology/omission> rdf:type owl:NamedIndividual ;
+                                     owl:sameAs :omission .
+
+
+###  http://lawd.info/ontology/transposition
+<http://lawd.info/ontology/transposition> rdf:type owl:NamedIndividual ;
+                                          owl:sameAs :transposition .
+
+
+###  http://purl.org/cao/addition
+:addition rdf:type owl:NamedIndividual ,
+                   :ReadingType ;
+          rdfs:comment "The type for a reading that is an addition (i.e a syntactic and/or semantic expansion)."@en .
+
+
+###  http://purl.org/cao/conjecture
+:conjecture rdf:type owl:NamedIndividual ,
+                     :ReadingType ;
+            rdfs:comment "The type for a reading that is a conjecture (i.e an editorial reconstruction or hypothesis of reading)."@en .
+
+
+###  http://purl.org/cao/correction
+:correction rdf:type owl:NamedIndividual ,
+                     :ReadingType ;
+            rdfs:comment "The type for a reading that is a correction (i.e. it is an authorial or scribal correction of a previous textual fragment)."@en .
+
+
+###  http://purl.org/cao/deletion
+:deletion rdf:type owl:NamedIndividual ,
+                   :ReadingType ;
+          rdfs:comment "The type for a reading that is a deletion (i.e. it was marked or somehow indicated by the author or scribe as deleted)."@en .
+
+
+###  http://purl.org/cao/dittography
+:dittography rdf:type owl:NamedIndividual ,
+                      :ReadingCause ;
+             rdfs:comment "The unintentional repetition of a letter, word or phrase."@en .
+
+
+###  http://purl.org/cao/haplography
+:haplography rdf:type owl:NamedIndividual ,
+                      :ReadingCause ;
+             rdfs:comment "The accidental omission of a letter, word or phrase. Homeoarchy, homeoteleuton, saut du même au même are particular types of haplography."@en .
+
+
+###  http://purl.org/cao/homeoarchy
+:homeoarchy rdf:type owl:NamedIndividual ,
+                     :ReadingCause ;
+            rdfs:comment "The accidental skipping of a word or phrase having the same beginning. A polyptoton is a particular type of homeoarchy."@en .
+
+
+###  http://purl.org/cao/homeoteleuton
+:homeoteleuton rdf:type owl:NamedIndividual ,
+                        :ReadingCause ;
+               rdfs:comment "The accidental skipping of a word or phrase having the same ending."@en .
+
+
+###  http://purl.org/cao/incorporation
+:incorporation rdf:type owl:NamedIndividual ,
+                        :ReadingCause ;
+               rdfs:comment "The accidental incorporation of materials, such as marginalia."@en .
+
+
+###  http://purl.org/cao/omission
+:omission rdf:type owl:NamedIndividual ,
+                   :ReadingType ;
+          rdfs:comment "The type for a reading that is an omission (i.e. the author or scribe did not include the reading in the witness). If intentional, an omission may also classify as a correction."@en .
+
+
+###  http://purl.org/cao/polyptoton
+:polyptoton rdf:type owl:NamedIndividual ,
+                     :ReadingCause ;
+            rdfs:comment "The accidental skipping of a word or phrase forming a polyptoton (i.e. presenting the same root word). A polyptoton is a particular type of homeoarchy."@en .
+
+
+###  http://purl.org/cao/saut-du-meme-au-meme
+:saut-du-meme-au-meme rdf:type owl:NamedIndividual ,
+                               :ReadingCause ;
+                      rdfs:comment "The accidental skipping of some text in between two similar words or phrases; a particular type of haplography."@en .
+
+
+###  http://purl.org/cao/transposition
+:transposition rdf:type owl:NamedIndividual ,
+                        :ReadingType ;
+               rdfs:comment "The type for a reading that was transposed from another location in the text, including the flipping of the order of two words or phrases."@en .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

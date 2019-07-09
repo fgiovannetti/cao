@@ -1,0 +1,5537 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "http://www.w3.org/ns/prov#hadprimarysource", "it", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/NET/cidoc-crm/core", "http://purl.org/spar/c4o", "http://iflastandards.info/ns/fr/frbr/frbroo", "http://www.ontologydesignpatterns.org/cp/owl/participation.owl", "http://www.w3.org/2002/07/owl", "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl", "http://www.w3.org/TR/prov-o/", "http://www.w3.org/2001/XMLSchema", "http://www.ontologydesignpatterns.org/cp/owl/situation.owl", "http://purl.org/cao", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/activitystreams", "http://www.w3.org/ns/prov", "http://www.w3.org/ns/oa", "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl", "http://purl.org/spar/cito", "http://www.cidoc-crm.org/cidoc-crm", "http://org.semanticweb.owlapi/error", "http://xmlns.com/foaf/0.1", "http://purl.org/vocab/frbr/core", "http://purl.org/emmedi/hico", "http://www.w3.org/2004/02/skos/core" ],
+    "title" : {
+      "undefined" : "Critical Apparatus Ontology (CAO)"
+    },
+    "iri" : "http://purl.org/cao/",
+    "version" : "0.9",
+    "author" : [ "Francesca Giovannetti" ],
+    "comments" : {
+      "en" : "The Critical Apparatus Ontology (CAO) is an OWL 2 DL ontology for representing the apparatus of textual variants and philological arguments that accompanies a digital critical edition."
+    },
+    "other" : {
+      "date" : [ {
+        "identifier" : "date",
+        "language" : "undefined",
+        "value" : "08.07.2019",
+        "type" : "label"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "en",
+        "value" : "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Francesca Giovannetti",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.9",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Critical Apparatus Ontology (CAO)",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "185",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "186",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "190",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "214",
+    "type" : "owl:Class"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "218",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "144",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "231",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "233",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "237",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "234",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "124",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "123",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "60",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "239",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "250",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "160",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "201",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "40",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "274",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E89_Propositional_Object"
+    },
+    "subClasses" : [ "1", "2", "3" ],
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E24_Physical_Man-Made_Thing"
+    },
+    "subClasses" : [ "5", "6" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Expression",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Expression",
+      "en" : "expression"
+    },
+    "intersection" : [ "11" ],
+    "comment" : {
+      "en" : "The intellectual or artistic realization of a work in the form of alpha-numeric, musical, or choreographic notation, sound, image, object, movement, etc., or any combination of such forms.\n\nAn expression is the specific intellectual or artistic form that a work takes each time it is \"realized.\" Expression encompasses, for example, the specific words, sentences, paragraphs, etc. that result from the realization of a work in the form of a text, or the particular sounds, phrasing, etc. resulting from the realization of a musical work."
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://purl.org/emmedi/hico/InterpretationAct",
+    "baseIri" : "http://purl.org/emmedi/hico",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterpretationAct",
+      "en" : "Interpretation Act"
+    },
+    "comment" : {
+      "en" : "An interpretation act is a situation in which an agent extracts some usefull informations from the \"content\" of an object, meaning from the expression of a work. An act is related to anything is considered significant related to the source: an event, a situation in which an agent holds a role on something, or simplier an attestation of a noun and the identification of the entitiy which has that noun. \n"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "18", "19" ]
+  }, {
+    "iri" : "http://purl.org/cao/VariationUnit",
+    "baseIri" : "http://purl.org/cao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VariationUnit",
+      "en" : "Variation Unit"
+    },
+    "comment" : {
+      "en" : "A unit of variation is a set of alternative readings that refer to the same locus in a collated text. A unit of variation features a maximum of 1 base reading and a minimum of 2 readings."
+    },
+    "id" : "1",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/F23",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "F23",
+      "en" : "F23 Expression Fragment"
+    },
+    "comment" : {
+      "en" : "This class comprises parts of Expressions and these parts are not Self-contained Expressions themselves."
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Object",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Object",
+      "en" : "object"
+    },
+    "comment" : {
+      "en" : "A material thing.\n\nThe entity defined as object encompasses a comprehensive range of material things that may be the subject of a work: animate and inanimate objects occurring in nature; fixed, movable, and moving objects that are the product of human creation; objects that no longer exist. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://purl.org/cao/ReadingType",
+    "baseIri" : "http://purl.org/cao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ReadingType",
+      "en" : "Reading Type"
+    },
+    "individuals" : [ {
+      "iri" : "http://purl.org/cao/addition",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The type for a reading that is an addition (i.e a syntactic and/or semantic expansion)."
+      },
+      "labels" : {
+        "IRI-based" : "addition"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/omission",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The type for a reading that is an omission (i.e. the author or scribe did not include the reading in the witness). If intentional, an omission may also classify as a correction."
+      },
+      "labels" : {
+        "IRI-based" : "omission"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/correction",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The type for a reading that is a correction (i.e. it is an authorial or scribal correction of a previous textual fragment)."
+      },
+      "labels" : {
+        "IRI-based" : "correction"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/transposition",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The type for a reading that was transposed from another location in the text, including the flipping of the order of two words or phrases."
+      },
+      "labels" : {
+        "IRI-based" : "transposition"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/conjecture",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The type for a reading that is a conjecture (i.e an editorial reconstruction or hypothesis of reading)."
+      },
+      "labels" : {
+        "IRI-based" : "conjecture"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/deletion",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The type for a reading that is a deletion (i.e. it was marked or somehow indicated by the author or scribe as deleted)."
+      },
+      "labels" : {
+        "IRI-based" : "deletion"
+      }
+    } ],
+    "comment" : {
+      "en" : "This class comprises reading types. A reading type is the category for a variant reading (e.g. omission, conjecture, addition)."
+    },
+    "id" : "36",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Person",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person",
+      "en" : "Person"
+    },
+    "comment" : {
+      "en" : "Person agents are people."
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#TextualBody",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TextualBody",
+      "undefined" : "TextualBody"
+    },
+    "comment" : { },
+    "attributes" : [ "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#RangeSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RangeSelector",
+      "undefined" : "RangeSelector"
+    },
+    "comment" : {
+      "undefined" : "A Range Selector can be used to identify the beginning and the end of the selection by using other Selectors. The selection consists of everything from the beginning of the starting selector through to the beginning of the ending selector, but not including it."
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://purl.org/cao/ReadingCause",
+    "baseIri" : "http://purl.org/cao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ReadingCause",
+      "en" : "Reading Cause"
+    },
+    "individuals" : [ {
+      "iri" : "http://purl.org/cao/dittography",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The unintentional repetition of a letter, word or phrase."
+      },
+      "labels" : {
+        "IRI-based" : "dittography"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/saut-du-meme-au-meme",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The accidental skipping of some text in between two similar words or phrases; a particular type of haplography."
+      },
+      "labels" : {
+        "IRI-based" : "saut-du-meme-au-meme"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/homeoarchy",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The accidental skipping of a word or phrase having the same beginning. A polyptoton is a particular type of homeoarchy."
+      },
+      "labels" : {
+        "IRI-based" : "homeoarchy"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/incorporation",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The accidental incorporation of materials, such as marginalia."
+      },
+      "labels" : {
+        "IRI-based" : "incorporation"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/polyptoton",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The accidental skipping of a word or phrase forming a polyptoton (i.e. presenting the same root word). A polyptoton is a particular type of homeoarchy."
+      },
+      "labels" : {
+        "IRI-based" : "polyptoton"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/homeoteleuton",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The accidental skipping of a word or phrase having the same ending."
+      },
+      "labels" : {
+        "IRI-based" : "homeoteleuton"
+      }
+    }, {
+      "iri" : "http://purl.org/cao/haplography",
+      "baseIri" : "http://purl.org/cao",
+      "comment" : {
+        "en" : "The accidental omission of a letter, word or phrase. Homeoarchy, homeoteleuton, saut du même au même are particular types of haplography."
+      },
+      "labels" : {
+        "IRI-based" : "haplography"
+      }
+    } ],
+    "comment" : {
+      "en" : "This class comprises reading causes. A reading cause is the cause for a variant reading (e.g. homeoteleuton, dittography, interpolation)."
+    },
+    "id" : "73",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Agent",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Agent",
+      "en" : "Agent"
+    },
+    "subClasses" : [ "46" ],
+    "comment" : {
+      "en" : "An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Subject",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subject",
+      "en" : "subject"
+    },
+    "subClasses" : [ "34", "82", "83", "84" ],
+    "comment" : {
+      "en" : "It represents an additional set of entities that serve as the subjects of works."
+    },
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E55_Type"
+    },
+    "subClasses" : [ "36", "85", "73" ],
+    "attributes" : [ "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl#NaryParticipation",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NaryParticipation",
+      "en" : "Nary participation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Person",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person",
+      "en" : "person"
+    },
+    "comment" : {
+      "en" : "An individual. The entity defined as person encompasses individuals that are deceased as well as those that are living."
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#ResponsibleEntity",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ResponsibleEntity",
+      "en" : "responsible entity"
+    },
+    "subClasses" : [ "99", "95" ],
+    "comment" : {
+      "en" : "It represents those responsible for the intellectual or artistic content, the physical production and dissemination, or the custodianship of any endeavour."
+    },
+    "attributes" : [ "external" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://purl.org/emmedi/hico/InterpretationType",
+    "baseIri" : "http://purl.org/emmedi/hico",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterpretationType",
+      "en" : "Interpretation Type"
+    },
+    "individuals" : [ {
+      "iri" : "http://purl.org/emmedi/hico/philological",
+      "baseIri" : "http://purl.org/emmedi/hico",
+      "labels" : {
+        "IRI-based" : "philological",
+        "en" : "philological"
+      }
+    }, {
+      "iri" : "http://purl.org/emmedi/hico/historical",
+      "baseIri" : "http://purl.org/emmedi/hico",
+      "labels" : {
+        "IRI-based" : "historical",
+        "en" : "historical"
+      }
+    } ],
+    "comment" : {
+      "en" : "A broad and arbitrary definition of an interpretative act. It may include historical (principally), philological, linguistic, paleographic, bibliographic  etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/F2",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "F2",
+      "en" : "F2 Expression"
+    },
+    "subClasses" : [ "32" ],
+    "comment" : {
+      "en" : "This class comprises the intellectual or artistic realisations of works in the form of identifiable immaterial objects, such as texts, poems, jokes, musical or choreographic notations, movement pattern, sound pattern, images, multimedia objects, or any combination of such forms that have objectively recognisable structures."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/F3",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "F3",
+      "en" : "F3 Manifestation Product Type"
+    },
+    "comment" : {
+      "en" : "This class comprises the definitions of publication products. An instance of F3 Manifestation Product Type is the \"species\", and all copies of a given object are \"specimens\" of it. An instance of F3 Manifestation Product Type defines all of the features or traits that instances of F5 Item normally display in order that they may be recognised as copies of a particular publication. However, due to production problems or subsequent events, one or more instances of F5 Item may not exhibit all these features or traits; yet such instances still retain their relationship to the same instance of F3 Manifestation Product Type."
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/F4",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "F4",
+      "en" : "F4 Manifestation Singleton"
+    },
+    "comment" : {
+      "en" : "This class comprises physical objects that each carry an instance of F2 Expression, and that were produced as unique objects, with no siblings intended in the course of their production. It should be noted that if all but one copy of a given publication are destroyed, then that copy does not become an instance of F4 Manifestation Singleton, because it was produced together with sibling copies, even though it now happens to be unique. Examples of instances of F4 Manifestation Singleton include manuscripts, preparatory sketches and the final clean draft sent by an author or a composer to a publisher."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/F5",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "F5",
+      "en" : "F5 Item"
+    },
+    "comment" : {
+      "en" : "This class comprises physical objects (printed books, scores, CDs, DVDs, CD-ROMS, etc.) that carry a F24 Publication Expression and were produced by an industrial process involving a F3 Manifestation Product Type."
+    },
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "109" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#CssSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CssSelector",
+      "undefined" : "CssSelector"
+    },
+    "comment" : {
+      "undefined" : "A CssSelector describes a Segment of interest in a representation that conforms to the Document Object Model through the use of the CSS selector specification."
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TimeInterval",
+      "en" : "Time interval",
+      "it" : "Intervallo di tempo"
+    },
+    "comment" : {
+      "undefined" : "Any Region in a dimensional space that aims at representing time.\nIt should be used when you want to talk about time as an object having some characteristics."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#ResourceSelection",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ResourceSelection",
+      "undefined" : "ResourceSelection"
+    },
+    "subClasses" : [ "129" ],
+    "comment" : {
+      "undefined" : "Instances of the ResourceSelection class identify part (described by an oa:Selector) of another resource (referenced with oa:hasSource), possibly from a particular representation of a resource (described by an oa:State). Please note that ResourceSelection is not used directly in the Web Annotation model, but is provided as a separate class for further application profiles to use, separate from oa:SpecificResource which has many Annotation specific features."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Object",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Object",
+      "en" : "Object"
+    },
+    "comment" : {
+      "undefined" : "Any physical, social, or mental object, or substance"
+    },
+    "attributes" : [ "external" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Place",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Place",
+      "en" : "place"
+    },
+    "comment" : {
+      "en" : "A location.\n\nThe entity defined as place encompasses a comprehensive range of locations: terrestrial and extra-terrestrial; historical and contemporary; geographic features and geo-political jurisdictions. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#FragmentSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "FragmentSelector",
+      "undefined" : "FragmentSelector"
+    },
+    "comment" : {
+      "undefined" : "The FragmentSelector class is used to record the segment of a representation using the IRI fragment specification defined by the representation's media type."
+    },
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#DataPositionSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DataPositionSelector",
+      "undefined" : "DataPositionSelector"
+    },
+    "comment" : {
+      "undefined" : "DataPositionSelector describes a range of data by recording the start and end positions of the selection in the stream. Position 0 would be immediately before the first byte, position 1 would be immediately before the second byte, and so on. The start byte is thus included in the list, but the end byte is not."
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#SpecificResource",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SpecificResource",
+      "undefined" : "SpecificResource"
+    },
+    "comment" : {
+      "undefined" : "Instances of the SpecificResource class identify part of another resource (referenced with oa:hasSource), a particular representation of a resource, a resource with styling hints for renders, or any combination of these, as used within an Annotation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "129",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Endeavour",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Endeavour",
+      "en" : "endeavour"
+    },
+    "union" : [ "43", "10", "119", "132" ],
+    "comment" : {
+      "en" : "It describes different aspects of user interests in the products of intellectual or artistic artifact."
+    },
+    "attributes" : [ "union", "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#Choice",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Choice",
+      "undefined" : "Choice"
+    },
+    "comment" : {
+      "undefined" : "A subClass of  as:OrderedCollection  that conveys to a consuming application that it should select one of the resources in the  as:items  list to use, rather than all of them.  This is typically used to provide a choice of resources to render to the user, based on further supplied properties.  If the consuming application cannot determine the user's preference, then it should use the first in the list."
+    },
+    "attributes" : [ "external" ],
+    "id" : "150",
+    "superClasses" : [ "151" ]
+  }, {
+    "iri" : "http://purl.org/cao/BaseReading",
+    "baseIri" : "http://purl.org/cao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BaseReading",
+      "en" : "Base Reading"
+    },
+    "comment" : {
+      "en" : "This class comprises special types of readings, i.e. the one reading within the same unit of variation preferred by the editor over the others."
+    },
+    "id" : "155",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Work",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Work",
+      "en" : "work"
+    },
+    "intersection" : [ "11" ],
+    "comment" : {
+      "en" : "A distinct intellectual or artistic creation.\n\nA work is an abstract entity; there is no single material object one can point to as the work. We recognize the work through individual realizations or expressions of the work, but the work itself exists only in the commonality of content between and among the various expressions of the work. When we speak of Homer's Iliad as a work, our point of reference is not a particular recitation or text of the work, but the intellectual creation that lies behind all the various expressions of the work. "
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#TextQuoteSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TextQuoteSelector",
+      "undefined" : "TextQuoteSelector"
+    },
+    "comment" : {
+      "undefined" : "The TextQuoteSelector describes a range of text by copying it, and including some of the text immediately before (a prefix) and after (a suffix) it to distinguish between multiple copies of the same sequence of characters."
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Item",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Item",
+      "en" : "item"
+    },
+    "intersection" : [ "11" ],
+    "comment" : {
+      "en" : "A single exemplar of a manifestation.\n\nThe entity defined as item is a concrete entity. It is in many instances a single physical object (e.g., a copy of a one-volume monograph, a single audio cassette, etc.). There are instances, however, where the entity defined as item comprises more than one physical object (e.g., a monograph issued as two separately bound volumes, a recording issued on three separate compact discs, etc.). "
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#Motivation",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Motivation",
+      "undefined" : "Motivation"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3.org/ns/oa#replying",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to reply to a previous statement, either an Annotation or another resource."
+      },
+      "labels" : {
+        "IRI-based" : "replying",
+        "undefined" : "replying"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#classifying",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to that classify the Target as something."
+      },
+      "labels" : {
+        "IRI-based" : "classifying",
+        "undefined" : "classifying"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#moderating",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to assign some value or quality to the Target."
+      },
+      "labels" : {
+        "IRI-based" : "moderating",
+        "undefined" : "moderating"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#assessing",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to provide an assessment about the Target resource."
+      },
+      "labels" : {
+        "IRI-based" : "assessing",
+        "undefined" : "assessing"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#describing",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to describe the Target, as opposed to a comment about them."
+      },
+      "labels" : {
+        "IRI-based" : "describing",
+        "undefined" : "describing"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#identifying",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to assign an identity to the Target or identify what is being depicted or described in the Target."
+      },
+      "labels" : {
+        "IRI-based" : "identifying",
+        "undefined" : "identifying"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#tagging",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to associate a tag with the Target."
+      },
+      "labels" : {
+        "IRI-based" : "tagging",
+        "undefined" : "tagging"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#editing",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to request a change or edit to the Target resource."
+      },
+      "labels" : {
+        "IRI-based" : "editing",
+        "undefined" : "editing"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#questioning",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to ask a question about the Target."
+      },
+      "labels" : {
+        "IRI-based" : "questioning",
+        "undefined" : "questioning"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#highlighting",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to highlight the Target resource or segment of it."
+      },
+      "labels" : {
+        "IRI-based" : "highlighting",
+        "undefined" : "highlighting"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#bookmarking",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to create a bookmark to the Target or part thereof."
+      },
+      "labels" : {
+        "IRI-based" : "bookmarking",
+        "undefined" : "bookmarking"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#linking",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to link to a resource related to the Target."
+      },
+      "labels" : {
+        "IRI-based" : "linking",
+        "undefined" : "linking"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#commenting",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The motivation for when the user intends to comment about the Target."
+      },
+      "labels" : {
+        "IRI-based" : "commenting",
+        "undefined" : "commenting"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The Motivation class is used to record the user's intent or motivation for the creation of the Annotation, or the inclusion of the body or target, that it is associated with."
+    },
+    "attributes" : [ "external" ],
+    "id" : "171",
+    "superClasses" : [ "172" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#CssStyle",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CssStyle",
+      "undefined" : "CssStyle"
+    },
+    "comment" : {
+      "undefined" : "A resource which describes styles for resources participating in the Annotation using CSS."
+    },
+    "attributes" : [ "external" ],
+    "id" : "178",
+    "superClasses" : [ "141" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#Annotation",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Annotation",
+      "undefined" : "Annotation"
+    },
+    "comment" : {
+      "undefined" : "The class for Web Annotations."
+    },
+    "attributes" : [ "external" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept"
+    },
+    "subClasses" : [ "171" ],
+    "attributes" : [ "external" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Agent",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Manifestation",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manifestation",
+      "en" : "manifestation"
+    },
+    "intersection" : [ "11" ],
+    "comment" : {
+      "en" : "The physical embodiment of an expression of a work.\n\nThe entity defined as manifestation encompasses a wide range of materials and formats. As an entity, manifestation represents all the physical objects that bear the same characteristics, in respect to both intellectual content and physical form. "
+    },
+    "attributes" : [ "intersection", "external" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Event",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Event",
+      "en" : "Event"
+    },
+    "comment" : {
+      "undefined" : "Any physical, social, or mental process, event, or state."
+    },
+    "attributes" : [ "external" ],
+    "id" : "157"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "184"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "185"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "186"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E84_Information_Carrier"
+    },
+    "subClasses" : [ "108" ],
+    "attributes" : [ "external" ],
+    "id" : "109",
+    "superClasses" : [ "5" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "191"
+  }, {
+    "iri" : "http://purl.org/cao/Reading",
+    "baseIri" : "http://purl.org/cao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Reading",
+      "en" : "Reading"
+    },
+    "subClasses" : [ "155" ],
+    "comment" : {
+      "en" : "A reading is a scholarly claim about or interpretation of a particular textual fragment contained in a witness. Multiple readings may be given for the same textual fragment."
+    },
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Situation",
+      "en" : "Situation"
+    },
+    "subClasses" : [ "18", "91", "17" ],
+    "comment" : {
+      "undefined" : "A view on a set of entities. It can be seen as a 'relational context', reifying a relation.\nFor example, a PlanExecution is a context including some actions executed by agents according to certain parameters and expected tasks to be achieved from a Plan; a DiagnosedSituation is a context of observed entities that is interpreted on the basis of a Diagnosis, etc.\nSituation is also able to represent reified n-ary relations, where isSettingFor is the top-level relation for all binary projections of the n-ary relation. If used in a transformation pattern for n-ary relations, the designer should take care of:\n- creating only one situation for each instance of an n-ary relation, otherwise the 'identification constraint' (Calvanese et al., IJCAI 2001) could be violated\n- adding an 'exact cardinality' restriction corresponding to the arity of the n-ary relation, otherwise the designer would actually represent a polymorphic relation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "external" ],
+    "id" : "210"
+  }, {
+    "iri" : "http://purl.org/emmedi/hico/InterpretationCriterion",
+    "baseIri" : "http://purl.org/emmedi/hico",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterpretationCriterion",
+      "en" : "Interpretation Criterion"
+    },
+    "individuals" : [ {
+      "iri" : "http://purl.org/emmedi/hico/authoritatively-based",
+      "baseIri" : "http://purl.org/emmedi/hico",
+      "labels" : {
+        "IRI-based" : "authoritatively-based",
+        "en" : "authoritatively based"
+      }
+    } ],
+    "comment" : {
+      "en" : "The criterion an agent chooses in an interpretation act, useful to explain how information have been extracted from the \"content\" of an expression. It may include statements, hypotesis, adoption of literature about the argument etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "216",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/ns/activitystreams#OrderedCollection",
+    "baseIri" : "http://www.w3.org/ns/activitystreams",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OrderedCollection"
+    },
+    "subClasses" : [ "150" ],
+    "attributes" : [ "external" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#HttpRequestState",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "HttpRequestState",
+      "undefined" : "HttpRequestState"
+    },
+    "comment" : {
+      "undefined" : "The HttpRequestState class is used to record the HTTP request headers that a client SHOULD use to request the correct representation from the resource. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "218",
+    "superClasses" : [ "164" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "222",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "224",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "221",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "182",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "145"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#Direction",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Direction",
+      "undefined" : "Direction"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3.org/ns/oa#ltrDirection",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The direction of text that is read from left to right."
+      },
+      "labels" : {
+        "IRI-based" : "ltrDirection",
+        "undefined" : "ltrDirection"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#rtlDirection",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The direction of text that is read from right to left."
+      },
+      "labels" : {
+        "IRI-based" : "rtlDirection",
+        "undefined" : "rtlDirection"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A class to encapsulate the different text directions that a textual resource might take.  It is not used directly in the Annotation Model, only its three instances."
+    },
+    "attributes" : [ "external" ],
+    "id" : "161"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "231"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "233"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "61"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "237"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E22_Man-Made_Object"
+    },
+    "subClasses" : [ "109" ],
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "4" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "234"
+  }, {
+    "instances" : 0,
+    "union" : [ "119", "132" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "124"
+  }, {
+    "instances" : 0,
+    "union" : [ "119", "132" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "123"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "10" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#Style",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Style",
+      "undefined" : "Style"
+    },
+    "subClasses" : [ "178" ],
+    "comment" : {
+      "undefined" : "A Style describes the intended styling of a resource as applied to the particular Annotation, and thus provides the information to ensure that rendering is consistent across implementations."
+    },
+    "attributes" : [ "external" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3.org/ns/oa#PreferContainedDescriptions",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "An IRI to signal the client prefers to receive full descriptions of the Annotations from a container, not just their IRIs."
+      },
+      "labels" : {
+        "IRI-based" : "PreferContainedDescriptions",
+        "undefined" : "PreferContainedDescriptions"
+      }
+    }, {
+      "iri" : "http://www.w3.org/ns/oa#PreferContainedIRIs",
+      "baseIri" : "http://www.w3.org/ns/oa",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://www.w3.org/ns/oa#",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "An IRI to signal that the client prefers to receive only the IRIs of the Annotations from a container, not their full descriptions."
+      },
+      "labels" : {
+        "IRI-based" : "PreferContainedIRIs",
+        "undefined" : "PreferContainedIRIs"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "239"
+  }, {
+    "instances" : 0,
+    "union" : [ "35", "11", "99" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Concept",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept",
+      "en" : "concept"
+    },
+    "comment" : {
+      "en" : "An abstract notion or idea.\n\nThe entity defined as concept encompasses a comprehensive range of abstractions that may be the subject of a work: fields of knowledge, disciplines, schools of thought (philosophies, religions, political ideologies, etc.), theories, processes, techniques, practices, etc.  A concept may be broad in nature or narrowly defined and precise. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error1",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error1"
+    },
+    "attributes" : [ "external" ],
+    "id" : "250"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "160",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#Event",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "en" : "event"
+    },
+    "comment" : {
+      "en" : "An action or occurrence.\n\nThe entity defined as event encompasses a comprehensive range of actions and occurrences that may be the subject of a work: historical events, epochs, periods of time, etc. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#State",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "State",
+      "undefined" : "State"
+    },
+    "subClasses" : [ "218", "70" ],
+    "comment" : {
+      "undefined" : "A State describes the intended state of a resource as applied to the particular Annotation, and thus provides the information needed to retrieve the correct representation of that resource."
+    },
+    "attributes" : [ "external" ],
+    "id" : "164"
+  }, {
+    "instances" : 0,
+    "union" : [ "33", "155" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "44",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "254",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "236",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "230",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#SvgSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SvgSelector",
+      "undefined" : "SvgSelector"
+    },
+    "comment" : {
+      "undefined" : "An SvgSelector defines an area through the use of the Scalable Vector Graphics [SVG] standard. This allows the user to select a non-rectangular area of the content, such as a circle or polygon by describing the region using SVG. The SVG may be either embedded within the Annotation or referenced as an External Resource."
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "90",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "201",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#CorporateBody",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CorporateBody",
+      "en" : "corporate body"
+    },
+    "comment" : {
+      "en" : "An organization or group of individuals and/or organizations acting as a unit.\n\nThe entity defined as corporate body encompasses organizations and groups of individuals and/or organizations that are identified by a particular name, including occasional groups and groups that are constituted as meetings, conferences, congresses, expeditions, exhibitions, festivals, fairs, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "226",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E73_Information_Object"
+    },
+    "subClasses" : [ "33" ],
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#TimeState",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TimeState",
+      "undefined" : "TimeState"
+    },
+    "comment" : {
+      "undefined" : "A TimeState records the time at which the resource's state is appropriate for the Annotation, typically the time that the Annotation was created and/or a link to a persistent copy of the current version."
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "164" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "8",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "174",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "40",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/NET/cidoc-crm/core#E13_Attribute_Assignment",
+    "baseIri" : "http://purl.org/NET/cidoc-crm/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E13_Attribute_Assignment"
+    },
+    "subClasses" : [ "17" ],
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#XPathSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "XPathSelector",
+      "undefined" : "XPathSelector"
+    },
+    "comment" : {
+      "undefined" : " An XPathSelector is used to select elements and content within a resource that supports the Document Object Model via a specified XPath value."
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#TextPositionSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TextPositionSelector",
+      "undefined" : "TextPositionSelector"
+    },
+    "comment" : {
+      "undefined" : "The TextPositionSelector describes a range of text by recording the start and end positions of the selection in the stream. Position 0 would be immediately before the first character, position 1 would be immediately before the second character, and so on."
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://purl.org/cao/VariationLocation",
+    "baseIri" : "http://purl.org/cao",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VariationLocation",
+      "en" : "Variation Location"
+    },
+    "comment" : {
+      "en" : "A location of variation is the locus in a collated text where textual variation is recognized to occur."
+    },
+    "id" : "274"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#Selector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Selector",
+      "undefined" : "Selector"
+    },
+    "subClasses" : [ "76", "68", "79", "81", "50", "52", "56", "58" ],
+    "comment" : {
+      "undefined" : "A resource which describes the segment of interest in a representation of a Source resource, indicated with oa:hasSelector from the Specific Resource. This class is not used directly in the Annotation model, only its subclasses."
+    },
+    "attributes" : [ "external" ],
+    "id" : "24"
+  } ],
+  "property" : [ {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "181",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "187",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "189",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "193",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "194",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "195",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "200",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "203",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "204",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "205",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "206",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "207",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "208",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "209",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "211",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "212",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "213",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "168",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "220",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "180",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "223",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "227",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "232",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "249",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "256",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "266",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "267",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "268",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "269",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "270",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "271",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "272",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "273",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "278",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "280",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "281",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "284",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "285",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "287",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "288",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "290",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "291",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "292",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "293",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "294",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "295",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "297",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "299",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://purl.org/vocab/frbr/core#revisionOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "revisionOf",
+      "en" : "is revision of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "It identifies the previous expression of a revised one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl",
+    "range" : "14",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasIntervalEndDate",
+      "en" : "interval has end date"
+    },
+    "maxCardinality" : "1",
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The end date of a time interval."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R15i",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R15i",
+      "en" : "is fragment of"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#abridgementOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "abridgementOf",
+      "en" : "is abridgement of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "It identifies the entire expression of an abridged one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://purl.org/NET/cidoc-crm/core#P140_assigned_attribute_to",
+    "baseIri" : "http://purl.org/NET/cidoc-crm/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "P140_assigned_attribute_to"
+    },
+    "domain" : "8",
+    "subproperty" : [ "21" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#hasSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "24",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSelector",
+      "undefined" : "hasSelector"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "The object of the relationship is a Selector that describes the segment or region of interest within the source resource.  Please note that the domain ( oa:ResourceSelection ) is not used directly in the Web Annotation model."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#complementOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "complementOf",
+      "en" : "is complement of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "It identifies the work/expression of that is a complement of another one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "8",
+    "subproperty" : [ "27", "28", "29", "30", "31" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#translationOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "translationOf",
+      "en" : "is translation of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "It identifies the original expression of a translated one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl",
+    "range" : "40",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isSettingFor",
+      "en" : "is setting for"
+    },
+    "minCardinality" : "1",
+    "domain" : "19",
+    "subproperty" : [ "41" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#creator",
+    "inverse" : "45",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "creator",
+      "en" : "has creator"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "43",
+    "comment" : {
+      "en" : "A work linked to its creator."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#ownerOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "ownerOf",
+      "en" : "is owner of"
+    },
+    "superproperty" : [ "30" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "The owner of a particular item."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "24",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "24",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://purl.org/cao/wasCorrectionOf",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "wasCorrectionOf",
+      "en" : "was correction of"
+    },
+    "superproperty" : [ "54" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "range" : "24",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "55"
+  }, {
+    "range" : "24",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#successor",
+    "inverse" : "62",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "successor",
+      "en" : "has successor"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "60",
+    "comment" : {
+      "en" : "An expression work/expression having another one as successor.\n\nThe successor type of relationship involves a kind of linear progression of content from one work/expression to the other. In some cases, the content of the successor may be closely connected to the content of the preceding work, which would result in a work that is referential. In others, such as with loosely connected parts of a trilogy, the successor will be autonomous. Serial publications that result from the merger or split of their predecessors and stand on their own without requiring reference to the predecessor are also examples of autonomous works that fall within the successor relationship type. If there exists a relation of this kind among two different expressions, then they always refer to different works."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://purl.org/NET/cidoc-crm/core#P17_was_motivated_by",
+    "baseIri" : "http://purl.org/NET/cidoc-crm/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "P17_was_motivated_by"
+    },
+    "domain" : "8",
+    "subproperty" : [ "64" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://purl.org/cao/isVariantOf",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isVariantOf",
+      "en" : "is variant of"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#subjectOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "subjectOf",
+      "en" : "is subject of"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "A subject a work talks abbout."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R7i",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R7i",
+      "en" : "has example"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#sourceDateStart",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "71",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sourceDateStart",
+      "undefined" : "sourceDateStart"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "The start timestamp of the interval over which the Source resource should be interpreted as being applicable to the Annotation."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://purl.org/cao/isReadingTypeOf",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isReadingTypeOf",
+      "en" : "is reading type of"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "72"
+  }, {
+    "range" : "24",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "24",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#reproductionOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "reproductionOf",
+      "en" : "is reproduction of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "It identifies the manifestation/item of a reproduced one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "24",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "range" : "24",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#successorOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "successorOf",
+      "en" : "is successor of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "It identifies the previous work/expression of a succeeded one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#suffix",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "87",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "suffix",
+      "undefined" : "suffix"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The snippet of text that occurs immediately after the text which is being selected."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#imitationOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "imitationOf",
+      "en" : "is imitation of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "It identifies the work/expression of an imitated one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl#isIncludedInParticipation",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "isIncludedInParticipation",
+      "en" : "is included in participation"
+    },
+    "superproperty" : [ "92" ],
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#realization",
+    "inverse" : "94",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "realization",
+      "en" : "has realization"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "43",
+    "comment" : {
+      "en" : "A work realized through an expression."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://purl.org/cao/isBaseReadingOf",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isBaseReadingOf",
+      "en" : "is base reading of"
+    },
+    "superproperty" : [ "98" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#summarizationOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "summarizationOf",
+      "en" : "is summarization of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "It identifies the original work/expression of a summarized one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://purl.org/emmedi/hico/hasInterpretationType",
+    "baseIri" : "http://purl.org/emmedi/hico",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "hasInterpretationType",
+      "en" : "has interpretation type"
+    },
+    "superproperty" : [ "103" ],
+    "domain" : "17",
+    "comment" : {
+      "en" : "A property relating an interpretation act to an individual defining a broader, arbitrary, classification of the interpretation."
+    },
+    "attributes" : [ "asymmetric", "external", "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#partOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "partOf",
+      "en" : "is part of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "An endeavour incorporating another endeavour."
+    },
+    "attributes" : [ "transitive", "external", "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#sourceDateEnd",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "106",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sourceDateEnd",
+      "undefined" : "sourceDateEnd"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "The end timestamp of the interval over which the Source resource should be interpreted as being applicable to the Annotation."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#subject",
+    "inverse" : "31",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "subject",
+      "en" : "has subject"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "43",
+    "comment" : {
+      "en" : "A work linked to a particular subject it is talking about."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#sourceDate",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "111",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sourceDate",
+      "undefined" : "sourceDate"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "The timestamp at which the Source resource should be interpreted as being applicable to the Annotation."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#translation",
+    "inverse" : "38",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "translation",
+      "en" : "has translation"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "An expression translated in another one.\n\nIt allows to refer to a literal translation, in which the intent is to render the intellectual content of the previous expression as accurately as possible."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasDerivedFrom",
+      "en" : "was derived from"
+    },
+    "superproperty" : [ "54" ],
+    "domain" : "3",
+    "subproperty" : [ "114", "115" ],
+    "comment" : {
+      "en" : "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity. The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#arrangement",
+    "inverse" : "117",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "arrangement",
+      "en" : "has arrangement"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "An expression arranged in another one.\n\nIn the arranged expression some content of the previous expression is changed in some way, but the result does not alter the content to the extent that it becomes a new work. The expressions resulting from such modification are generally autonomous in nature (i.e., they do not normally require reference to the prior expression in order to be used or understood)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#owner",
+    "inverse" : "48",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "owner",
+      "en" : "has owner"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "119",
+    "comment" : {
+      "en" : "An item linked to its owner."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#hasStartSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "24",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasStartSelector",
+      "undefined" : "hasStartSelector"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "The relationship between a RangeSelector and the Selector that describes the start position of the range. "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#supplementOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "supplementOf",
+      "en" : "is supplement of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "It identifies the work/expression of a particular supplement of it."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#reproduction",
+    "inverse" : "77",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "reproduction",
+      "en" : "has reproduction"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "123",
+    "comment" : {
+      "en" : "A manifestation/item reproduced in another one.\n\nA reproduction indicates the relationship as it would be drawn from the first manifestation/item in the relationship to the second manifestation/item in the relationship."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://purl.org/cao/hasReadingType",
+    "inverse" : "72",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "36",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasReadingType",
+      "en" : "has reading type"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "This property relates a reading to a reading category or type."
+    },
+    "attributes" : [ "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#realizer",
+    "inverse" : "127",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "realizer",
+      "en" : "has realizer"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "An expression linked to its realizer."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#reconfigurationOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "reconfigurationOf",
+      "en" : "is reconfiguration of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "It identifies the manifestation of a reconfigured one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#producer",
+    "inverse" : "133",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "producer",
+      "en" : "has producer"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "132",
+    "comment" : {
+      "en" : "A manifestation linked to its prodecer."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://purl.org/cao/hasReadingCause",
+    "inverse" : "135",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "73",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasReadingCause",
+      "en" : "has reading cause"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "This property relates a reading to the possible cause for it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#reconfiguration",
+    "inverse" : "128",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "reconfiguration",
+      "en" : "has reconfiguration"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "119",
+    "comment" : {
+      "en" : "An item reconfigured in another one.\n\nThe reconfiguration relationship is one in which one or more items are changed in such a way that a new item or items result. Most commonly, an item of one manifestation is bound with an item of a different manifestation to make a new item. "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#abridgement",
+    "inverse" : "16",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "abridgement",
+      "en" : "has abridgement"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "An expression abridged in another one.\n\nIn the abridged expression some content of the previous expression is removed, but the result does not alter the content to the extent that it becomes a new work. The expressions resulting from such modification are generally autonomous in nature (i.e., they do not normally require reference to the prior expression in order to be used or understood). "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#adaptionOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "adaptionOf",
+      "en" : "is adaption of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "It identifies the work/expression of an adapted one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#styledBy",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "141",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "styledBy",
+      "undefined" : "styledBy"
+    },
+    "domain" : "140",
+    "comment" : {
+      "undefined" : "A reference to a Stylesheet that should be used to apply styles to the Annotation rendering."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasInfluencedBy",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "wasInfluencedBy",
+      "undefined" : "was influenced by"
+    },
+    "domain" : "44",
+    "subproperty" : [ "21" ],
+    "comment" : {
+      "en" : "A broader property relating activities/situations like interpretation acts, to the endeavour from which interpretations have been extracted."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#transformation",
+    "inverse" : "146",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "145",
+    "label" : {
+      "IRI-based" : "transformation",
+      "en" : "has transformation"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "144",
+    "comment" : {
+      "en" : "An work/expression transformed in another one.\n\nThis property describes the transformation of an original work or expression into another work or expression that is sufficiently different in degree to warrant the product of the transformation being considered as a new work or expression, rather than simply a different expression of the original work. If there exists a frbr:transformation relation between two different expressions, then they always relate to different works."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#responsibleEntity",
+    "inverse" : "30",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "responsibleEntity",
+      "en" : "has responsible entity"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "11",
+    "subproperty" : [ "126", "118", "42", "131" ],
+    "comment" : {
+      "en" : "Any endeavour having a particular entity that is responsible of it."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://purl.org/cao/hasBaseReading",
+    "inverse" : "97",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "148",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasBaseReading"
+    },
+    "superproperty" : [ "149" ],
+    "domain" : "1",
+    "comment" : {
+      "en" : "has base reading"
+    },
+    "attributes" : [ "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#hadRevision",
+    "inverse" : "115",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hadRevision",
+      "en" : "had revision"
+    },
+    "superproperty" : [ "153" ],
+    "domain" : "3",
+    "attributes" : [ "external", "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasAttributedTo",
+      "en" : "was attributed to"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "Attribution is the ascribing of an entity to an agent."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#producerOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "producerOf",
+      "en" : "is producer of"
+    },
+    "superproperty" : [ "30" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "The producer of a particular manifestation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl#participationIncludes",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "participationIncludes",
+      "en" : "participation includes"
+    },
+    "superproperty" : [ "39" ],
+    "domain" : "91",
+    "attributes" : [ "external", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl#hasParticipant",
+    "inverse" : "158",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+    "range" : "130",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasParticipant",
+      "en" : "has participant"
+    },
+    "domain" : "157",
+    "attributes" : [ "external", "object" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#textDirection",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "161",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "textDirection",
+      "undefined" : "textDirection"
+    },
+    "domain" : "160",
+    "comment" : {
+      "undefined" : "The direction of the text of the subject resource. There MUST only be one text direction associated with any given resource."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasPrimarySourceOf",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "44",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "http://www.w3.org/ns/prov#hadprimarysource",
+        "value" : "http://www.w3.org/ns/prov#",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasPrimarySourceOf",
+      "en" : "was primary source of"
+    },
+    "superproperty" : [ "153" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#hasState",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "164",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasState",
+      "undefined" : "hasState"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "The relationship between the ResourceSelection, or its subclass SpecificResource, and a State resource. Please note that the domain ( oa:ResourceSelection ) is not used directly in the Web Annotation model."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl#isParticipantIn",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+    "range" : "157",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isParticipantIn",
+      "en" : "is participant in"
+    },
+    "domain" : "130",
+    "attributes" : [ "external", "object" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "value"
+    },
+    "minCardinality" : "1",
+    "domain" : "44",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#embodiment",
+    "inverse" : "168",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "embodiment",
+      "en" : "has embodiment"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "An expression embodied in a manifestation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#processingLanguage",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "170",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "processingLanguage",
+      "undefined" : "processingLanguage"
+    },
+    "domain" : "44",
+    "comment" : {
+      "undefined" : "The object of the property is the language that should be used for textual processing algorithms when dealing with the content of the resource, including hyphenation, line breaking, which font to use for rendering and so forth.  The value must follow the recommendations of BCP47."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl",
+    "range" : "174",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasIntervalStartDate",
+      "en" : "interval has start date"
+    },
+    "maxCardinality" : "1",
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The start date of a time interval."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://purl.org/cao/hasSubvariationUnit",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSubvariationUnit",
+      "en" : "has subvariation unit"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "This property relates a unit of variation to a subunit of variation."
+    },
+    "attributes" : [ "object" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://purl.org/cao/isAttributedHandOf",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isAttributedHandOf",
+      "en" : "is attributed hand of"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://purl.org/cao/isFollowedBy",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isFollowedBy",
+      "en" : "is followed by"
+    },
+    "domain" : "3",
+    "subproperty" : [ "180", "153" ],
+    "comment" : {
+      "en" : "This property relates two readings which, chronologically, come one after another. E.g. Reading A is followed by Reading B"
+    },
+    "attributes" : [ "object" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting",
+    "inverse" : "39",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl",
+    "range" : "19",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSetting",
+      "en" : "has setting"
+    },
+    "domain" : "40",
+    "subproperty" : [ "89" ],
+    "comment" : {
+      "undefined" : "A relation between entities and situations, e.g. 'this morning I've prepared my coffee with a new fantastic Arabica' (i.e.: (an amount of) a new fantastic Arabica hasSetting the preparation of my coffee this morning)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#exact",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "182",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "exact",
+      "undefined" : "exact"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The object of the predicate is a copy of the text which is being selected, after normalization."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#realizerOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "realizerOf",
+      "en" : "is realizer of"
+    },
+    "superproperty" : [ "30" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "The realizer of a particular expression."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasAssociatedWith",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "wasAssociatedWith",
+      "en" : "was associated with"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "A property relating an activity/situation, like interpretation acts, to the responsible agent."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "187"
+  }, {
+    "range" : "13",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://purl.org/cao/witnesses",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "witnesses",
+      "en" : "witnesses"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "189"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl#hasParticipant",
+    "inverse" : "158",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+    "range" : "130",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasParticipant",
+      "en" : "has participant"
+    },
+    "domain" : "157",
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl#participationIncludes",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "participationIncludes",
+      "en" : "participation includes"
+    },
+    "superproperty" : [ "39" ],
+    "domain" : "91",
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl#isParticipantIn",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+    "range" : "157",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/participation.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isParticipantIn",
+      "en" : "is participant in"
+    },
+    "domain" : "130",
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "130",
+    "domain" : "157",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasRevisionOf",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasRevisionOf",
+      "en" : "was revision of"
+    },
+    "superproperty" : [ "113" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "A revision is a derivation for which the resulting entity is a revised version of some original. The implication here is that the resulting entity contains substantial content from the original. Revision is a particular case of derivation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R15",
+    "inverse" : "15",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R15",
+      "en" : "has fragment"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "This property associates the fragment of an expression and the expression of which it is a fragment."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#part",
+    "inverse" : "104",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "part",
+      "en" : "has part"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "A part of an endeavour."
+    },
+    "attributes" : [ "transitive", "external", "object" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#exemplar",
+    "inverse" : "199",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "exemplar",
+      "en" : "has exemplar"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "132",
+    "comment" : {
+      "en" : "A manifestation exemplified in an item."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#hasPurpose",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "171",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPurpose",
+      "undefined" : "hasPurpose"
+    },
+    "domain" : "201",
+    "comment" : {
+      "undefined" : "The purpose served by the resource in the Annotation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "200"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl#participationIncludes",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl",
+    "range" : "130",
+    "label" : {
+      "IRI-based" : "participationIncludes",
+      "en" : "participation includes"
+    },
+    "superproperty" : [ "39" ],
+    "domain" : "91",
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "202"
+  }, {
+    "range" : "43",
+    "domain" : "132",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl#participationIncludes",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "participationIncludes",
+      "en" : "participation includes"
+    },
+    "superproperty" : [ "39" ],
+    "domain" : "91",
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "204"
+  }, {
+    "range" : "43",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#realizationOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "realizationOf",
+      "en" : "is realization of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "An expression that realizes a work."
+    },
+    "attributes" : [ "functional", "external", "object" ],
+    "id" : "94"
+  }, {
+    "range" : "132",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "43",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "132",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "range" : "83",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "119",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://purl.org/cao/hasAttributedHand",
+    "inverse" : "177",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttributedHand",
+      "en" : "has attributed hand"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "This property relates a reading to a specific scribal hand."
+    },
+    "attributes" : [ "object" ],
+    "id" : "212"
+  }, {
+    "range" : "95",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#embodimentOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "embodimentOf",
+      "en" : "is embodiment of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "A manifestation that embodies an expression."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#hadPrimarySource",
+    "inverse" : "162",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "85",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hadPrimarySource",
+      "en" : "had primary source"
+    },
+    "superproperty" : [ "113" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "A primary source for a topic refers to something produced by some agent with direct experience and knowledge about the topic, at the time of the topic's study, without benefit from hindsight. Because of the directness of primary sources, they 'speak for themselves' in ways that cannot be captured through the filter of secondary sources. As such, it is important for secondary sources to reference those primary sources from which they were derived, so that their reliability can be investigated. A primary source relation is a particular case of derivation of secondary materials from their primary sources. It is recognized that the determination of primary sources can be up to interpretation, and should be done according to conventions accepted within the application's domain."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://purl.org/spar/cito/agreesWith",
+    "baseIri" : "http://purl.org/spar/cito",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "agreesWith"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "object" ],
+    "id" : "217"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#imitation",
+    "inverse" : "88",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "176",
+    "label" : {
+      "IRI-based" : "imitation",
+      "en" : "has imitation"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "184",
+    "comment" : {
+      "en" : "An work/expression imitated in another one.\n\nThis property describes works that are intended to be an imitation another original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, then they always refer to different works."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#prefix",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "221",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "prefix",
+      "undefined" : "prefix"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The object of the property is a snippet of content that occurs immediately before the content which is being selected by the Selector."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "220"
+  }, {
+    "iri" : "http://purl.org/cao/wasCorrectedTo",
+    "inverse" : "53",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasCorrectedTo",
+      "en" : "was corrected to"
+    },
+    "superproperty" : [ "179" ],
+    "domain" : "3",
+    "comment" : {
+      "en" : "The property relates a corrected reading to the previous state before correction (also a reading)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "180"
+  }, {
+    "iri" : "http://purl.org/cao/isReadingOf",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isReadingOf",
+      "en" : "is reading of"
+    },
+    "domain" : "8",
+    "subproperty" : [ "97" ],
+    "attributes" : [ "object" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#hasEndSelector",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "24",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasEndSelector",
+      "undefined" : "hasEndSelector"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "The relationship between a RangeSelector and the Selector that describes the end position of the range. "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "223"
+  }, {
+    "iri" : "http://purl.org/NET/cidoc-crm/core#P2_has_type",
+    "baseIri" : "http://purl.org/NET/cidoc-crm/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "P2_has_type"
+    },
+    "domain" : "8",
+    "subproperty" : [ "102" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalDate",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl",
+    "range" : "226",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasIntervalDate",
+      "en" : "has interval date",
+      "it" : "intervallo ha data"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "A datatype property that encodes values from xsd:date (or any other date-related xsd datatype) for a TimeInterval; a same TimeInterval can have more than one date value: begin date, end date, date at which the interval holds, as well as dates expressed in different formats: xsd:gYear, xsd:dateTime, etc."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "225"
+  }, {
+    "iri" : "http://purl.org/spar/cito/obtainsBackgroundFrom",
+    "baseIri" : "http://purl.org/spar/cito",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "obtainsBackgroundFrom"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "object" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#adaption",
+    "inverse" : "138",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "adaption",
+      "en" : "has adaption"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "186",
+    "comment" : {
+      "en" : "A work/expression adapted in another one.\n\nThis property describe the modification of an original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, they always refer to different works."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://purl.org/emmedi/hico/isExtractedFrom",
+    "baseIri" : "http://purl.org/emmedi/hico",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "isExtractedFrom",
+      "en" : "is extracted from"
+    },
+    "superproperty" : [ "20", "142" ],
+    "domain" : "17",
+    "comment" : {
+      "en" : "A property relating interpretation acts to an expression of a work from which they've been extracted."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://purl.org/spar/c4o/hasContent",
+    "baseIri" : "http://purl.org/spar/c4o",
+    "range" : "230",
+    "label" : {
+      "IRI-based" : "hasContent"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "229"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#creatorOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "creatorOf",
+      "en" : "is creator of"
+    },
+    "superproperty" : [ "30" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "The creator of a particular work."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#summarization",
+    "inverse" : "100",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "summarization",
+      "en" : "has summarization"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "233",
+    "comment" : {
+      "en" : "A work/expression summarized in another one.\n\nThis property describe the summarization of an original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, they always refer to different works."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "232"
+  }, {
+    "iri" : "http://purl.org/NET/cidoc-crm/core#P3_has_note",
+    "baseIri" : "http://purl.org/NET/cidoc-crm/core",
+    "range" : "236",
+    "label" : {
+      "IRI-based" : "P3_has_note"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "235"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#motivatedBy",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "171",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "motivatedBy",
+      "undefined" : "motivatedBy"
+    },
+    "domain" : "140",
+    "comment" : {
+      "undefined" : "The relationship between an Annotation and a Motivation that describes the reason for the Annotation's creation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "238"
+  }, {
+    "range" : "47",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "240"
+  }, {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#revision",
+    "inverse" : "7",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "revision",
+      "en" : "has revision"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "An expression revised in another one.\n\nA revision has the intent to alter or update the content of the prior expression, but without changing the content so much that it becomes a new work."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "242"
+  }, {
+    "range" : "35",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#complement",
+    "inverse" : "25",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "185",
+    "label" : {
+      "IRI-based" : "complement",
+      "en" : "has complement"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "190",
+    "comment" : {
+      "en" : "An expression work/expression having another one as complement.\n\nThis property describes works that are intended to be combined with or inserted into the related work. In other words, they are intended to be integrated in some way with the other work, but were not part of the original conception of that prior work. If there exists a relation of this kind among two different expressions, then they always refer to different works."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "244"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "4",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#alternate",
+    "inverse" : "248",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "alternate",
+      "en" : "has alternate"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "132",
+    "comment" : {
+      "en" : "A manifestation having another one as alternate.\n\nThe alternate relationship involves manifestations that effectively serve as alternates for each other. The alternate relationship obtains, for example, when a publication, sound recording, video, etc. is issued in more than one format or when it is released simultaneously by different publishers in different countries."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "247"
+  }, {
+    "iri" : "http://purl.org/cao/hasVariant",
+    "inverse" : "66",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasVariant",
+      "en" : "has variant"
+    },
+    "domain" : "155",
+    "comment" : {
+      "en" : "This property relates a base reading to an attested variant reading."
+    },
+    "attributes" : [ "object" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#arrangementOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "arrangementOf",
+      "en" : "is arrangement of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "It identifies the original expression of an arranged one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R4i",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "44",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R4i",
+      "en" : "comprises carriers of"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "251"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://purl.org/emmedi/hico/hasInterpretationCriterion",
+    "baseIri" : "http://purl.org/emmedi/hico",
+    "range" : "214",
+    "label" : {
+      "IRI-based" : "hasInterpretationCriterion",
+      "en" : "has interpretation criterion"
+    },
+    "superproperty" : [ "63" ],
+    "domain" : "17",
+    "comment" : {
+      "en" : "A property relating an interpretation act to an individual representing a brief description of the criterion used to attest something about the content of an object. "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#responsibleEntityOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "responsibleEntityOf",
+      "en" : "is responsible entity of"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "44",
+    "subproperty" : [ "48", "127", "45", "133" ],
+    "comment" : {
+      "en" : "An entity that is resposible for a particular endeavour."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#transformationOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "transformationOf",
+      "en" : "is transformation of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "It identifies the original work/expression of a trasformed one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#styleClass",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "216",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "styleClass",
+      "undefined" : "styleClass"
+    },
+    "domain" : "129",
+    "comment" : {
+      "undefined" : "The name of the class used in the CSS description referenced from the Annotation that should be applied to the Specific Resource."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "255"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#hadDerivation",
+    "inverse" : "113",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hadDerivation",
+      "en" : "had derivation"
+    },
+    "superproperty" : [ "179" ],
+    "domain" : "3",
+    "subproperty" : [ "152", "162" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#bodyValue",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "224",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "bodyValue",
+      "undefined" : "bodyValue"
+    },
+    "domain" : "140",
+    "comment" : {
+      "undefined" : "The object of the predicate is a plain text string to be used as the content of the body of the Annotation.  The value MUST be an  xsd:string  and that data type MUST NOT be expressed in the serialization. Note that language MUST NOT be associated with the value either as a language tag, as that is only available for  rdf:langString .\n  "
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "256"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R41i",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "44",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R41i",
+      "en" : "is representative manifestation product type for"
+    },
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "257"
+  }, {
+    "range" : "164",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "range" : "164",
+    "domain" : "218",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "259"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "260"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#supplement",
+    "inverse" : "121",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "231",
+    "label" : {
+      "IRI-based" : "supplement",
+      "en" : "has supplement"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "237",
+    "comment" : {
+      "en" : "An expression work/expression having another one as supplement.\n\nThe supplement relationship type involves works/expressions that are intended to be used in conjunction with another work/expression. Some of these, such as indices, concordances, teachers' guides, glosses, and instruction manuals for electronic resources will be so closely associated with the content of the related work/expression that they are useless without the other work/expression."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "261"
+  }, {
+    "range" : "2",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#alternateOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "alternateOf",
+      "en" : "is alternate of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "It identifies the manifestation of an alternative one."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "151",
+    "domain" : "150",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
+  }, {
+    "range" : "141",
+    "domain" : "178",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "range" : "5",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "265"
+  }, {
+    "iri" : "http://purl.org/emmedi/hico/isExtractedFrom",
+    "baseIri" : "http://purl.org/emmedi/hico",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "isExtractedFrom",
+      "en" : "is extracted from"
+    },
+    "superproperty" : [ "20", "142" ],
+    "domain" : "17",
+    "comment" : {
+      "en" : "A property relating interpretation acts to an expression of a work from which they've been extracted."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "266"
+  }, {
+    "iri" : "http://purl.org/emmedi/hico/hasInterpretationType",
+    "baseIri" : "http://purl.org/emmedi/hico",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "hasInterpretationType",
+      "en" : "has interpretation type"
+    },
+    "superproperty" : [ "103" ],
+    "domain" : "17",
+    "comment" : {
+      "en" : "A property relating an interpretation act to an individual defining a broader, arbitrary, classification of the interpretation."
+    },
+    "attributes" : [ "someValues", "asymmetric", "external", "object" ],
+    "id" : "267"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#relatedEndeavour",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "relatedEndeavour",
+      "en" : "has related endeavour"
+    },
+    "domain" : "11",
+    "subproperty" : [ "168", "112", "242", "244", "62", "261", "248", "7", "219", "88", "116", "16", "143", "93", "247", "121", "122", "117", "25", "128", "38", "59", "197", "100", "228", "136", "146", "137", "198", "199", "138", "104", "232", "94", "167", "77" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://purl.org/emmedi/hico/hasInterpretationCriterion",
+    "baseIri" : "http://purl.org/emmedi/hico",
+    "range" : "214",
+    "label" : {
+      "IRI-based" : "hasInterpretationCriterion",
+      "en" : "has interpretation criterion"
+    },
+    "superproperty" : [ "63" ],
+    "domain" : "17",
+    "comment" : {
+      "en" : "A property relating an interpretation act to an individual representing a brief description of the criterion used to attest something about the content of an object. "
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "268"
+  }, {
+    "range" : "84",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "269"
+  }, {
+    "range" : "34",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "range" : "83",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "271"
+  }, {
+    "range" : "34",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "272"
+  }, {
+    "range" : "83",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://purl.org/cao/hasReading",
+    "inverse" : "98",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasReading",
+      "en" : "has reading"
+    },
+    "domain" : "1",
+    "subproperty" : [ "147" ],
+    "comment" : {
+      "en" : "This property relates a unit of variation to a reading."
+    },
+    "attributes" : [ "object" ],
+    "id" : "149"
+  }, {
+    "range" : "1",
+    "domain" : "274",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "275"
+  }, {
+    "iri" : "http://purl.org/cao/isReadingCauseOf",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "44",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isReadingCauseOf",
+      "en" : "is reading cause of"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "135"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R42",
+    "inverse" : "279",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "33",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R42",
+      "en" : "is representative manifestation singleton for"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "This property identifies an instance of Manifestation Singleton that has been declared as the unique representative for an instance of F2 Expression by some bibliographic agency. This property identifies an instance of F4 Manifestation Singleton that has been chosen as the most characteristic Manifestation Singleton of the instance of F2 Expression of which it is a manifestation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "278"
+  }, {
+    "range" : "3",
+    "domain" : "155",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R41",
+    "inverse" : "257",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "85",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R41",
+      "en" : "has representative manifestation product type"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "This property identifies an instance of F3 Manifestation Product Type that has been chosen as the most characteristic Manifestation Product Type of the instance of F2 Expression of which it is a manifestation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "281"
+  }, {
+    "range" : "19",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "282"
+  }, {
+    "range" : "19",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "283"
+  }, {
+    "range" : "23",
+    "domain" : "129",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "284"
+  }, {
+    "iri" : "http://purl.org/cao/follows",
+    "inverse" : "179",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "follows",
+      "en" : "follows"
+    },
+    "domain" : "3",
+    "subproperty" : [ "53", "113" ],
+    "attributes" : [ "object" ],
+    "id" : "54"
+  }, {
+    "range" : "33",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "285"
+  }, {
+    "range" : "109",
+    "domain" : "108",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "286"
+  }, {
+    "range" : "172",
+    "domain" : "171",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "287"
+  }, {
+    "range" : "96",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "288"
+  }, {
+    "range" : "96",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "289"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#start",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "215",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "start",
+      "undefined" : "start"
+    },
+    "domain" : "44",
+    "comment" : {
+      "undefined" : "The start position in a 0-based index at which a range of content is selected from the data in the source resource."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "290"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R42i",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "44",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R42i",
+      "en" : "has representative manifestation singleton"
+    },
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "279"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R7",
+    "inverse" : "67",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "85",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R7",
+      "en" : "is example of"
+    },
+    "domain" : "108",
+    "attributes" : [ "external", "object" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://iflastandards.info/ns/fr/frbr/frbroo/R4",
+    "inverse" : "27",
+    "baseIri" : "http://iflastandards.info/ns/fr/frbr/frbroo",
+    "range" : "85",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://iflastandards.info/ns/fr/frbr/frbroo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "R4",
+      "en" : "carriers provided by"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "This property associates a publication, i.e. an instance of F3 Manifestation Product Type, with an instance of F2 Expression, which all exemplars of that publication should carry, as long as they are recognised as complete exemplars of that publication."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "292"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#exemplarOf",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "exemplarOf",
+      "en" : "is exemplar of"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "An item that exemplifies a manifestation."
+    },
+    "attributes" : [ "functional", "external", "object" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://purl.org/cao/isWitnessedBy",
+    "inverse" : "189",
+    "baseIri" : "http://purl.org/cao",
+    "range" : "33",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/cao/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isWitnessedBy",
+      "en" : "is witnessed by"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "This property relates a reading to the supporting expression or expression fragment in the witness."
+    },
+    "attributes" : [ "object" ],
+    "id" : "293"
+  }, {
+    "range" : "37",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "294"
+  }, {
+    "iri" : "http://www.w3.org/ns/oa#end",
+    "baseIri" : "http://www.w3.org/ns/oa",
+    "range" : "222",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/oa#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "end",
+      "undefined" : "end"
+    },
+    "domain" : "44",
+    "comment" : {
+      "undefined" : "The end property is used to convey the 0-based index of the end position of a range of content."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "295"
+  }, {
+    "range" : "35",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "296"
+  }, {
+    "range" : "35",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "297"
+  }, {
+    "range" : "37",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "298"
+  }, {
+    "range" : "37",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "299"
+  } ]
+}

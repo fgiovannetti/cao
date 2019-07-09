@@ -1,0 +1,2196 @@
+<html><h2 id="crossreference" class="list">Cross reference for The Critical Apparatus Ontology (CAO) classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by The Critical Apparatus Ontology (CAO).
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.w3.org/ns/prov#Agent" title="http://www.w3.org/ns/prov#Agent">Agent</a>
+      </li>
+      <li>
+         <a href="#BaseReading" title="http://purl.org/cao/BaseReading">Base Reading</a>
+      </li>
+      <li>
+         <a href="#http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"
+            title="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object">
+            <span>e22 man made object</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"
+            title="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object">
+            <span>e73 information object</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier"
+            title="http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier">
+            <span>e84 information carrier</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F2" title="http://iflastandards.info/ns/fr/frbr/frbroo/F2">F2 Expression</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F23" title="http://iflastandards.info/ns/fr/frbr/frbroo/F23">F23 Expression Fragment</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F3" title="http://iflastandards.info/ns/fr/frbr/frbroo/F3">F3 Manifestation Product Type</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F4" title="http://iflastandards.info/ns/fr/frbr/frbroo/F4">F4 Manifestation Singleton</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F5" title="http://iflastandards.info/ns/fr/frbr/frbroo/F5">F5 Item</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/prov#Person" title="http://www.w3.org/ns/prov#Person">Person</a>
+      </li>
+      <li>
+         <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+      </li>
+      <li>
+         <a href="#ReadingCause" title="http://purl.org/cao/ReadingCause">Reading Cause</a>
+      </li>
+      <li>
+         <a href="#ReadingType" title="http://purl.org/cao/ReadingType">Reading Type</a>
+      </li>
+      <li>
+         <a href="#VariationLocation" title="http://purl.org/cao/VariationLocation">Variation Location</a>
+      </li>
+      <li>
+         <a href="#VariationUnit" title="http://purl.org/cao/VariationUnit">Variation Unit</a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.w3.org/ns/prov#Agent">
+      <h3>Agent<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/prov#Agent</p>
+      <div class="comment">
+         <span class="markdown">An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://www.w3.org/ns/prov#Person" title="http://www.w3.org/ns/prov#Person">Person</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasAttributedHand" title="http://purl.org/cao/hasAttributedHand">has attributed hand</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#wasAttributedTo" title="http://www.w3.org/ns/prov#wasAttributedTo">was attributed to</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="BaseReading">
+      <h3>Base Reading<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/BaseReading</p>
+      <div class="comment">
+         <span class="markdown">This class comprises special types of readings, i.e. the one reading within the same unit of variation preferred by the editor over the others.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasVariant" title="http://purl.org/cao/hasVariant">has variant</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasBaseReading" title="http://purl.org/cao/hasBaseReading">has base reading</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object">
+      <h3>e22 man made object<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing">e24 physical man made thing</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier"
+               title="http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier">e84 information carrier</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object">
+      <h3>e73 information object<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">e89 propositional object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F2" title="http://iflastandards.info/ns/fr/frbr/frbroo/F2">F2 Expression</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier">
+      <h3>e84 information carrier<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"
+               title="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object">e22 man made object</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F5" title="http://iflastandards.info/ns/fr/frbr/frbroo/F5">F5 Item</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/F2">
+      <h3>F2 Expression<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/F2</p>
+      <div class="comment">
+         <span class="markdown">This class comprises the intellectual or artistic realisations of works in the form of identifiable immaterial objects, such as texts, poems, jokes, musical or choreographic notations, movement pattern, sound pattern, images, multimedia objects, or any combination of such forms that have objectively recognisable structures.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"
+               title="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object">e73 information object</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F23" title="http://iflastandards.info/ns/fr/frbr/frbroo/F23">F23 Expression Fragment</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R4" title="http://iflastandards.info/ns/fr/frbr/frbroo/R4">carriers provided by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R15" title="http://iflastandards.info/ns/fr/frbr/frbroo/R15">has fragment</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R41" title="http://iflastandards.info/ns/fr/frbr/frbroo/R41">has representative manifestation product type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasBaseReading" title="http://purl.org/cao/hasBaseReading">has base reading</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R42" title="http://iflastandards.info/ns/fr/frbr/frbroo/R42">is representative manifestation singleton for</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isWitnessedBy" title="http://purl.org/cao/isWitnessedBy">is witnessed by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/F23">
+      <h3>F23 Expression Fragment<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/F23</p>
+      <div class="comment">
+         <span class="markdown">This class comprises parts of Expressions and these parts are not Self-contained Expressions themselves.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F2" title="http://iflastandards.info/ns/fr/frbr/frbroo/F2">F2 Expression</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R15" title="http://iflastandards.info/ns/fr/frbr/frbroo/R15">has fragment</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/F3">
+      <h3>F3 Manifestation Product Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/F3</p>
+      <div class="comment">
+         <span class="markdown">This class comprises the definitions of publication products. An instance of F3 Manifestation Product Type is the "species", and all copies of a given object are "specimens" of it. An instance of F3 Manifestation Product Type defines all of the features or traits that instances of F5 Item normally display in order that they may be recognised as copies of a particular publication. However, due to production problems or subsequent events, one or more instances of F5 Item may not exhibit all these features or traits; yet such instances still retain their relationship to the same instance of F3 Manifestation Product Type.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R4" title="http://iflastandards.info/ns/fr/frbr/frbroo/R4">carriers provided by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#hadPrimarySource" title="http://www.w3.org/ns/prov#hadPrimarySource">had primary source</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R41" title="http://iflastandards.info/ns/fr/frbr/frbroo/R41">has representative manifestation product type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R7" title="http://iflastandards.info/ns/fr/frbr/frbroo/R7">is example of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/F4">
+      <h3>F4 Manifestation Singleton<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/F4</p>
+      <div class="comment">
+         <span class="markdown">This class comprises physical objects that each carry an instance of F2 Expression, and that were produced as unique objects, with no siblings intended in the course of their production. It should be noted that if all but one copy of a given publication are destroyed, then that copy does not become an instance of F4 Manifestation Singleton, because it was produced together with sibling copies, even though it now happens to be unique. Examples of instances of F4 Manifestation Singleton include manuscripts, preparatory sketches and the final clean draft sent by an author or a composer to a publisher.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing">e24 physical man made thing</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R42" title="http://iflastandards.info/ns/fr/frbr/frbroo/R42">is representative manifestation singleton for</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/F5">
+      <h3>F5 Item<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/F5</p>
+      <div class="comment">
+         <span class="markdown">This class comprises physical objects (printed books, scores, CDs, DVDs, CD-ROMS, etc.) that carry a F24 Publication Expression and were produced by an industrial process involving a F3 Manifestation Product Type.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier"
+               title="http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier">e84 information carrier</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R7" title="http://iflastandards.info/ns/fr/frbr/frbroo/R7">is example of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/prov#Person">
+      <h3>Person<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/prov#Person</p>
+      <div class="comment">
+         <span class="markdown">Person agents are people.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.w3.org/ns/prov#Agent" title="http://www.w3.org/ns/prov#Agent">Agent</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Reading">
+      <h3>Reading<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/Reading</p>
+      <div class="comment">
+         <span class="markdown">A reading is a scholarly claim about or interpretation of a particular textual fragment contained in a witness. Multiple readings may be given for the same textual fragment.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">e89 propositional object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#BaseReading" title="http://purl.org/cao/BaseReading">Base Reading</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.w3.org/ns/prov#hadPrimarySource" title="http://www.w3.org/ns/prov#hadPrimarySource">had primary source</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasAttributedHand" title="http://purl.org/cao/hasAttributedHand">has attributed hand</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasReadingCause" title="http://purl.org/cao/hasReadingCause">has reading cause</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasReadingType" title="http://purl.org/cao/hasReadingType">has reading type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isFollowedBy" title="http://purl.org/cao/isFollowedBy">is followed by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isWitnessedBy" title="http://purl.org/cao/isWitnessedBy">is witnessed by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#wasAttributedTo" title="http://www.w3.org/ns/prov#wasAttributedTo">was attributed to</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#wasCorrectedTo" title="http://purl.org/cao/wasCorrectedTo">was corrected to</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#wasRevisionOf" title="http://www.w3.org/ns/prov#wasRevisionOf">was revision of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasReading" title="http://purl.org/cao/hasReading">has reading</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasVariant" title="http://purl.org/cao/hasVariant">has variant</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isFollowedBy" title="http://purl.org/cao/isFollowedBy">is followed by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#wasCorrectedTo" title="http://purl.org/cao/wasCorrectedTo">was corrected to</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#wasRevisionOf" title="http://www.w3.org/ns/prov#wasRevisionOf">was revision of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ReadingCause">
+      <h3>Reading Cause<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/ReadingCause</p>
+      <div class="comment">
+         <span class="markdown">This class comprises reading causes. A reading cause is the cause for a variant reading (e.g. homeoteleuton, dittography, interpolation).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasReadingCause" title="http://purl.org/cao/hasReadingCause">has reading cause</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#dittography" title="http://purl.org/cao/dittography">dittography</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#haplography" title="http://purl.org/cao/haplography">haplography</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#homeoarchy" title="http://purl.org/cao/homeoarchy">homeoarchy</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#homeoteleuton" title="http://purl.org/cao/homeoteleuton">homeoteleuton</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#incorporation" title="http://purl.org/cao/incorporation">incorporation</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#polyptoton" title="http://purl.org/cao/polyptoton">polyptoton</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#saut-du-meme-au-meme" title="http://purl.org/cao/saut-du-meme-au-meme">saut du meme au meme</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ReadingType">
+      <h3>Reading Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/ReadingType</p>
+      <div class="comment">
+         <span class="markdown">This class comprises reading types. A reading type is the category for a variant reading (e.g. omission, conjecture, addition).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasReadingType" title="http://purl.org/cao/hasReadingType">has reading type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#addition" title="http://purl.org/cao/addition">addition</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#conjecture" title="http://purl.org/cao/conjecture">conjecture</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#correction" title="http://purl.org/cao/correction">correction</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#deletion" title="http://purl.org/cao/deletion">deletion</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#omission" title="http://purl.org/cao/omission">omission</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#transposition" title="http://purl.org/cao/transposition">transposition</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="VariationLocation">
+      <h3>Variation Location<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/VariationLocation</p>
+      <div class="comment">
+         <span class="markdown">A location of variation is the locus in a collated text where textual variation is recognized to occur.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#VariationUnit" title="http://purl.org/cao/VariationUnit">Variation Unit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="VariationUnit">
+      <h3>Variation Unit<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/VariationUnit</p>
+      <div class="comment">
+         <span class="markdown">A unit of variation is a set of alternative readings that refer to the same locus in a collated text. A unit of variation features a maximum of 1 base reading and a minimum of 2 readings.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">e89 propositional object</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasBaseReading" title="http://purl.org/cao/hasBaseReading">has base reading</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasReading" title="http://purl.org/cao/hasReading">has reading</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasSubvariationUnit" title="http://purl.org/cao/hasSubvariationUnit">has subvariation unit</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasSubvariationUnit" title="http://purl.org/cao/hasSubvariationUnit">has subvariation unit</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#VariationLocation" title="http://purl.org/cao/VariationLocation">Variation Location</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R4" title="http://iflastandards.info/ns/fr/frbr/frbroo/R4">carriers provided by</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R4i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R4i">comprises carriers of</a>
+      </li>
+      <li>
+         <a href="#follows" title="http://purl.org/cao/follows">follows</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/prov#hadDerivation" title="http://www.w3.org/ns/prov#hadDerivation">had derivation</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/prov#hadPrimarySource" title="http://www.w3.org/ns/prov#hadPrimarySource">had primary source</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/prov#hadRevision" title="http://www.w3.org/ns/prov#hadRevision">had revision</a>
+      </li>
+      <li>
+         <a href="#hasAttributedHand" title="http://purl.org/cao/hasAttributedHand">has attributed hand</a>
+      </li>
+      <li>
+         <a href="#hasBaseReading" title="http://purl.org/cao/hasBaseReading">
+            <span>has base reading</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R7i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R7i">has example</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R15" title="http://iflastandards.info/ns/fr/frbr/frbroo/R15">has fragment</a>
+      </li>
+      <li>
+         <a href="#hasReading" title="http://purl.org/cao/hasReading">has reading</a>
+      </li>
+      <li>
+         <a href="#hasReadingCause" title="http://purl.org/cao/hasReadingCause">has reading cause</a>
+      </li>
+      <li>
+         <a href="#hasReadingType" title="http://purl.org/cao/hasReadingType">has reading type</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R41" title="http://iflastandards.info/ns/fr/frbr/frbroo/R41">has representative manifestation product type</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R42i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R42i">has representative manifestation singleton</a>
+      </li>
+      <li>
+         <a href="#hasSubvariationUnit" title="http://purl.org/cao/hasSubvariationUnit">has subvariation unit</a>
+      </li>
+      <li>
+         <a href="#hasVariant" title="http://purl.org/cao/hasVariant">has variant</a>
+      </li>
+      <li>
+         <a href="#isAttributedHandOf" title="http://purl.org/cao/isAttributedHandOf">is attributed hand of</a>
+      </li>
+      <li>
+         <a href="#isBaseReadingOf" title="http://purl.org/cao/isBaseReadingOf">is base reading of</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R7" title="http://iflastandards.info/ns/fr/frbr/frbroo/R7">is example of</a>
+      </li>
+      <li>
+         <a href="#isFollowedBy" title="http://purl.org/cao/isFollowedBy">is followed by</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R15i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R15i">is fragment of</a>
+      </li>
+      <li>
+         <a href="#isReadingCauseOf" title="http://purl.org/cao/isReadingCauseOf">is reading cause of</a>
+      </li>
+      <li>
+         <a href="#isReadingOf" title="http://purl.org/cao/isReadingOf">is reading of</a>
+      </li>
+      <li>
+         <a href="#isReadingTypeOf" title="http://purl.org/cao/isReadingTypeOf">is reading type of</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R41i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R41i">is representative manifestation product type for</a>
+      </li>
+      <li>
+         <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R42" title="http://iflastandards.info/ns/fr/frbr/frbroo/R42">is representative manifestation singleton for</a>
+      </li>
+      <li>
+         <a href="#isVariantOf" title="http://purl.org/cao/isVariantOf">is variant of</a>
+      </li>
+      <li>
+         <a href="#isWitnessedBy" title="http://purl.org/cao/isWitnessedBy">is witnessed by</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/prov#wasAttributedTo" title="http://www.w3.org/ns/prov#wasAttributedTo">was attributed to</a>
+      </li>
+      <li>
+         <a href="#wasCorrectedTo" title="http://purl.org/cao/wasCorrectedTo">was corrected to</a>
+      </li>
+      <li>
+         <a href="#wasCorrectionOf" title="http://purl.org/cao/wasCorrectionOf">was correction of</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/prov#wasPrimarySourceOf" title="http://www.w3.org/ns/prov#wasPrimarySourceOf">was primary source of</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/prov#wasRevisionOf" title="http://www.w3.org/ns/prov#wasRevisionOf">was revision of</a>
+      </li>
+      <li>
+         <a href="#witnesses" title="http://purl.org/cao/witnesses">witnesses</a>
+      </li>
+   </ul>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R4">
+      <h3>carriers provided by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R4</p>
+      <div class="comment">
+         <span class="markdown">This property associates a publication, i.e. an instance of F3 Manifestation Product Type, with an instance of F2 Expression, which all exemplars of that publication should carry, as long as they are recognised as complete exemplars of that publication.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F2" title="http://iflastandards.info/ns/fr/frbr/frbroo/F2">F2 Expression</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F3" title="http://iflastandards.info/ns/fr/frbr/frbroo/F3">F3 Manifestation Product Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R4i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R4i">comprises carriers of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R4i">
+      <h3>comprises carriers of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R4i</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R4" title="http://iflastandards.info/ns/fr/frbr/frbroo/R4">carriers provided by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="follows">
+      <h3>follows<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/follows</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#wasCorrectionOf" title="http://purl.org/cao/wasCorrectionOf">was correction of</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isFollowedBy" title="http://purl.org/cao/isFollowedBy">is followed by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/prov#hadDerivation">
+      <h3>had derivation<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/prov#hadDerivation</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#isFollowedBy" title="http://purl.org/cao/isFollowedBy">is followed by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#hadRevision" title="http://www.w3.org/ns/prov#hadRevision">had revision</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#wasPrimarySourceOf" title="http://www.w3.org/ns/prov#wasPrimarySourceOf">was primary source of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/prov#hadPrimarySource">
+      <h3>had primary source<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/prov#hadPrimarySource</p>
+      <div class="comment">
+         <span class="markdown">A primary source for a topic refers to something produced by some agent with direct experience and knowledge about the topic, at the time of the topic's study, without benefit from hindsight. Because of the directness of primary sources, they 'speak for themselves' in ways that cannot be captured through the filter of secondary sources. As such, it is important for secondary sources to reference those primary sources from which they were derived, so that their reliability can be investigated. A primary source relation is a particular case of derivation of secondary materials from their primary sources. It is recognized that the determination of primary sources can be up to interpretation, and should be done according to conventions accepted within the application's domain.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F3" title="http://iflastandards.info/ns/fr/frbr/frbroo/F3">F3 Manifestation Product Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#wasPrimarySourceOf" title="http://www.w3.org/ns/prov#wasPrimarySourceOf">was primary source of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/prov#hadRevision">
+      <h3>had revision<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/prov#hadRevision</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#hadDerivation" title="http://www.w3.org/ns/prov#hadDerivation">had derivation</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#wasRevisionOf" title="http://www.w3.org/ns/prov#wasRevisionOf">was revision of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasAttributedHand">
+      <h3>has attributed hand<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/hasAttributedHand</p>
+      <div class="comment">
+         <span class="markdown">This property relates a reading to a specific scribal hand.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#Agent" title="http://www.w3.org/ns/prov#Agent">Agent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isAttributedHandOf" title="http://purl.org/cao/isAttributedHandOf">is attributed hand of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasBaseReading">
+      <h3>has base reading<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/hasBaseReading</p>
+      <div class="comment">
+         <span class="markdown">This property relates a HiCO interpretation act to the primary source being interpreted.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#hasReading" title="http://purl.org/cao/hasReading">has reading</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#VariationUnit" title="http://purl.org/cao/VariationUnit">Variation Unit</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F2" title="http://iflastandards.info/ns/fr/frbr/frbroo/F2">F2 Expression</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#BaseReading" title="http://purl.org/cao/BaseReading">Base Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isBaseReadingOf" title="http://purl.org/cao/isBaseReadingOf">is base reading of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R7i">
+      <h3>has example<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R7i</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R7" title="http://iflastandards.info/ns/fr/frbr/frbroo/R7">is example of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R15">
+      <h3>has fragment<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R15</p>
+      <div class="comment">
+         <span class="markdown">This property associates the fragment of an expression and the expression of which it is a fragment.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F2" title="http://iflastandards.info/ns/fr/frbr/frbroo/F2">F2 Expression</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F23" title="http://iflastandards.info/ns/fr/frbr/frbroo/F23">F23 Expression Fragment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R15i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R15i">is fragment of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasReading">
+      <h3>has reading<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/hasReading</p>
+      <div class="comment">
+         <span class="markdown">This property relates a unit of variation to a reading.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#hasBaseReading" title="http://purl.org/cao/hasBaseReading">has base reading</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#VariationUnit" title="http://purl.org/cao/VariationUnit">Variation Unit</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isReadingOf" title="http://purl.org/cao/isReadingOf">is reading of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasReadingCause">
+      <h3>has reading cause<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/hasReadingCause</p>
+      <div class="comment">
+         <span class="markdown">This property relates a reading to the possible cause for it.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ReadingCause" title="http://purl.org/cao/ReadingCause">Reading Cause</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isReadingCauseOf" title="http://purl.org/cao/isReadingCauseOf">is reading cause of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasReadingType">
+      <h3>has reading type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/hasReadingType</p>
+      <div class="comment">
+         <span class="markdown">This property relates a reading to a reading category or type.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ReadingType" title="http://purl.org/cao/ReadingType">Reading Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isReadingTypeOf" title="http://purl.org/cao/isReadingTypeOf">is reading type of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R41">
+      <h3>has representative manifestation product type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R41</p>
+      <div class="comment">
+         <span class="markdown">This property identifies an instance of F3 Manifestation Product Type that has been chosen as the most characteristic Manifestation Product Type of the instance of F2 Expression of which it is a manifestation.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F2" title="http://iflastandards.info/ns/fr/frbr/frbroo/F2">F2 Expression</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F3" title="http://iflastandards.info/ns/fr/frbr/frbroo/F3">F3 Manifestation Product Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R41i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R41i">is representative manifestation product type for</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R42i">
+      <h3>has representative manifestation singleton<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R42i</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R42" title="http://iflastandards.info/ns/fr/frbr/frbroo/R42">is representative manifestation singleton for</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasSubvariationUnit">
+      <h3>has subvariation unit<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/hasSubvariationUnit</p>
+      <div class="comment">
+         <span class="markdown">This property relates a unit of variation to a subunit of variation.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#VariationUnit" title="http://purl.org/cao/VariationUnit">Variation Unit</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#VariationUnit" title="http://purl.org/cao/VariationUnit">Variation Unit</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasVariant">
+      <h3>has variant<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/hasVariant</p>
+      <div class="comment">
+         <span class="markdown">This property relates a base reading to an attested variant reading.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#BaseReading" title="http://purl.org/cao/BaseReading">Base Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isVariantOf" title="http://purl.org/cao/isVariantOf">is variant of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isAttributedHandOf">
+      <h3>is attributed hand of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/isAttributedHandOf</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasAttributedHand" title="http://purl.org/cao/hasAttributedHand">has attributed hand</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isBaseReadingOf">
+      <h3>is base reading of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/isBaseReadingOf</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#isReadingOf" title="http://purl.org/cao/isReadingOf">is reading of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasBaseReading" title="http://purl.org/cao/hasBaseReading">has base reading</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R7">
+      <h3>is example of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R7</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F5" title="http://iflastandards.info/ns/fr/frbr/frbroo/F5">F5 Item</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F3" title="http://iflastandards.info/ns/fr/frbr/frbroo/F3">F3 Manifestation Product Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R7i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R7i">has example</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isFollowedBy">
+      <h3>is followed by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/isFollowedBy</p>
+      <div class="comment">
+         <span class="markdown">This property relates two readings which, chronologically, come one after another. E.g. Reading A is followed by Reading B</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#hadDerivation" title="http://www.w3.org/ns/prov#hadDerivation">had derivation</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#wasCorrectedTo" title="http://purl.org/cao/wasCorrectedTo">was corrected to</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#follows" title="http://purl.org/cao/follows">follows</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R15i">
+      <h3>is fragment of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R15i</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R15" title="http://iflastandards.info/ns/fr/frbr/frbroo/R15">has fragment</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isReadingCauseOf">
+      <h3>is reading cause of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/isReadingCauseOf</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasReadingCause" title="http://purl.org/cao/hasReadingCause">has reading cause</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isReadingOf">
+      <h3>is reading of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/isReadingOf</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#isBaseReadingOf" title="http://purl.org/cao/isBaseReadingOf">is base reading of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasReading" title="http://purl.org/cao/hasReading">has reading</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isReadingTypeOf">
+      <h3>is reading type of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/isReadingTypeOf</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasReadingType" title="http://purl.org/cao/hasReadingType">has reading type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R41i">
+      <h3>is representative manifestation product type for<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R41i</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R41" title="http://iflastandards.info/ns/fr/frbr/frbroo/R41">has representative manifestation product type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://iflastandards.info/ns/fr/frbr/frbroo/R42">
+      <h3>is representative manifestation singleton for<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://iflastandards.info/ns/fr/frbr/frbroo/R42</p>
+      <div class="comment">
+         <span class="markdown">This property identifies an instance of Manifestation Singleton that has been declared as the unique representative for an instance of F2 Expression by some bibliographic agency. This property identifies an instance of F4 Manifestation Singleton that has been chosen as the most characteristic Manifestation Singleton of the instance of F2 Expression of which it is a manifestation.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F4" title="http://iflastandards.info/ns/fr/frbr/frbroo/F4">F4 Manifestation Singleton</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F2" title="http://iflastandards.info/ns/fr/frbr/frbroo/F2">F2 Expression</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/R42i" title="http://iflastandards.info/ns/fr/frbr/frbroo/R42i">has representative manifestation singleton</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isVariantOf">
+      <h3>is variant of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/isVariantOf</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasVariant" title="http://purl.org/cao/hasVariant">has variant</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isWitnessedBy">
+      <h3>is witnessed by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/isWitnessedBy</p>
+      <div class="comment">
+         <span class="markdown">This property relates a reading to the supporting expression or expression fragment in the witness.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://iflastandards.info/ns/fr/frbr/frbroo/F2" title="http://iflastandards.info/ns/fr/frbr/frbroo/F2">F2 Expression</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#witnesses" title="http://purl.org/cao/witnesses">witnesses</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/prov#wasAttributedTo">
+      <h3>was attributed to<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/prov#wasAttributedTo</p>
+      <div class="comment">
+         <span class="markdown">Attribution is the ascribing of an entity to an agent.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#Agent" title="http://www.w3.org/ns/prov#Agent">Agent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="wasCorrectedTo">
+      <h3>was corrected to<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/wasCorrectedTo</p>
+      <div class="comment">
+         <span class="markdown">The property relates a corrected reading to the previous state before correction (also a reading).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#isFollowedBy" title="http://purl.org/cao/isFollowedBy">is followed by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#wasCorrectionOf" title="http://purl.org/cao/wasCorrectionOf">was correction of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="wasCorrectionOf">
+      <h3>was correction of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/wasCorrectionOf</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#follows" title="http://purl.org/cao/follows">follows</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#wasCorrectedTo" title="http://purl.org/cao/wasCorrectedTo">was corrected to</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/prov#wasDerivedFrom">
+      <h3>was derived from<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/prov#wasDerivedFrom</p>
+      <div class="comment">
+         <span class="markdown">A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity. The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#follows" title="http://purl.org/cao/follows">follows</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#hadPrimarySource" title="http://www.w3.org/ns/prov#hadPrimarySource">had primary source</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/prov#wasRevisionOf" title="http://www.w3.org/ns/prov#wasRevisionOf">was revision of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#hadDerivation" title="http://www.w3.org/ns/prov#hadDerivation">had derivation</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/prov#wasPrimarySourceOf">
+      <h3>was primary source of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/prov#wasPrimarySourceOf</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#hadDerivation" title="http://www.w3.org/ns/prov#hadDerivation">had derivation</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#hadPrimarySource" title="http://www.w3.org/ns/prov#hadPrimarySource">had primary source</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/prov#wasRevisionOf">
+      <h3>was revision of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/prov#wasRevisionOf</p>
+      <div class="comment">
+         <span class="markdown">A revision is a derivation for which the resulting entity is a revised version of some original. The implication here is that the resulting entity contains substantial content from the original. Revision is a particular case of derivation.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Reading" title="http://purl.org/cao/Reading">Reading</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/prov#hadRevision" title="http://www.w3.org/ns/prov#hadRevision">had revision</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="witnesses">
+      <h3>witnesses<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/witnesses</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://purl.org/cao/</dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isWitnessedBy" title="http://purl.org/cao/isWitnessedBy">is witnessed by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://lawd.info/ontology/addition" title="http://lawd.info/ontology/addition">
+            <span>addition</span>
+         </a>
+      </li>
+      <li>
+         <a href="#addition" title="http://purl.org/cao/addition">
+            <span>addition</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://lawd.info/ontology/conjecture" title="http://lawd.info/ontology/conjecture">
+            <span>conjecture</span>
+         </a>
+      </li>
+      <li>
+         <a href="#conjecture" title="http://purl.org/cao/conjecture">
+            <span>conjecture</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://lawd.info/ontology/correction" title="http://lawd.info/ontology/correction">
+            <span>correction</span>
+         </a>
+      </li>
+      <li>
+         <a href="#correction" title="http://purl.org/cao/correction">
+            <span>correction</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://lawd.info/ontology/deletion" title="http://lawd.info/ontology/deletion">
+            <span>deletion</span>
+         </a>
+      </li>
+      <li>
+         <a href="#deletion" title="http://purl.org/cao/deletion">
+            <span>deletion</span>
+         </a>
+      </li>
+      <li>
+         <a href="#dittography" title="http://purl.org/cao/dittography">
+            <span>dittography</span>
+         </a>
+      </li>
+      <li>
+         <a href="#haplography" title="http://purl.org/cao/haplography">
+            <span>haplography</span>
+         </a>
+      </li>
+      <li>
+         <a href="#homeoarchy" title="http://purl.org/cao/homeoarchy">
+            <span>homeoarchy</span>
+         </a>
+      </li>
+      <li>
+         <a href="#homeoteleuton" title="http://purl.org/cao/homeoteleuton">
+            <span>homeoteleuton</span>
+         </a>
+      </li>
+      <li>
+         <a href="#incorporation" title="http://purl.org/cao/incorporation">
+            <span>incorporation</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://lawd.info/ontology/omission" title="http://lawd.info/ontology/omission">
+            <span>omission</span>
+         </a>
+      </li>
+      <li>
+         <a href="#omission" title="http://purl.org/cao/omission">
+            <span>omission</span>
+         </a>
+      </li>
+      <li>
+         <a href="#polyptoton" title="http://purl.org/cao/polyptoton">
+            <span>polyptoton</span>
+         </a>
+      </li>
+      <li>
+         <a href="#saut-du-meme-au-meme" title="http://purl.org/cao/saut-du-meme-au-meme">
+            <span>saut du meme au meme</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://lawd.info/ontology/transposition" title="http://lawd.info/ontology/transposition">
+            <span>transposition</span>
+         </a>
+      </li>
+      <li>
+         <a href="#transposition" title="http://purl.org/cao/transposition">
+            <span>transposition</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://lawd.info/ontology/addition">
+      <h3>addition<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://lawd.info/ontology/addition</p>
+      <dl class="description">
+         <dt>is same as</dt>
+         <dd>
+            <a href="#addition" title="http://purl.org/cao/addition">addition</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="addition">
+      <h3>addition<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/addition</p>
+      <div class="comment">
+         <span class="markdown">The type for a reading that is an addition (i.e a syntactic and/or semantic expansion).</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingType" title="http://purl.org/cao/ReadingType">Reading Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is same as</dt>
+         <dd>
+            <a href="#http://lawd.info/ontology/addition" title="http://lawd.info/ontology/addition">addition</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://lawd.info/ontology/conjecture">
+      <h3>conjecture<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://lawd.info/ontology/conjecture</p>
+      <dl class="description">
+         <dt>is same as</dt>
+         <dd>
+            <a href="#conjecture" title="http://purl.org/cao/conjecture">conjecture</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="conjecture">
+      <h3>conjecture<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/conjecture</p>
+      <div class="comment">
+         <span class="markdown">The type for a reading that is a conjecture (i.e an editorial reconstruction or hypothesis of reading).</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingType" title="http://purl.org/cao/ReadingType">Reading Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is same as</dt>
+         <dd>
+            <a href="#http://lawd.info/ontology/conjecture" title="http://lawd.info/ontology/conjecture">conjecture</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://lawd.info/ontology/correction">
+      <h3>correction<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://lawd.info/ontology/correction</p>
+      <dl class="description">
+         <dt>is same as</dt>
+         <dd>
+            <a href="#correction" title="http://purl.org/cao/correction">correction</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="correction">
+      <h3>correction<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/correction</p>
+      <div class="comment">
+         <span class="markdown">The type for a reading that is a correction (i.e. it is an authorial or scribal correction of a previous textual fragment).</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingType" title="http://purl.org/cao/ReadingType">Reading Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is same as</dt>
+         <dd>
+            <a href="#http://lawd.info/ontology/correction" title="http://lawd.info/ontology/correction">correction</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://lawd.info/ontology/deletion">
+      <h3>deletion<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://lawd.info/ontology/deletion</p>
+      <dl class="description">
+         <dt>is same as</dt>
+         <dd>
+            <a href="#deletion" title="http://purl.org/cao/deletion">deletion</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="deletion">
+      <h3>deletion<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/deletion</p>
+      <div class="comment">
+         <span class="markdown">The type for a reading that is a deletion (i.e. it was marked or somehow indicated by the author or scribe as deleted).</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingType" title="http://purl.org/cao/ReadingType">Reading Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is same as</dt>
+         <dd>
+            <a href="#http://lawd.info/ontology/deletion" title="http://lawd.info/ontology/deletion">deletion</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="dittography">
+      <h3>dittography<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/dittography</p>
+      <div class="comment">
+         <span class="markdown">The unintentional repetition of a letter, word or phrase.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingCause" title="http://purl.org/cao/ReadingCause">Reading Cause</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="haplography">
+      <h3>haplography<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/haplography</p>
+      <div class="comment">
+         <span class="markdown">The accidental omission of a letter, word or phrase. Homeoarchy, homeoteleuton, saut du même au même are particular types of haplography.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingCause" title="http://purl.org/cao/ReadingCause">Reading Cause</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="homeoarchy">
+      <h3>homeoarchy<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/homeoarchy</p>
+      <div class="comment">
+         <span class="markdown">The accidental skipping of a word or phrase having the same beginning. A polyptoton is a particular type of homeoarchy.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingCause" title="http://purl.org/cao/ReadingCause">Reading Cause</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="homeoteleuton">
+      <h3>homeoteleuton<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/homeoteleuton</p>
+      <div class="comment">
+         <span class="markdown">The accidental skipping of a word or phrase having the same ending.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingCause" title="http://purl.org/cao/ReadingCause">Reading Cause</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="incorporation">
+      <h3>incorporation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/incorporation</p>
+      <div class="comment">
+         <span class="markdown">The accidental incorporation of materials, such as marginalia.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingCause" title="http://purl.org/cao/ReadingCause">Reading Cause</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://lawd.info/ontology/omission">
+      <h3>omission<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://lawd.info/ontology/omission</p>
+      <dl class="description">
+         <dt>is same as</dt>
+         <dd>
+            <a href="#omission" title="http://purl.org/cao/omission">omission</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="omission">
+      <h3>omission<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/omission</p>
+      <div class="comment">
+         <span class="markdown">The type for a reading that is an omission (i.e. the author or scribe did not include the reading in the witness). If intentional, an omission may also classify as a correction.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingType" title="http://purl.org/cao/ReadingType">Reading Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is same as</dt>
+         <dd>
+            <a href="#http://lawd.info/ontology/omission" title="http://lawd.info/ontology/omission">omission</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="polyptoton">
+      <h3>polyptoton<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/polyptoton</p>
+      <div class="comment">
+         <span class="markdown">The accidental skipping of a word or phrase forming a polyptoton (i.e. presenting the same root word). A polyptoton is a particular type of homeoarchy.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingCause" title="http://purl.org/cao/ReadingCause">Reading Cause</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="saut-du-meme-au-meme">
+      <h3>saut du meme au meme<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/saut-du-meme-au-meme</p>
+      <div class="comment">
+         <span class="markdown">The accidental skipping of some text in between two similar words or phrases; a particular type of haplography.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingCause" title="http://purl.org/cao/ReadingCause">Reading Cause</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://lawd.info/ontology/transposition">
+      <h3>transposition<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://lawd.info/ontology/transposition</p>
+      <dl class="description">
+         <dt>is same as</dt>
+         <dd>
+            <a href="#transposition" title="http://purl.org/cao/transposition">transposition</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="transposition">
+      <h3>transposition<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/cao/transposition</p>
+      <div class="comment">
+         <span class="markdown">The type for a reading that was transposed from another location in the text, including the flipping of the order of two words or phrases.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#ReadingType" title="http://purl.org/cao/ReadingType">Reading Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is same as</dt>
+         <dd>
+            <a href="#http://lawd.info/ontology/transposition" title="http://lawd.info/ontology/transposition">transposition</a>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</html>
