@@ -19,14 +19,20 @@
      xmlns:frbroo="http://inflastandards.org/ns/fr/frbr/frbroo/"
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
     <owl:Ontology rdf:about="http://purl.org/cao/">
+        <dc:date>08.07.2019</dc:date>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</owl:versionInfo>
+        <terms:creator>Francesca Giovannetti</terms:creator>
+        <rdfs:comment xml:lang="en">The Critical Apparatus Ontology (CAO) is an OWL 2 DL ontology for representing the apparatus of textual variants and philological arguments that accompanies a digital critical edition.</rdfs:comment>
+        <dc:title>Critical Apparatus Ontology (CAO)</dc:title>
+
         <owl:versionIRI rdf:resource="http://purl.org/cao/9.0"/>
         <owl:imports rdf:resource="http://purl.org/emmedi/hico"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/oa#"/>
-        <terms:creator>Francesca Giovannetti</terms:creator>
+        
         <terms:license xml:lang="en">This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).</terms:license>
-        <rdfs:comment xml:lang="en">The Critical Apparatus Ontology (CAO) is a conceptual model for the description of critical apparatuses, i.e. the sets of scholarly annotations and textual variants that accompany digital critical editions.</rdfs:comment>
+        
         <rdfs:label xml:lang="en">Critical Apparatus Ontology (CAO)</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</owl:versionInfo>
+        
     </owl:Ontology>
     
 

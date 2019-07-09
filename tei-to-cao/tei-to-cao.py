@@ -118,6 +118,14 @@ for app in root.findall('.//tei:app', ns):
 				rdg_type_uri = URIRef(prefix_dict[rdg_type_prefix] + rdg_type[1])
 				g.add( (rdg_uri, cao.hasReadingType, rdg_type_uri))
 
+		# omission
+		#if rdg.get('type') is None and rdg.find("./[Value='']"):
+			#g.add( (rdg_uri, cao.hasReadingType, cao.omission))
+
+		if rdg.get('type') is None and rdg.text('') is not None:
+			g.add( (rdg_uri, cao.hasReadingType, cao.omission))
+
+
 		if rdg.get('cause') is not None:			
 			rdg_cause = rdg.get('cause').split(':')
 			rdg_cause_prefix = rdg_cause[0]
