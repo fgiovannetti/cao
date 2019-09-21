@@ -1,6 +1,6 @@
 from lxml import etree
 import time
-tree = etree.parse("input-temp.xml")
+tree = etree.parse("input-critapp.xml")
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
@@ -119,10 +119,7 @@ for app in root.findall('.//tei:app', ns):
 				g.add( (rdg_uri, cao.hasReadingType, rdg_type_uri))
 
 		# omission
-		#if rdg.get('type') is None and rdg.find("./[Value='']"):
-			#g.add( (rdg_uri, cao.hasReadingType, cao.omission))
-
-		if rdg.get('type') is None and rdg.text('') is not None:
+		if rdg.get('type') is None and rdg.find("./[Value='']"):
 			g.add( (rdg_uri, cao.hasReadingType, cao.omission))
 
 
