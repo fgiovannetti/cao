@@ -18,11 +18,11 @@
 <p>For example:</p>
 <pre>
 <code>
+@prefix ex: &lt;http://example.org/&gt; .
 @prefix cao: &lt;https://purl.org/cao/&gt; .
 @prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
 @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
 @prefix frbroo: &lt;http://iflastandards.info/ns/fr/frbr/frbroo/&gt; .
-@prefix lawd: &lt;http://lawd.info/ontology/&gt; .
 @prefix oa: &lt;http://www.w3.org/ns/oa#&gt; .
 @prefix prov: &lt;http://www.w3.org/ns/prov#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
@@ -32,6 +32,7 @@
 @prefix ex_ann: &lt;http://example.org/annotation/&gt; .
 @prefix ex_app: &lt;http://example.org/app/&gt; .
 @prefix ex_rdg: &lt;http://example.org/rdg/&gt; .
+
 @prefix ex_rseg: &lt;http://example.org/rdgseg/&gt; .
 @prefix ex_vloc: &lt;http://example.org/varloc/&gt; .
 @prefix ex_resp: &lt;http://example.org/resp/&gt; .
@@ -42,13 +43,13 @@
 @prefix ex_note: &lt;http://example.org/note/&gt; .
 
 # the scholarly annotation
-ex_ann:anno01 a oa:Annotation ;
+&lt;annotation/anno01&gt; a oa:Annotation ;
   # the apparatus entry
-    oa:hasBody ex_app:app01 ;
+    oa:hasBody &lt;app/app01&gt; ;
     # the variation point within the edition TEI document 
-    oa:hasTarget ex_vloc:vl01 ;
+    oa:hasTarget &lt;varloc/vl01&gt; ;
     # the scholar's identifier 
-    dcterms:creator ex_resp:fgiov ; 
+    dcterms:creator &lt;resp/fgiov&gt; ; 
     # the date on which the apparatus entry was created
     dcterms:created "2019-03-09"^^xsd:date .
 </code>
@@ -73,27 +74,27 @@ ex_ann:anno01 a oa:Annotation ;
 <p>For example:</p>
 <pre><code>
 # a unit of variation
-ex_app:app01 a cao:VariationUnit ;
+&lt;app/app01&gt; a cao:VariationUnit ;
     # the base reading
-    cao:hasBaseReading ex_rdg:anno01-rdg01 ;
+    cao:hasBaseReading &lt;rdg/anno01-rdg01&gt; ;
     # the variant readings
-    cao:hasReading ex_rdg:anno01-rdg02 , 
-        ex_rdg:anno01-rdg03 .
+    cao:hasReading &lt;rdg/anno01-rdg02&gt; , 
+        &lt;rdg/anno01-rdg03&gt; .
 
-ex_rdg:anno01-rdg01 a cao:BaseReading ;
+&lt;rdg/anno01-rdg01&gt; a cao:BaseReading ;
   rdf:value "diffundi"^^xsd:string .
  
-ex_rdg:anno01-rdg02 a cao:Reading ;
+&lt;rdg/anno01-rdg02&gt; a cao:Reading ;
   rdf:value "diffudit"^^xsd:string .
  
-ex_rdg:anno01-rdg03 a cao:Reading ;
+&lt;rdg/anno01-rdg03&gt; a cao:Reading ;
   rdf:value "diffundit"^^xsd:string .
 </code></pre>
 
 <pre><code>
-ex_app:a10 a cao:VariationUnit ;
-    cao:hasSubvariationUnit ex_app:a10-1 , 
-      ex_app:a10-2 .
+&lt;app/a10&gt; a cao:VariationUnit ;
+    cao:hasSubvariationUnit &lt;app/a10-1&gt; , 
+      &lt;app/a10-2&gt; .
 </code></pre>
 
 
@@ -132,8 +133,8 @@ ex_app:a10 a cao:VariationUnit ;
 
 <p>For example:</p>
 <pre><code>
-ex_rdg:anno01-rdg03 a cao:Reading ;
-  cao:hasReadingType lawd:omission ;
+&lt;rdg/anno01-rdg03&gt; a cao:Reading ;
+  cao:hasReadingType cao:omission ;
   cao:hasReadingCause cao:homeoteleuton ;
   rdf:value ""^^xsd:string .
 </code></pre>
@@ -154,23 +155,23 @@ ex_rdg:anno01-rdg03 a cao:Reading ;
 
 <p>For example:</p>
 <pre><code>
-ex_app:app08 a cao:VariationUnit ;
-  cao:hasReading ex_rdg:anno08-rdg01 ,
-    ex_rdg:anno08-rdg02 ,
-    ex_rdg:anno08-rdg03 .
+&lt;app/app08&gt; a cao:VariationUnit ;
+  cao:hasReading &lt;rdg/anno08-rdg01&gt; ,
+    &lt;rdg/anno08-rdg02&gt; ,
+    &lt;rdg/anno08-rdg03&gt; .
  
-ex_rdg:anno08-rdg01 a cao:Reading ;
-  cao:wasCorrectedTo ex_rdg:anno08-rdg02 ;
-  cao:hasReadingType lawd:deletion ;
+&lt;rdg/anno08-rdg01&gt; a cao:Reading ;
+  cao:wasCorrectedTo &lt;rdg/anno08-rdg02&gt; ;
+  cao:hasReadingType cao:deletion ;
   rdf:value "this"^^xsd:string .
  
-ex_rdg:anno08-rdg02 a cao:Reading ;
-  cao:wasCorrectedTo ex_rdg:anno08-rdg03 ;
-  cao:hasReadingType lawd:deletion ,
+&lt;rdg/anno08-rdg02&gt; a cao:Reading ;
+  cao:wasCorrectedTo &lt;rdg/anno08-rdg03&gt; ;
+  cao:hasReadingType cao:deletion ,
   rdf:value "such a"^^xsd:string .
  
-ex_rdg:anno08-rdg03 a cao:Reading ;
-  cao:hasReadingType lawd:addition ,
+&lt;rdg/anno08-rdg03&gt; a cao:Reading ;
+  cao:hasReadingType cao:addition ,
   rdf:value "a"^^xsd:string .
 </code></pre>
 
@@ -187,7 +188,7 @@ ex_rdg:anno08-rdg03 a cao:Reading ;
 
 <p>For example:</p>
 <pre><code>
-ex_rdg:anno01-rdg02 a cao:Reading ;
+&lt;rdg/anno01-rdg02&gt; a cao:Reading ;
   rdf:value "diffudit"^^xsd:string ;
   prov:hadPrimarySource &lt;http://example.org&gt; .
 </code></pre>
@@ -198,9 +199,9 @@ ex_rdg:anno01-rdg02 a cao:Reading ;
 
 <p>For example:</p>
 <pre><code>
-ex_rdg:anno01-rdg02 a cao:Reading ;
+&lt;rdg/anno01-rdg02&gt; a cao:Reading ;
   rdf:value "diffudit"^^xsd:string ;
-  cao:hasAttributedHand ex_resp:m1 .
+  cao:hasAttributedHand &lt;resp/m1&gt; .
 </code></pre>
 
 <h4>Representing the interpretation act which generated a reading</h4>
@@ -212,13 +213,13 @@ ex_rdg:anno01-rdg02 a cao:Reading ;
 
 <p>For example:</p>
 <pre><code>
-ex_rdg:anno01-rdg02 a cao:Reading ;
+&lt;rdg/anno01-rdg02&gt; a cao:Reading ;
   rdf:value "diffudit"^^xsd:string ;
-  prov:wasGeneratedBy ex_intact:intact-001 .
+  prov:wasGeneratedBy &lt;int-act/intact001&gt; .
   
-ex_int:intact-001 a hico:InterpretationAct ;
-  cao:hasInterpretedEntity ex_wfrag:anno01-wfrag02 ;
-  cao:wasAssociatedWith ex_resp:fgiov .
+&lt;intact-001 a hico:InterpretationAct ;
+  cao:hasInterpretedEntity &lt;wit-frag/anno01-wfrag02&gt; ;
+  cao:wasAssociatedWith &lt;resp/fgiov&gt; .
 </code></pre>
 
 
@@ -241,24 +242,24 @@ ex_int:intact-001 a hico:InterpretationAct ;
 
 <p>For example:</p>
 <pre><code>
-ex:rdg:anno01-rdg01 a cao:BaseReading ;
+&lt;rdg/anno01-rdg01&gt; a cao:BaseReading ;
   rdf:value "diffundi"^^xsd:string ;
-  cao:isWitnessedBy ex_wfrag:anno01-wfrag01 ,
-    ex_wfrag:anno01-wfrag02 .
+  cao:isWitnessedBy &lt;wit-frag/anno01-wfrag01&gt; ,
+    &lt;wit-frag/anno01-wfrag02&gt; .
  
-ex:rdg:anno01-rdg02 a cao:Reading ;
+&lt;rdg/anno01-rdg02&gt; a cao:Reading ;
   rdf:value "diffudit"^^xsd:string ;
-  cao:isWitnessedBy ex_wfrag:anno01-wfrag03> .
+  cao:isWitnessedBy &lt;wit-frag/anno01-wfrag03&gt; .
  
-ex:rdg:anno01-rdg03 a cao:Reading ;
+&lt;rdg/anno01-rdg03&gt; a cao:Reading ;
   rdf:value "diffundit"^^xsd:string ;
-  cao:isWitnessedBy ex_wfrag:anno01-wfrag04 .
+  cao:isWitnessedBy &lt;wit-frag/anno01-wfrag04&gt; .
 
-ex_wfrag:anno01-wfrag01 a frbroo:F23_Expression_Fragment ;
-  frbroo:R15i_is_fragment_of ex_wtxt:wexp01 .
+&lt;wit-frag/anno01-wfrag01&gt; a frbroo:F23_Expression_Fragment ;
+  frbroo:R15i_is_fragment_of &lt;wit-expr/wexp01&gt; .
  
-ex_wfrag:anno01-wfrag02 a frbroo:F23_Expression_Fragment ;
-  frbroo:R15i_is_fragment_of ex_wtxt:wexp02 .
+&lt;wit-frag/anno01-wfrag02&gt; a frbroo:F23_Expression_Fragment ;
+  frbroo:R15i_is_fragment_of &lt;wit-expr/wexp02&gt; .
 </code></pre>
 
 
@@ -280,15 +281,38 @@ ex_wfrag:anno01-wfrag02 a frbroo:F23_Expression_Fragment ;
 
 <p>For example:</p>
 <pre><code>
-ex_wtxt:wexp01 a frbroo:F2_Expression ;
-  crm:P128i_is_carried_by ex_wit:wit01 .
- 
-ex_wtxt:wexp01 a frbroo:F2_Expression ;
-  frbroo:R4_carriers_provided_by ex_wit:wit02 .
+&lt;rdg/a6-r1&gt; a cao:BaseReading ;
+    crm:P3_has_note &lt;note/a6-n1&gt; ;
+    rdf:value "['Beowulfe']"^^xsd:string .
 
-ex_wit:wit02 a frbroo:F4_Manifestation_Singleton ;
-  owl:sameAs &lt;http://collection.britishmuseum.org/id/object/example&gt; .
+&lt;note/a6-n1&gt; a crm:E62_String ;
+    rdf:value "['[...] Folio 179, with the last page (Fol. 198b) [...]']"^^xsd:string ;
+    crm:P2_has_type &lt;https://www.example.org/type/philological&gt; .
 </code></pre>
+
+
+
+<h3>A special case of variation: transposition</h3>
+
+<p>Transposition occurs when text is transferred from one location to another. As transposition involves a relationship between a transposed text and (at least) two distinct locations, its representation requires to link the annotation to multiple targets:</p>
+
+<pre><code>
+&lt;annotation/anno02&gt; a oa:Annotation ; 
+    oa:hasBody &lt;app/app02&gt; ; 
+    oa:hasTarget &lt;varloc/vl02&gt; , &lt;varloc/vl03&gt; ; 
+    dcterms:creator &lt;person/fgiovan&gt; ; 
+    dcterms:created "2019-03-09"^^xsd:date .
+</pre></code>
+ 
+<p>The transposed text is then related to the original and new location via the properties cao:wasTransposedFrom and cao:wasTransposedTo:</p>
+
+<pre><code>
+&lt;rdg/anno02-rdg02&gt; a cao: Reading ;
+    cao:hasReadingType cao:transposition ;
+    cao:wasTransposedFrom &lt;varloc/vl02&gt; ;
+    cao:wasTransposedTo &lt;varloc/vl03&gt; . 
+</pre></code>
+
 
 
 
@@ -308,7 +332,7 @@ ex_wit:wit02 a frbroo:F4_Manifestation_Singleton ;
 <code>
 <l>... freta rapidisque &lt;anchor xml:id=“varloc-s01”/&gt;diffundi&lt;anchor xml:id=“varloc-e01”/&gt; ...</l>
  
-ex_vloc:vl01 a cao:VariationLocation ;
+&lt;varloc/vl01&gt; a cao:VariationLocation ;
 	oa:hasSource &lt;https://example.org/example.xml&gt; ;
 	oa:hasSelector [
    	 a oa:RangeSelector ;
@@ -325,9 +349,9 @@ ex_vloc:vl01 a cao:VariationLocation ;
 
 <pre>
 <code>
-<l>... freta rapidisque &lt;seg xml:id="varloc-01">diffundi&lt;/seg&gt; ...</l>
+<l>... freta rapidisque &lt;seg xml:id="varloc-01"&gt;diffundi&lt;/seg&gt; ...</l>
  
-ex_vloc:vl01 a cao:VariationLocation ;
+&lt;varloc/vl01&gt; a cao:VariationLocation ;
 	oa:hasSource &lt;https://example.org/example.xml&gt; ;
 	oa:hasSelector [
     		a oa:XPathSelector ;
