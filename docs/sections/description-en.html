@@ -29,18 +29,6 @@
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix xml: &lt;http://www.w3.org/XML/1998/namespace&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
-@prefix ex_ann: &lt;http://example.org/annotation/&gt; .
-@prefix ex_app: &lt;http://example.org/app/&gt; .
-@prefix ex_rdg: &lt;http://example.org/rdg/&gt; .
-
-@prefix ex_rseg: &lt;http://example.org/rdgseg/&gt; .
-@prefix ex_vloc: &lt;http://example.org/varloc/&gt; .
-@prefix ex_resp: &lt;http://example.org/resp/&gt; .
-@predix ex_int: &lt;http://example.org/int-act/&gt; .
-@prefix ex_wit: &lt;http://example.org/wit/&gt; .
-@prefix ex_wfrag: &lt;http://example.org/wit-frag/&gt; .
-@prefix ex_wtxt: &lt;http://example.org/wit-expr/&gt; .
-@prefix ex_note: &lt;http://example.org/note/&gt; .
 
 # the scholarly annotation
 &lt;annotation/anno01&gt; a oa:Annotation ;
@@ -360,6 +348,6 @@
 </pre>
 
 <p>It is also feasible to replace the lemma with an empty element in the TEI document, leaving a gap in the critical text. This method, however, may result in loss of information if the TEI document containing the edition and the RDF critical apparatus are not processed together.</p>
-<p>A Web Annotation class oa:TextPositionSelector is also available for describing ranges of characters, making it possible to link an RDF critical apparatus to a plain text document,although the connection between the apparatus and the text would become more fragile as compared to using @xml:ids for building the URIs representing the location of variation.</p>
+<p>A Web Annotation class oa:TextPositionSelector is also available for describing ranges of characters, making it possible to link an RDF critical apparatus to a plain text document, although the connection between the apparatus and the text would become more fragile as compared to using @xml:ids for building the URIs representing the location of variation.</p>
 
 </html>
