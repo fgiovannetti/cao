@@ -15,7 +15,7 @@ document_id = root.get('{http://www.w3.org/XML/1998/namespace}id')
 current_date = Literal(time.strftime("%Y-%m-%d"), datatype=XSD.date)
 
 ex = Namespace(base_uri + '/')
-cao = Namespace("http://purl.org/fgiov/cao/")
+cao = Namespace("https://w3id.org/cao/")
 lawd = Namespace("http://lawd.info/ontology/")
 frbroo = Namespace("http://iflastandards.info/ns/fr/frbr/frbroo/")
 crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")

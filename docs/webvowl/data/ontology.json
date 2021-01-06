@@ -6,7 +6,7 @@
     "title" : {
       "undefined" : "Critical Apparatus Ontology (CAO)"
     },
-    "iri" : "http://purl.org/cao/",
+    "iri" : "https://w3id.org/cao/",
     "version" : "0.9",
     "author" : [ "Francesca Giovannetti" ],
     "comments" : {
@@ -426,14 +426,14 @@
     "id" : "17",
     "superClasses" : [ "18", "19" ]
   }, {
-    "iri" : "http://purl.org/cao/VariationUnit",
+    "iri" : "https://w3id.org/cao/VariationUnit",
     "baseIri" : "http://purl.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -483,14 +483,14 @@
     "id" : "34",
     "superClasses" : [ "35" ]
   }, {
-    "iri" : "http://purl.org/cao/ReadingType",
+    "iri" : "https://w3id.org/cao/ReadingType",
     "baseIri" : "http://purl.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -499,7 +499,7 @@
       "en" : "Reading Type"
     },
     "individuals" : [ {
-      "iri" : "http://purl.org/cao/addition",
+      "iri" : "https://w3id.org/cao/addition",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The type for a reading that is an addition (i.e a syntactic and/or semantic expansion)."
@@ -508,7 +508,7 @@
         "IRI-based" : "addition"
       }
     }, {
-      "iri" : "http://purl.org/cao/omission",
+      "iri" : "https://w3id.org/cao/omission",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The type for a reading that is an omission (i.e. the author or scribe did not include the reading in the witness). If intentional, an omission may also classify as a correction."
@@ -517,7 +517,7 @@
         "IRI-based" : "omission"
       }
     }, {
-      "iri" : "http://purl.org/cao/correction",
+      "iri" : "https://w3id.org/cao/correction",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The type for a reading that is a correction (i.e. it is an authorial or scribal correction of a previous textual fragment)."
@@ -526,7 +526,7 @@
         "IRI-based" : "correction"
       }
     }, {
-      "iri" : "http://purl.org/cao/transposition",
+      "iri" : "https://w3id.org/cao/transposition",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The type for a reading that was transposed from another location in the text, including the flipping of the order of two words or phrases."
@@ -535,7 +535,7 @@
         "IRI-based" : "transposition"
       }
     }, {
-      "iri" : "http://purl.org/cao/conjecture",
+      "iri" : "https://w3id.org/cao/conjecture",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The type for a reading that is a conjecture (i.e an editorial reconstruction or hypothesis of reading)."
@@ -544,7 +544,7 @@
         "IRI-based" : "conjecture"
       }
     }, {
-      "iri" : "http://purl.org/cao/deletion",
+      "iri" : "https://w3id.org/cao/deletion",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The type for a reading that is a deletion (i.e. it was marked or somehow indicated by the author or scribe as deleted)."
@@ -622,14 +622,14 @@
     "id" : "68",
     "superClasses" : [ "24" ]
   }, {
-    "iri" : "http://purl.org/cao/ReadingCause",
+    "iri" : "https://w3id.org/cao/ReadingCause",
     "baseIri" : "http://purl.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -638,7 +638,7 @@
       "en" : "Reading Cause"
     },
     "individuals" : [ {
-      "iri" : "http://purl.org/cao/dittography",
+      "iri" : "https://w3id.org/cao/dittography",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The unintentional repetition of a letter, word or phrase."
@@ -647,7 +647,7 @@
         "IRI-based" : "dittography"
       }
     }, {
-      "iri" : "http://purl.org/cao/saut-du-meme-au-meme",
+      "iri" : "https://w3id.org/cao/saut-du-meme-au-meme",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The accidental skipping of some text in between two similar words or phrases; a particular type of haplography."
@@ -656,7 +656,7 @@
         "IRI-based" : "saut-du-meme-au-meme"
       }
     }, {
-      "iri" : "http://purl.org/cao/homeoarchy",
+      "iri" : "https://w3id.org/cao/homeoarchy",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The accidental skipping of a word or phrase having the same beginning. A polyptoton is a particular type of homeoarchy."
@@ -665,7 +665,7 @@
         "IRI-based" : "homeoarchy"
       }
     }, {
-      "iri" : "http://purl.org/cao/incorporation",
+      "iri" : "https://w3id.org/cao/incorporation",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The accidental incorporation of materials, such as marginalia."
@@ -674,7 +674,7 @@
         "IRI-based" : "incorporation"
       }
     }, {
-      "iri" : "http://purl.org/cao/polyptoton",
+      "iri" : "https://w3id.org/cao/polyptoton",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The accidental skipping of a word or phrase forming a polyptoton (i.e. presenting the same root word). A polyptoton is a particular type of homeoarchy."
@@ -683,7 +683,7 @@
         "IRI-based" : "polyptoton"
       }
     }, {
-      "iri" : "http://purl.org/cao/homeoteleuton",
+      "iri" : "https://w3id.org/cao/homeoteleuton",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The accidental skipping of a word or phrase having the same ending."
@@ -692,7 +692,7 @@
         "IRI-based" : "homeoteleuton"
       }
     }, {
-      "iri" : "http://purl.org/cao/haplography",
+      "iri" : "https://w3id.org/cao/haplography",
       "baseIri" : "http://purl.org/cao",
       "comment" : {
         "en" : "The accidental omission of a letter, word or phrase. Homeoarchy, homeoteleuton, saut du même au même are particular types of haplography."
@@ -1112,14 +1112,14 @@
     "id" : "150",
     "superClasses" : [ "151" ]
   }, {
-    "iri" : "http://purl.org/cao/BaseReading",
+    "iri" : "https://w3id.org/cao/BaseReading",
     "baseIri" : "http://purl.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -1578,14 +1578,14 @@
     "attributes" : [ "union", "anonymous" ],
     "id" : "191"
   }, {
-    "iri" : "http://purl.org/cao/Reading",
+    "iri" : "https://w3id.org/cao/Reading",
     "baseIri" : "http://purl.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -2232,14 +2232,14 @@
     "id" : "50",
     "superClasses" : [ "24" ]
   }, {
-    "iri" : "http://purl.org/cao/VariationLocation",
+    "iri" : "https://w3id.org/cao/VariationLocation",
     "baseIri" : "http://purl.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -3051,7 +3051,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "51"
   }, {
-    "iri" : "http://purl.org/cao/wasCorrectionOf",
+    "iri" : "https://w3id.org/cao/wasCorrectionOf",
     "baseIri" : "http://purl.org/cao",
     "range" : "8",
     "label" : {
@@ -3100,14 +3100,14 @@
     "attributes" : [ "external", "object" ],
     "id" : "63"
   }, {
-    "iri" : "http://purl.org/cao/isVariantOf",
+    "iri" : "https://w3id.org/cao/isVariantOf",
     "baseIri" : "http://purl.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -3175,14 +3175,14 @@
     "attributes" : [ "datatype", "external" ],
     "id" : "69"
   }, {
-    "iri" : "http://purl.org/cao/isReadingTypeOf",
+    "iri" : "https://w3id.org/cao/isReadingTypeOf",
     "baseIri" : "http://purl.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -3309,14 +3309,14 @@
     "attributes" : [ "external", "object" ],
     "id" : "93"
   }, {
-    "iri" : "http://purl.org/cao/isBaseReadingOf",
+    "iri" : "https://w3id.org/cao/isBaseReadingOf",
     "baseIri" : "http://purl.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -3567,7 +3567,7 @@
     "attributes" : [ "external", "object" ],
     "id" : "122"
   }, {
-    "iri" : "http://purl.org/cao/hasReadingType",
+    "iri" : "https://w3id.org/cao/hasReadingType",
     "inverse" : "72",
     "baseIri" : "http://purl.org/cao",
     "range" : "36",
@@ -3575,7 +3575,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -3637,7 +3637,7 @@
     "attributes" : [ "external", "object" ],
     "id" : "131"
   }, {
-    "iri" : "http://purl.org/cao/hasReadingCause",
+    "iri" : "https://w3id.org/cao/hasReadingCause",
     "inverse" : "135",
     "baseIri" : "http://purl.org/cao",
     "range" : "73",
@@ -3645,7 +3645,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -3777,7 +3777,7 @@
     "attributes" : [ "external", "object" ],
     "id" : "29"
   }, {
-    "iri" : "http://purl.org/cao/hasBaseReading",
+    "iri" : "https://w3id.org/cao/hasBaseReading",
     "inverse" : "97",
     "baseIri" : "http://purl.org/cao",
     "range" : "148",
@@ -3785,7 +3785,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -4045,14 +4045,14 @@
     "attributes" : [ "datatype", "external" ],
     "id" : "173"
   }, {
-    "iri" : "http://purl.org/cao/hasSubvariationUnit",
+    "iri" : "https://w3id.org/cao/hasSubvariationUnit",
     "baseIri" : "http://purl.org/cao",
     "range" : "1",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -4067,14 +4067,14 @@
     "attributes" : [ "object" ],
     "id" : "175"
   }, {
-    "iri" : "http://purl.org/cao/isAttributedHandOf",
+    "iri" : "https://w3id.org/cao/isAttributedHandOf",
     "baseIri" : "http://purl.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -4086,14 +4086,14 @@
     "attributes" : [ "object" ],
     "id" : "177"
   }, {
-    "iri" : "http://purl.org/cao/isFollowedBy",
+    "iri" : "https://w3id.org/cao/isFollowedBy",
     "baseIri" : "http://purl.org/cao",
     "range" : "3",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -4189,14 +4189,14 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "188"
   }, {
-    "iri" : "http://purl.org/cao/witnesses",
+    "iri" : "https://w3id.org/cao/witnesses",
     "baseIri" : "http://purl.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -4446,7 +4446,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "211"
   }, {
-    "iri" : "http://purl.org/cao/hasAttributedHand",
+    "iri" : "https://w3id.org/cao/hasAttributedHand",
     "inverse" : "177",
     "baseIri" : "http://purl.org/cao",
     "range" : "47",
@@ -4454,7 +4454,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -4561,7 +4561,7 @@
     "attributes" : [ "datatype", "external" ],
     "id" : "220"
   }, {
-    "iri" : "http://purl.org/cao/wasCorrectedTo",
+    "iri" : "https://w3id.org/cao/wasCorrectedTo",
     "inverse" : "53",
     "baseIri" : "http://purl.org/cao",
     "range" : "3",
@@ -4569,7 +4569,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -4585,14 +4585,14 @@
     "attributes" : [ "object" ],
     "id" : "180"
   }, {
-    "iri" : "http://purl.org/cao/isReadingOf",
+    "iri" : "https://w3id.org/cao/isReadingOf",
     "baseIri" : "http://purl.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -4848,7 +4848,7 @@
     "attributes" : [ "external", "object" ],
     "id" : "247"
   }, {
-    "iri" : "http://purl.org/cao/hasVariant",
+    "iri" : "https://w3id.org/cao/hasVariant",
     "inverse" : "66",
     "baseIri" : "http://purl.org/cao",
     "range" : "3",
@@ -4856,7 +4856,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -5200,7 +5200,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "273"
   }, {
-    "iri" : "http://purl.org/cao/hasReading",
+    "iri" : "https://w3id.org/cao/hasReading",
     "inverse" : "98",
     "baseIri" : "http://purl.org/cao",
     "range" : "3",
@@ -5208,7 +5208,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -5229,14 +5229,14 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "275"
   }, {
-    "iri" : "http://purl.org/cao/isReadingCauseOf",
+    "iri" : "https://w3id.org/cao/isReadingCauseOf",
     "baseIri" : "http://purl.org/cao",
     "range" : "44",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -5319,7 +5319,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "284"
   }, {
-    "iri" : "http://purl.org/cao/follows",
+    "iri" : "https://w3id.org/cao/follows",
     "inverse" : "179",
     "baseIri" : "http://purl.org/cao",
     "range" : "3",
@@ -5327,7 +5327,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },
@@ -5464,7 +5464,7 @@
     "attributes" : [ "functional", "external", "object" ],
     "id" : "199"
   }, {
-    "iri" : "http://purl.org/cao/isWitnessedBy",
+    "iri" : "https://w3id.org/cao/isWitnessedBy",
     "inverse" : "189",
     "baseIri" : "http://purl.org/cao",
     "range" : "33",
@@ -5472,7 +5472,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://purl.org/cao/",
+        "value" : "https://w3id.org/cao/",
         "type" : "label"
       } ]
     },

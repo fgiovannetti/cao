@@ -1,13 +1,13 @@
-<http://purl.org/cao/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://purl.org/cao/> <http://www.w3.org/2002/07/owl#versionIRI> <http://purl.org/cao/9.0> .
-<http://purl.org/cao/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/emmedi/hico> .
-<http://purl.org/cao/> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/oa#> .
-<http://purl.org/cao/> <http://purl.org/dc/elements/1.1/date> "08.07.2019" .
-<http://purl.org/cao/> <http://purl.org/dc/elements/1.1/title> "Critical Apparatus Ontology (CAO)" .
-<http://purl.org/cao/> <http://purl.org/dc/terms/creator> "Francesca Giovannetti" .
-<http://purl.org/cao/> <http://purl.org/dc/terms/license> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en .
-<http://purl.org/cao/> <http://www.w3.org/2000/01/rdf-schema#comment> "The Critical Apparatus Ontology (CAO) is an OWL 2 DL ontology for representing the apparatus of textual variants and philological arguments that accompanies a digital critical edition."@en .
-<http://purl.org/cao/> <http://www.w3.org/2002/07/owl#versionInfo> "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://w3id.org/cao/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/cao/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/cao/9.0> .
+<https://w3id.org/cao/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/emmedi/hico> .
+<https://w3id.org/cao/> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/oa#> .
+<https://w3id.org/cao/> <http://purl.org/dc/elements/1.1/date> "08.07.2019" .
+<https://w3id.org/cao/> <http://purl.org/dc/elements/1.1/title> "Critical Apparatus Ontology (CAO)" .
+<https://w3id.org/cao/> <http://purl.org/dc/terms/creator> "Francesca Giovannetti" .
+<https://w3id.org/cao/> <http://purl.org/dc/terms/license> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en .
+<https://w3id.org/cao/> <http://www.w3.org/2000/01/rdf-schema#comment> "The Critical Apparatus Ontology (CAO) is an OWL 2 DL ontology for representing the apparatus of textual variants and philological arguments that accompanies a digital critical edition."@en .
+<https://w3id.org/cao/> <http://www.w3.org/2002/07/owl#versionInfo> "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 # 
 # 
 # #################################################################
@@ -105,149 +105,149 @@
 <http://iflastandards.info/ns/fr/frbr/frbroo/R7i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://iflastandards.info/ns/fr/frbr/frbroo/" .
 <http://iflastandards.info/ns/fr/frbr/frbroo/R7i> <http://www.w3.org/2000/01/rdf-schema#label> "has example"@en .
 # 
-# http://purl.org/cao/follows
-<http://purl.org/cao/follows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/follows> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/cao/isFollowedBy> .
-<http://purl.org/cao/follows> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/follows> <http://www.w3.org/2000/01/rdf-schema#label> "follows"@en .
+# https://w3id.org/cao/follows
+<https://w3id.org/cao/follows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/follows> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cao/isFollowedBy> .
+<https://w3id.org/cao/follows> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/follows> <http://www.w3.org/2000/01/rdf-schema#label> "follows"@en .
 # 
-# http://purl.org/cao/hasAttributedHand
-<http://purl.org/cao/hasAttributedHand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/hasAttributedHand> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/cao/isAttributedHandOf> .
-<http://purl.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> .
-<http://purl.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a reading to a specific scribal hand."@en .
-<http://purl.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#label> "has attributed hand"@en .
+# https://w3id.org/cao/hasAttributedHand
+<https://w3id.org/cao/hasAttributedHand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/hasAttributedHand> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cao/isAttributedHandOf> .
+<https://w3id.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> .
+<https://w3id.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a reading to a specific scribal hand."@en .
+<https://w3id.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/hasAttributedHand> <http://www.w3.org/2000/01/rdf-schema#label> "has attributed hand"@en .
 # 
-# http://purl.org/cao/hasBaseReading
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/cao/hasReading> .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/cao/isBaseReadingOf> .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/VariationUnit> .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/fr/frbr/frbroo/F2> .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/BaseReading> .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a HiCO interpretation act to the primary source being interpreted."@en .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a unit of variation to its base reading (if there exists one)."@en .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "has base reading"@en .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "has interpreted entity"@en .
-<http://purl.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
+# https://w3id.org/cao/hasBaseReading
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/cao/hasReading> .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cao/isBaseReadingOf> .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/VariationUnit> .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/fr/frbr/frbroo/F2> .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/BaseReading> .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a HiCO interpretation act to the primary source being interpreted."@en .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a unit of variation to its base reading (if there exists one)."@en .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "has base reading"@en .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "has interpreted entity"@en .
+<https://w3id.org/cao/hasBaseReading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
 # 
-# http://purl.org/cao/hasReading
-<http://purl.org/cao/hasReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/hasReading> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/cao/isReadingOf> .
-<http://purl.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/VariationUnit> .
-<http://purl.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a unit of variation to a reading."@en .
-<http://purl.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#label> "has reading"@en .
+# https://w3id.org/cao/hasReading
+<https://w3id.org/cao/hasReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/hasReading> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cao/isReadingOf> .
+<https://w3id.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/VariationUnit> .
+<https://w3id.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a unit of variation to a reading."@en .
+<https://w3id.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/hasReading> <http://www.w3.org/2000/01/rdf-schema#label> "has reading"@en .
 # 
-# http://purl.org/cao/hasReadingCause
-<http://purl.org/cao/hasReadingCause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/hasReadingCause> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/cao/isReadingCauseOf> .
-<http://purl.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/ReadingCause> .
-<http://purl.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a reading to the possible cause for it."@en .
-<http://purl.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#label> "has reading cause"@en .
+# https://w3id.org/cao/hasReadingCause
+<https://w3id.org/cao/hasReadingCause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/hasReadingCause> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cao/isReadingCauseOf> .
+<https://w3id.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/ReadingCause> .
+<https://w3id.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a reading to the possible cause for it."@en .
+<https://w3id.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/hasReadingCause> <http://www.w3.org/2000/01/rdf-schema#label> "has reading cause"@en .
 # 
-# http://purl.org/cao/hasReadingType
-<http://purl.org/cao/hasReadingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/hasReadingType> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/cao/isReadingTypeOf> .
-<http://purl.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/ReadingType> .
-<http://purl.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a reading to a reading category or type."@en .
-<http://purl.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#label> "has reading type"@en .
+# https://w3id.org/cao/hasReadingType
+<https://w3id.org/cao/hasReadingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/hasReadingType> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cao/isReadingTypeOf> .
+<https://w3id.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/ReadingType> .
+<https://w3id.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a reading to a reading category or type."@en .
+<https://w3id.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/hasReadingType> <http://www.w3.org/2000/01/rdf-schema#label> "has reading type"@en .
 # 
-# http://purl.org/cao/hasSubvariationUnit
-<http://purl.org/cao/hasSubvariationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/VariationUnit> .
-<http://purl.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/VariationUnit> .
-<http://purl.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a unit of variation to a subunit of variation."@en .
-<http://purl.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "has subvariation unit"@en .
+# https://w3id.org/cao/hasSubvariationUnit
+<https://w3id.org/cao/hasSubvariationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/VariationUnit> .
+<https://w3id.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/VariationUnit> .
+<https://w3id.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a unit of variation to a subunit of variation."@en .
+<https://w3id.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/hasSubvariationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "has subvariation unit"@en .
 # 
-# http://purl.org/cao/hasVariant
-<http://purl.org/cao/hasVariant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/hasVariant> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/cao/isVariantOf> .
-<http://purl.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/BaseReading> .
-<http://purl.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a base reading to an attested variant reading."@en .
-<http://purl.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#label> "has variant"@en .
+# https://w3id.org/cao/hasVariant
+<https://w3id.org/cao/hasVariant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/hasVariant> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cao/isVariantOf> .
+<https://w3id.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/BaseReading> .
+<https://w3id.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a base reading to an attested variant reading."@en .
+<https://w3id.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/hasVariant> <http://www.w3.org/2000/01/rdf-schema#label> "has variant"@en .
 # 
-# http://purl.org/cao/isAttributedHandOf
-<http://purl.org/cao/isAttributedHandOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/isAttributedHandOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/isAttributedHandOf> <http://www.w3.org/2000/01/rdf-schema#label> "is attributed hand of"@en .
+# https://w3id.org/cao/isAttributedHandOf
+<https://w3id.org/cao/isAttributedHandOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/isAttributedHandOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/isAttributedHandOf> <http://www.w3.org/2000/01/rdf-schema#label> "is attributed hand of"@en .
 # 
-# http://purl.org/cao/isBaseReadingOf
-<http://purl.org/cao/isBaseReadingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/isBaseReadingOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/cao/isReadingOf> .
-<http://purl.org/cao/isBaseReadingOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/isBaseReadingOf> <http://www.w3.org/2000/01/rdf-schema#label> "is base reading of"@en .
+# https://w3id.org/cao/isBaseReadingOf
+<https://w3id.org/cao/isBaseReadingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/isBaseReadingOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/cao/isReadingOf> .
+<https://w3id.org/cao/isBaseReadingOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/isBaseReadingOf> <http://www.w3.org/2000/01/rdf-schema#label> "is base reading of"@en .
 # 
-# http://purl.org/cao/isFollowedBy
-<http://purl.org/cao/isFollowedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates two readings which, chronologically, come one after another. E.g. Reading A is followed by Reading B"@en .
-<http://purl.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is followed by"@en .
+# https://w3id.org/cao/isFollowedBy
+<https://w3id.org/cao/isFollowedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates two readings which, chronologically, come one after another. E.g. Reading A is followed by Reading B"@en .
+<https://w3id.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/isFollowedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is followed by"@en .
 # 
-# http://purl.org/cao/isReadingCauseOf
-<http://purl.org/cao/isReadingCauseOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/isReadingCauseOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/isReadingCauseOf> <http://www.w3.org/2000/01/rdf-schema#label> "is reading cause of"@en .
+# https://w3id.org/cao/isReadingCauseOf
+<https://w3id.org/cao/isReadingCauseOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/isReadingCauseOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/isReadingCauseOf> <http://www.w3.org/2000/01/rdf-schema#label> "is reading cause of"@en .
 # 
-# http://purl.org/cao/isReadingOf
-<http://purl.org/cao/isReadingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/isReadingOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/isReadingOf> <http://www.w3.org/2000/01/rdf-schema#label> "is reading of"@en .
+# https://w3id.org/cao/isReadingOf
+<https://w3id.org/cao/isReadingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/isReadingOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/isReadingOf> <http://www.w3.org/2000/01/rdf-schema#label> "is reading of"@en .
 # 
-# http://purl.org/cao/isReadingTypeOf
-<http://purl.org/cao/isReadingTypeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/isReadingTypeOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/isReadingTypeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is reading type of"@en .
+# https://w3id.org/cao/isReadingTypeOf
+<https://w3id.org/cao/isReadingTypeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/isReadingTypeOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/isReadingTypeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is reading type of"@en .
 # 
-# http://purl.org/cao/isVariantOf
-<http://purl.org/cao/isVariantOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/isVariantOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/isVariantOf> <http://www.w3.org/2000/01/rdf-schema#label> "is variant of"@en .
+# https://w3id.org/cao/isVariantOf
+<https://w3id.org/cao/isVariantOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/isVariantOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/isVariantOf> <http://www.w3.org/2000/01/rdf-schema#label> "is variant of"@en .
 # 
-# http://purl.org/cao/isWitnessedBy
-<http://purl.org/cao/isWitnessedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/isWitnessedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/cao/witnesses> .
-<http://purl.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/fr/frbr/frbroo/F2> .
-<http://purl.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a reading to the supporting expression or expression fragment in the witness."@en .
-<http://purl.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is witnessed by"@en .
+# https://w3id.org/cao/isWitnessedBy
+<https://w3id.org/cao/isWitnessedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/isWitnessedBy> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cao/witnesses> .
+<https://w3id.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/fr/frbr/frbroo/F2> .
+<https://w3id.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a reading to the supporting expression or expression fragment in the witness."@en .
+<https://w3id.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/isWitnessedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is witnessed by"@en .
 # 
-# http://purl.org/cao/wasCorrectedTo
-<http://purl.org/cao/wasCorrectedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/cao/isFollowedBy> .
-<http://purl.org/cao/wasCorrectedTo> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/cao/wasCorrectionOf> .
-<http://purl.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The property relates a corrected reading to the previous state before correction (also a reading)."@en .
-<http://purl.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#label> "was corrected to"@en .
+# https://w3id.org/cao/wasCorrectedTo
+<https://w3id.org/cao/wasCorrectedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/cao/isFollowedBy> .
+<https://w3id.org/cao/wasCorrectedTo> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cao/wasCorrectionOf> .
+<https://w3id.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The property relates a corrected reading to the previous state before correction (also a reading)."@en .
+<https://w3id.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/wasCorrectedTo> <http://www.w3.org/2000/01/rdf-schema#label> "was corrected to"@en .
 # 
-# http://purl.org/cao/wasCorrectionOf
-<http://purl.org/cao/wasCorrectionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/wasCorrectionOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/cao/follows> .
-<http://purl.org/cao/wasCorrectionOf> <http://www.w3.org/2000/01/rdf-schema#label> "was correction of"@en .
+# https://w3id.org/cao/wasCorrectionOf
+<https://w3id.org/cao/wasCorrectionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/wasCorrectionOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/cao/follows> .
+<https://w3id.org/cao/wasCorrectionOf> <http://www.w3.org/2000/01/rdf-schema#label> "was correction of"@en .
 # 
-# http://purl.org/cao/witnesses
-<http://purl.org/cao/witnesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/cao/witnesses> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/witnesses> <http://www.w3.org/2000/01/rdf-schema#label> "witnesses"@en .
+# https://w3id.org/cao/witnesses
+<https://w3id.org/cao/witnesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cao/witnesses> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/witnesses> <http://www.w3.org/2000/01/rdf-schema#label> "witnesses"@en .
 # 
 # http://www.w3.org/ns/prov#hadDerivation
 <http://www.w3.org/ns/prov#hadDerivation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/prov#hadDerivation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/cao/isFollowedBy> .
+<http://www.w3.org/ns/prov#hadDerivation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/cao/isFollowedBy> .
 <http://www.w3.org/ns/prov#hadDerivation> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/prov#wasDerivedFrom> .
 <http://www.w3.org/ns/prov#hadDerivation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/prov#" .
 <http://www.w3.org/ns/prov#hadDerivation> <http://www.w3.org/2000/01/rdf-schema#label> "had derivation"@en .
@@ -256,7 +256,7 @@
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasDerivedFrom> .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/prov#wasPrimarySourceOf> .
-<http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
+<http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/fr/frbr/frbroo/F3> .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2000/01/rdf-schema#comment> "A primary source for a topic refers to something produced by some agent with direct experience and knowledge about the topic, at the time of the topic's study, without benefit from hindsight. Because of the directness of primary sources, they 'speak for themselves' in ways that cannot be captured through the filter of secondary sources. As such, it is important for secondary sources to reference those primary sources from which they were derived, so that their reliability can be investigated. A primary source relation is a particular case of derivation of secondary materials from their primary sources. It is recognized that the determination of primary sources can be up to interpretation, and should be done according to conventions accepted within the application's domain."@en .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/prov#" .
@@ -271,7 +271,7 @@
 # 
 # http://www.w3.org/ns/prov#wasAttributedTo
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
+<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Attribution is the ascribing of an entity to an agent."@en .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/prov#" .
@@ -279,9 +279,9 @@
 # 
 # http://www.w3.org/ns/prov#wasDerivedFrom
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/cao/follows> .
-<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
-<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/Reading> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/cao/follows> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/Reading> .
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity. The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."@en .
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/prov#" .
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#label> "was derived from"@en .
@@ -295,8 +295,8 @@
 # http://www.w3.org/ns/prov#wasRevisionOf
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasDerivedFrom> .
-<http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/cao/Reading> .
-<http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/cao/Reading> .
+<http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cao/Reading> .
+<http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cao/Reading> .
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A revision is a derivation for which the resulting entity is a revised version of some original. The implication here is that the resulting entity contains substantial content from the original. Revision is a particular case of derivation."@en .
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.w3.org/ns/prov#" .
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#label> "was revision of"@en .
@@ -360,62 +360,62 @@
 <http://iflastandards.info/ns/fr/frbr/frbroo/F5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://iflastandards.info/ns/fr/frbr/frbroo/" .
 <http://iflastandards.info/ns/fr/frbr/frbroo/F5> <http://www.w3.org/2000/01/rdf-schema#label> "F5 Item"@en .
 # 
-# http://purl.org/cao/BaseReading
-<http://purl.org/cao/BaseReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/cao/BaseReading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/BaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "This class comprises special types of readings, i.e. the one reading within the same unit of variation preferred by the editor over the others."@en .
-<http://purl.org/cao/BaseReading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/BaseReading> <http://www.w3.org/2000/01/rdf-schema#label> "Base Reading"@en .
+# https://w3id.org/cao/BaseReading
+<https://w3id.org/cao/BaseReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cao/BaseReading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/BaseReading> <http://www.w3.org/2000/01/rdf-schema#comment> "This class comprises special types of readings, i.e. the one reading within the same unit of variation preferred by the editor over the others."@en .
+<https://w3id.org/cao/BaseReading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/BaseReading> <http://www.w3.org/2000/01/rdf-schema#label> "Base Reading"@en .
 # 
-# http://purl.org/cao/Reading
-<http://purl.org/cao/Reading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> .
-<http://purl.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+# https://w3id.org/cao/Reading
+<https://w3id.org/cao/Reading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> .
+<https://w3id.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> .
 _:genid1 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid1 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#comment> "A reading is a scholarly claim about or interpretation of a particular textual fragment contained in a witness. Multiple readings may be given for the same textual fragment."@en .
-<http://purl.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#label> "Reading"@en .
+<https://w3id.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#comment> "A reading is a scholarly claim about or interpretation of a particular textual fragment contained in a witness. Multiple readings may be given for the same textual fragment."@en .
+<https://w3id.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/Reading> <http://www.w3.org/2000/01/rdf-schema#label> "Reading"@en .
 # 
-# http://purl.org/cao/ReadingCause
-<http://purl.org/cao/ReadingCause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/cao/ReadingCause> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://purl.org/cao/ReadingCause> <http://www.w3.org/2000/01/rdf-schema#comment> "This class comprises reading causes. A reading cause is the cause for a variant reading (e.g. homeoteleuton, dittography, interpolation)."@en .
-<http://purl.org/cao/ReadingCause> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/ReadingCause> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Cause"@en .
+# https://w3id.org/cao/ReadingCause
+<https://w3id.org/cao/ReadingCause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cao/ReadingCause> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<https://w3id.org/cao/ReadingCause> <http://www.w3.org/2000/01/rdf-schema#comment> "This class comprises reading causes. A reading cause is the cause for a variant reading (e.g. homeoteleuton, dittography, interpolation)."@en .
+<https://w3id.org/cao/ReadingCause> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/ReadingCause> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Cause"@en .
 # 
-# http://purl.org/cao/ReadingType
-<http://purl.org/cao/ReadingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/cao/ReadingType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://purl.org/cao/ReadingType> <http://www.w3.org/2000/01/rdf-schema#comment> "This class comprises reading types. A reading type is the category for a variant reading (e.g. omission, conjecture, addition)."@en .
-<http://purl.org/cao/ReadingType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/ReadingType> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Type"@en .
+# https://w3id.org/cao/ReadingType
+<https://w3id.org/cao/ReadingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cao/ReadingType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<https://w3id.org/cao/ReadingType> <http://www.w3.org/2000/01/rdf-schema#comment> "This class comprises reading types. A reading type is the category for a variant reading (e.g. omission, conjecture, addition)."@en .
+<https://w3id.org/cao/ReadingType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/ReadingType> <http://www.w3.org/2000/01/rdf-schema#label> "Reading Type"@en .
 # 
-# http://purl.org/cao/VariationLocation
-<http://purl.org/cao/VariationLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/cao/VariationLocation> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/cao/VariationUnit> .
-<http://purl.org/cao/VariationLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "A location of variation is the locus in a collated text where textual variation is recognized to occur."@en .
-<http://purl.org/cao/VariationLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/VariationLocation> <http://www.w3.org/2000/01/rdf-schema#label> "Variation Location"@en .
+# https://w3id.org/cao/VariationLocation
+<https://w3id.org/cao/VariationLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cao/VariationLocation> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/cao/VariationUnit> .
+<https://w3id.org/cao/VariationLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "A location of variation is the locus in a collated text where textual variation is recognized to occur."@en .
+<https://w3id.org/cao/VariationLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/VariationLocation> <http://www.w3.org/2000/01/rdf-schema#label> "Variation Location"@en .
 # 
-# http://purl.org/cao/VariationUnit
-<http://purl.org/cao/VariationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> .
-<http://purl.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+# https://w3id.org/cao/VariationUnit
+<https://w3id.org/cao/VariationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> .
+<https://w3id.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/cao/hasReading> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/cao/hasReading> .
 _:genid2 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/cao/Reading> .
-<http://purl.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/cao/Reading> .
+<https://w3id.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/cao/hasBaseReading> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/cao/hasBaseReading> .
 _:genid3 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/cao/BaseReading> .
-<http://purl.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of variation is a set of alternative readings that refer to the same locus in a collated text. A unit of variation features a maximum of 1 base reading and a minimum of 2 readings."@en .
-<http://purl.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/cao/" .
-<http://purl.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Variation Unit"@en .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/cao/BaseReading> .
+<https://w3id.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of variation is a set of alternative readings that refer to the same locus in a collated text. A unit of variation features a maximum of 1 base reading and a minimum of 2 readings."@en .
+<https://w3id.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://w3id.org/cao/" .
+<https://w3id.org/cao/VariationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Variation Unit"@en .
 # 
 # http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object
 <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -462,91 +462,91 @@ _:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/cao/BaseReadin
 # 
 # http://lawd.info/ontology/addition
 <http://lawd.info/ontology/addition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lawd.info/ontology/addition> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/cao/addition> .
+<http://lawd.info/ontology/addition> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/cao/addition> .
 # 
 # http://lawd.info/ontology/conjecture
 <http://lawd.info/ontology/conjecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lawd.info/ontology/conjecture> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/cao/conjecture> .
+<http://lawd.info/ontology/conjecture> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/cao/conjecture> .
 # 
 # http://lawd.info/ontology/correction
 <http://lawd.info/ontology/correction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lawd.info/ontology/correction> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/cao/correction> .
+<http://lawd.info/ontology/correction> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/cao/correction> .
 # 
 # http://lawd.info/ontology/deletion
 <http://lawd.info/ontology/deletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lawd.info/ontology/deletion> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/cao/deletion> .
+<http://lawd.info/ontology/deletion> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/cao/deletion> .
 # 
 # http://lawd.info/ontology/omission
 <http://lawd.info/ontology/omission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lawd.info/ontology/omission> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/cao/omission> .
+<http://lawd.info/ontology/omission> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/cao/omission> .
 # 
 # http://lawd.info/ontology/transposition
 <http://lawd.info/ontology/transposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://lawd.info/ontology/transposition> <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/cao/transposition> .
+<http://lawd.info/ontology/transposition> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/cao/transposition> .
 # 
-# http://purl.org/cao/addition
-<http://purl.org/cao/addition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/addition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingType> .
-<http://purl.org/cao/addition> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is an addition (i.e a syntactic and/or semantic expansion)."@en .
+# https://w3id.org/cao/addition
+<https://w3id.org/cao/addition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/addition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingType> .
+<https://w3id.org/cao/addition> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is an addition (i.e a syntactic and/or semantic expansion)."@en .
 # 
-# http://purl.org/cao/conjecture
-<http://purl.org/cao/conjecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/conjecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingType> .
-<http://purl.org/cao/conjecture> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is a conjecture (i.e an editorial reconstruction or hypothesis of reading)."@en .
+# https://w3id.org/cao/conjecture
+<https://w3id.org/cao/conjecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/conjecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingType> .
+<https://w3id.org/cao/conjecture> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is a conjecture (i.e an editorial reconstruction or hypothesis of reading)."@en .
 # 
-# http://purl.org/cao/correction
-<http://purl.org/cao/correction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/correction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingType> .
-<http://purl.org/cao/correction> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is a correction (i.e. it is an authorial or scribal correction of a previous textual fragment)."@en .
+# https://w3id.org/cao/correction
+<https://w3id.org/cao/correction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/correction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingType> .
+<https://w3id.org/cao/correction> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is a correction (i.e. it is an authorial or scribal correction of a previous textual fragment)."@en .
 # 
-# http://purl.org/cao/deletion
-<http://purl.org/cao/deletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/deletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingType> .
-<http://purl.org/cao/deletion> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is a deletion (i.e. it was marked or somehow indicated by the author or scribe as deleted)."@en .
+# https://w3id.org/cao/deletion
+<https://w3id.org/cao/deletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/deletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingType> .
+<https://w3id.org/cao/deletion> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is a deletion (i.e. it was marked or somehow indicated by the author or scribe as deleted)."@en .
 # 
-# http://purl.org/cao/dittography
-<http://purl.org/cao/dittography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/dittography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingCause> .
-<http://purl.org/cao/dittography> <http://www.w3.org/2000/01/rdf-schema#comment> "The unintentional repetition of a letter, word or phrase."@en .
+# https://w3id.org/cao/dittography
+<https://w3id.org/cao/dittography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/dittography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingCause> .
+<https://w3id.org/cao/dittography> <http://www.w3.org/2000/01/rdf-schema#comment> "The unintentional repetition of a letter, word or phrase."@en .
 # 
-# http://purl.org/cao/haplography
-<http://purl.org/cao/haplography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/haplography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingCause> .
-<http://purl.org/cao/haplography> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental omission of a letter, word or phrase. Homeoarchy, homeoteleuton, saut du même au même are particular types of haplography."@en .
+# https://w3id.org/cao/haplography
+<https://w3id.org/cao/haplography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/haplography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingCause> .
+<https://w3id.org/cao/haplography> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental omission of a letter, word or phrase. Homeoarchy, homeoteleuton, saut du même au même are particular types of haplography."@en .
 # 
-# http://purl.org/cao/homeoarchy
-<http://purl.org/cao/homeoarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/homeoarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingCause> .
-<http://purl.org/cao/homeoarchy> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental skipping of a word or phrase having the same beginning. A polyptoton is a particular type of homeoarchy."@en .
+# https://w3id.org/cao/homeoarchy
+<https://w3id.org/cao/homeoarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/homeoarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingCause> .
+<https://w3id.org/cao/homeoarchy> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental skipping of a word or phrase having the same beginning. A polyptoton is a particular type of homeoarchy."@en .
 # 
-# http://purl.org/cao/homeoteleuton
-<http://purl.org/cao/homeoteleuton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/homeoteleuton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingCause> .
-<http://purl.org/cao/homeoteleuton> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental skipping of a word or phrase having the same ending."@en .
+# https://w3id.org/cao/homeoteleuton
+<https://w3id.org/cao/homeoteleuton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/homeoteleuton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingCause> .
+<https://w3id.org/cao/homeoteleuton> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental skipping of a word or phrase having the same ending."@en .
 # 
-# http://purl.org/cao/incorporation
-<http://purl.org/cao/incorporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/incorporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingCause> .
-<http://purl.org/cao/incorporation> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental incorporation of materials, such as marginalia."@en .
+# https://w3id.org/cao/incorporation
+<https://w3id.org/cao/incorporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/incorporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingCause> .
+<https://w3id.org/cao/incorporation> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental incorporation of materials, such as marginalia."@en .
 # 
-# http://purl.org/cao/omission
-<http://purl.org/cao/omission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/omission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingType> .
-<http://purl.org/cao/omission> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is an omission (i.e. the author or scribe did not include the reading in the witness). If intentional, an omission may also classify as a correction."@en .
+# https://w3id.org/cao/omission
+<https://w3id.org/cao/omission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/omission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingType> .
+<https://w3id.org/cao/omission> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that is an omission (i.e. the author or scribe did not include the reading in the witness). If intentional, an omission may also classify as a correction."@en .
 # 
-# http://purl.org/cao/polyptoton
-<http://purl.org/cao/polyptoton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/polyptoton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingCause> .
-<http://purl.org/cao/polyptoton> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental skipping of a word or phrase forming a polyptoton (i.e. presenting the same root word). A polyptoton is a particular type of homeoarchy."@en .
+# https://w3id.org/cao/polyptoton
+<https://w3id.org/cao/polyptoton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/polyptoton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingCause> .
+<https://w3id.org/cao/polyptoton> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental skipping of a word or phrase forming a polyptoton (i.e. presenting the same root word). A polyptoton is a particular type of homeoarchy."@en .
 # 
-# http://purl.org/cao/saut-du-meme-au-meme
-<http://purl.org/cao/saut-du-meme-au-meme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/saut-du-meme-au-meme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingCause> .
-<http://purl.org/cao/saut-du-meme-au-meme> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental skipping of some text in between two similar words or phrases; a particular type of haplography."@en .
+# https://w3id.org/cao/saut-du-meme-au-meme
+<https://w3id.org/cao/saut-du-meme-au-meme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/saut-du-meme-au-meme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingCause> .
+<https://w3id.org/cao/saut-du-meme-au-meme> <http://www.w3.org/2000/01/rdf-schema#comment> "The accidental skipping of some text in between two similar words or phrases; a particular type of haplography."@en .
 # 
-# http://purl.org/cao/transposition
-<http://purl.org/cao/transposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://purl.org/cao/transposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cao/ReadingType> .
-<http://purl.org/cao/transposition> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that was transposed from another location in the text, including the flipping of the order of two words or phrases."@en .
+# https://w3id.org/cao/transposition
+<https://w3id.org/cao/transposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/cao/transposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/cao/ReadingType> .
+<https://w3id.org/cao/transposition> <http://www.w3.org/2000/01/rdf-schema#comment> "The type for a reading that was transposed from another location in the text, including the flipping of the order of two words or phrases."@en .
 # 
 # Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

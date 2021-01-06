@@ -19,10 +19,10 @@
     "@value" : "2"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.org/cao/hasReading"
+    "@id" : "https://w3id.org/cao/hasReading"
   } ]
 }, {
   "@id" : "_:genid3",
@@ -32,10 +32,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://purl.org/cao/BaseReading"
+    "@id" : "https://w3id.org/cao/BaseReading"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.org/cao/hasBaseReading"
+    "@id" : "https://w3id.org/cao/hasBaseReading"
   } ]
 }, {
   "@id" : "http://iflastandards.info/ns/fr/frbr/frbroo/F2",
@@ -290,43 +290,43 @@
   "@id" : "http://lawd.info/ontology/addition",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@id" : "http://purl.org/cao/addition"
+    "@id" : "https://w3id.org/cao/addition"
   } ]
 }, {
   "@id" : "http://lawd.info/ontology/conjecture",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@id" : "http://purl.org/cao/conjecture"
+    "@id" : "https://w3id.org/cao/conjecture"
   } ]
 }, {
   "@id" : "http://lawd.info/ontology/correction",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@id" : "http://purl.org/cao/correction"
+    "@id" : "https://w3id.org/cao/correction"
   } ]
 }, {
   "@id" : "http://lawd.info/ontology/deletion",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@id" : "http://purl.org/cao/deletion"
+    "@id" : "https://w3id.org/cao/deletion"
   } ]
 }, {
   "@id" : "http://lawd.info/ontology/omission",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@id" : "http://purl.org/cao/omission"
+    "@id" : "https://w3id.org/cao/omission"
   } ]
 }, {
   "@id" : "http://lawd.info/ontology/transposition",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@id" : "http://purl.org/cao/transposition"
+    "@id" : "https://w3id.org/cao/transposition"
   } ]
 }, {
   "@id" : "http://purl.org/NET/cidoc-crm/core#P3_has_note",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://purl.org/cao/",
+  "@id" : "https://w3id.org/cao/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/date" : [ {
     "@value" : "08.07.2019"
@@ -351,38 +351,38 @@
     "@id" : "http://www.w3.org/ns/oa#"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://purl.org/cao/9.0"
+    "@id" : "https://w3id.org/cao/9.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "0.9"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/BaseReading",
+  "@id" : "https://w3id.org/cao/BaseReading",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises special types of readings, i.e. the one reading within the same unit of variation preferred by the editor over the others."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Base Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/Reading",
+  "@id" : "https://w3id.org/cao/Reading",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A reading is a scholarly claim about or interpretation of a particular textual fragment contained in a witness. Multiple readings may be given for the same textual fragment."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -394,14 +394,14 @@
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/ReadingCause",
+  "@id" : "https://w3id.org/cao/ReadingCause",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises reading causes. A reading cause is the cause for a variant reading (e.g. homeoteleuton, dittography, interpolation)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -411,14 +411,14 @@
     "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/ReadingType",
+  "@id" : "https://w3id.org/cao/ReadingType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises reading types. A reading type is the category for a variant reading (e.g. omission, conjecture, addition)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -428,31 +428,31 @@
     "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/VariationLocation",
+  "@id" : "https://w3id.org/cao/VariationLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A location of variation is the locus in a collated text where textual variation is recognized to occur."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Variation Location"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://purl.org/cao/VariationUnit"
+    "@id" : "https://w3id.org/cao/VariationUnit"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/VariationUnit",
+  "@id" : "https://w3id.org/cao/VariationUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A unit of variation is a set of alternative readings that refer to the same locus in a collated text. A unit of variation features a maximum of 1 base reading and a minimum of 2 readings."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -466,72 +466,72 @@
     "@id" : "_:genid3"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/addition",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingType" ],
+  "@id" : "https://w3id.org/cao/addition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingType" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The type for a reading that is an addition (i.e a syntactic and/or semantic expansion)."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/conjecture",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingType" ],
+  "@id" : "https://w3id.org/cao/conjecture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingType" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The type for a reading that is a conjecture (i.e an editorial reconstruction or hypothesis of reading)."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/correction",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingType" ],
+  "@id" : "https://w3id.org/cao/correction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingType" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The type for a reading that is a correction (i.e. it is an authorial or scribal correction of a previous textual fragment)."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/deletion",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingType" ],
+  "@id" : "https://w3id.org/cao/deletion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingType" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The type for a reading that is a deletion (i.e. it was marked or somehow indicated by the author or scribe as deleted)."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/dittography",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingCause" ],
+  "@id" : "https://w3id.org/cao/dittography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingCause" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The unintentional repetition of a letter, word or phrase."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/follows",
+  "@id" : "https://w3id.org/cao/follows",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "follows"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://purl.org/cao/isFollowedBy"
+    "@id" : "https://w3id.org/cao/isFollowedBy"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/haplography",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingCause" ],
+  "@id" : "https://w3id.org/cao/haplography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingCause" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The accidental omission of a letter, word or phrase. Homeoarchy, homeoteleuton, saut du même au même are particular types of haplography."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/hasAttributedHand",
+  "@id" : "https://w3id.org/cao/hasAttributedHand",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates a reading to a specific scribal hand."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -541,10 +541,10 @@
     "@id" : "http://www.w3.org/ns/prov#Agent"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://purl.org/cao/isAttributedHandOf"
+    "@id" : "https://w3id.org/cao/isAttributedHandOf"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/hasBaseReading",
+  "@id" : "https://w3id.org/cao/hasBaseReading",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -560,250 +560,250 @@
     "@value" : "has interpreted entity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/VariationUnit"
+    "@id" : "https://w3id.org/cao/VariationUnit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://iflastandards.info/ns/fr/frbr/frbroo/F2"
   }, {
-    "@id" : "http://purl.org/cao/BaseReading"
+    "@id" : "https://w3id.org/cao/BaseReading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/cao/hasReading"
+    "@id" : "https://w3id.org/cao/hasReading"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://purl.org/cao/isBaseReadingOf"
+    "@id" : "https://w3id.org/cao/isBaseReadingOf"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/hasReading",
+  "@id" : "https://w3id.org/cao/hasReading",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates a unit of variation to a reading."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/VariationUnit"
+    "@id" : "https://w3id.org/cao/VariationUnit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://purl.org/cao/isReadingOf"
+    "@id" : "https://w3id.org/cao/isReadingOf"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/hasReadingCause",
+  "@id" : "https://w3id.org/cao/hasReadingCause",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates a reading to the possible cause for it."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has reading cause"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.org/cao/ReadingCause"
+    "@id" : "https://w3id.org/cao/ReadingCause"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://purl.org/cao/isReadingCauseOf"
+    "@id" : "https://w3id.org/cao/isReadingCauseOf"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/hasReadingType",
+  "@id" : "https://w3id.org/cao/hasReadingType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates a reading to a reading category or type."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has reading type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.org/cao/ReadingType"
+    "@id" : "https://w3id.org/cao/ReadingType"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://purl.org/cao/isReadingTypeOf"
+    "@id" : "https://w3id.org/cao/isReadingTypeOf"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/hasSubvariationUnit",
+  "@id" : "https://w3id.org/cao/hasSubvariationUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates a unit of variation to a subunit of variation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/VariationUnit"
+    "@id" : "https://w3id.org/cao/VariationUnit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has subvariation unit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.org/cao/VariationUnit"
+    "@id" : "https://w3id.org/cao/VariationUnit"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/hasVariant",
+  "@id" : "https://w3id.org/cao/hasVariant",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates a base reading to an attested variant reading."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/BaseReading"
+    "@id" : "https://w3id.org/cao/BaseReading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has variant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://purl.org/cao/isVariantOf"
+    "@id" : "https://w3id.org/cao/isVariantOf"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/homeoarchy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingCause" ],
+  "@id" : "https://w3id.org/cao/homeoarchy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingCause" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The accidental skipping of a word or phrase having the same beginning. A polyptoton is a particular type of homeoarchy."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/homeoteleuton",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingCause" ],
+  "@id" : "https://w3id.org/cao/homeoteleuton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingCause" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The accidental skipping of a word or phrase having the same ending."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/incorporation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingCause" ],
+  "@id" : "https://w3id.org/cao/incorporation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingCause" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The accidental incorporation of materials, such as marginalia."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/isAttributedHandOf",
+  "@id" : "https://w3id.org/cao/isAttributedHandOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is attributed hand of"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/isBaseReadingOf",
+  "@id" : "https://w3id.org/cao/isBaseReadingOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is base reading of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/cao/isReadingOf"
+    "@id" : "https://w3id.org/cao/isReadingOf"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/isFollowedBy",
+  "@id" : "https://w3id.org/cao/isFollowedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates two readings which, chronologically, come one after another. E.g. Reading A is followed by Reading B"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is followed by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/isReadingCauseOf",
+  "@id" : "https://w3id.org/cao/isReadingCauseOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is reading cause of"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/isReadingOf",
+  "@id" : "https://w3id.org/cao/isReadingOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is reading of"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/isReadingTypeOf",
+  "@id" : "https://w3id.org/cao/isReadingTypeOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is reading type of"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/isVariantOf",
+  "@id" : "https://w3id.org/cao/isVariantOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "is variant of"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/isWitnessedBy",
+  "@id" : "https://w3id.org/cao/isWitnessedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates a reading to the supporting expression or expression fragment in the witness."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -813,77 +813,77 @@
     "@id" : "http://iflastandards.info/ns/fr/frbr/frbroo/F2"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://purl.org/cao/witnesses"
+    "@id" : "https://w3id.org/cao/witnesses"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/omission",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingType" ],
+  "@id" : "https://w3id.org/cao/omission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingType" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The type for a reading that is an omission (i.e. the author or scribe did not include the reading in the witness). If intentional, an omission may also classify as a correction."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/polyptoton",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingCause" ],
+  "@id" : "https://w3id.org/cao/polyptoton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingCause" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The accidental skipping of a word or phrase forming a polyptoton (i.e. presenting the same root word). A polyptoton is a particular type of homeoarchy."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/saut-du-meme-au-meme",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingCause" ],
+  "@id" : "https://w3id.org/cao/saut-du-meme-au-meme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingCause" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The accidental skipping of some text in between two similar words or phrases; a particular type of haplography."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/transposition",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/cao/ReadingType" ],
+  "@id" : "https://w3id.org/cao/transposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/cao/ReadingType" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The type for a reading that was transposed from another location in the text, including the flipping of the order of two words or phrases."
   } ]
 }, {
-  "@id" : "http://purl.org/cao/wasCorrectedTo",
+  "@id" : "https://w3id.org/cao/wasCorrectedTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The property relates a corrected reading to the previous state before correction (also a reading)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "was corrected to"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/cao/isFollowedBy"
+    "@id" : "https://w3id.org/cao/isFollowedBy"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://purl.org/cao/wasCorrectionOf"
+    "@id" : "https://w3id.org/cao/wasCorrectionOf"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/wasCorrectionOf",
+  "@id" : "https://w3id.org/cao/wasCorrectionOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "was correction of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/cao/follows"
+    "@id" : "https://w3id.org/cao/follows"
   } ]
 }, {
-  "@id" : "http://purl.org/cao/witnesses",
+  "@id" : "https://w3id.org/cao/witnesses",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/cao/"
+    "@value" : "https://w3id.org/cao/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -970,7 +970,7 @@
     "@value" : "had derivation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/cao/isFollowedBy"
+    "@id" : "https://w3id.org/cao/isFollowedBy"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
@@ -983,7 +983,7 @@
     "@value" : "A primary source for a topic refers to something produced by some agent with direct experience and knowledge about the topic, at the time of the topic's study, without benefit from hindsight. Because of the directness of primary sources, they 'speak for themselves' in ways that cannot be captured through the filter of secondary sources. As such, it is important for secondary sources to reference those primary sources from which they were derived, so that their reliability can be investigated. A primary source relation is a particular case of derivation of secondary materials from their primary sources. It is recognized that the determination of primary sources can be up to interpretation, and should be done according to conventions accepted within the application's domain."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://www.w3.org/ns/prov#"
@@ -1025,7 +1025,7 @@
     "@value" : "Attribution is the ascribing of an entity to an agent."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://www.w3.org/ns/prov#"
@@ -1045,7 +1045,7 @@
     "@value" : "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity. The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://www.w3.org/ns/prov#"
@@ -1055,10 +1055,10 @@
     "@value" : "was derived from"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/cao/follows"
+    "@id" : "https://w3id.org/cao/follows"
   } ]
 }, {
   "@id" : "http://www.w3.org/ns/prov#wasPrimarySourceOf",
@@ -1082,7 +1082,7 @@
     "@value" : "A revision is a derivation for which the resulting entity is a revised version of some original. The implication here is that the resulting entity contains substantial content from the original. Revision is a particular case of derivation."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://www.w3.org/ns/prov#"
@@ -1092,7 +1092,7 @@
     "@value" : "was revision of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.org/cao/Reading"
+    "@id" : "https://w3id.org/cao/Reading"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
