@@ -2,7 +2,7 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "http://www.w3.org/ns/prov#hadprimarysource", "it", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/NET/cidoc-crm/core", "http://purl.org/spar/c4o", "http://iflastandards.info/ns/fr/frbr/frbroo", "http://www.ontologydesignpatterns.org/cp/owl/participation.owl", "http://www.w3.org/2002/07/owl", "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl", "http://www.w3.org/TR/prov-o/", "http://www.w3.org/2001/XMLSchema", "http://www.ontologydesignpatterns.org/cp/owl/situation.owl", "http://purl.org/cao", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/activitystreams", "http://www.w3.org/ns/prov", "http://www.w3.org/ns/oa", "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl", "http://purl.org/spar/cito", "http://www.cidoc-crm.org/cidoc-crm", "http://org.semanticweb.owlapi/error", "http://xmlns.com/foaf/0.1", "http://purl.org/vocab/frbr/core", "http://purl.org/emmedi/hico", "http://www.w3.org/2004/02/skos/core" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/NET/cidoc-crm/core", "http://purl.org/spar/c4o", "http://iflastandards.info/ns/fr/frbr/frbroo", "http://www.ontologydesignpatterns.org/cp/owl/participation.owl", "http://www.w3.org/2002/07/owl", "http://www.ontologydesignpatterns.org/cp/owl/naryparticipation.owl", "http://www.w3.org/TR/prov-o/", "http://www.w3.org/2001/XMLSchema", "http://www.ontologydesignpatterns.org/cp/owl/situation.owl", "https://w3id.org/cao", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/activitystreams", "http://www.w3.org/ns/prov", "http://www.w3.org/ns/oa", "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl", "http://purl.org/spar/cito", "http://www.cidoc-crm.org/cidoc-crm", "http://org.semanticweb.owlapi/error", "http://xmlns.com/foaf/0.1", "http://purl.org/vocab/frbr/core", "http://purl.org/emmedi/hico", "http://www.w3.org/2004/02/skos/core" ],
     "title" : {
       "undefined" : "Critical Apparatus Ontology (CAO)"
     },
@@ -427,7 +427,7 @@
     "superClasses" : [ "18", "19" ]
   }, {
     "iri" : "https://w3id.org/cao/VariationUnit",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
@@ -484,7 +484,7 @@
     "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/cao/ReadingType",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
@@ -500,7 +500,7 @@
     },
     "individuals" : [ {
       "iri" : "https://w3id.org/cao/addition",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The type for a reading that is an addition (i.e a syntactic and/or semantic expansion)."
       },
@@ -509,7 +509,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/omission",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The type for a reading that is an omission (i.e. the author or scribe did not include the reading in the witness). If intentional, an omission may also classify as a correction."
       },
@@ -518,7 +518,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/correction",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The type for a reading that is a correction (i.e. it is an authorial or scribal correction of a previous textual fragment)."
       },
@@ -527,7 +527,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/transposition",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The type for a reading that was transposed from another location in the text, including the flipping of the order of two words or phrases."
       },
@@ -536,7 +536,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/conjecture",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The type for a reading that is a conjecture (i.e an editorial reconstruction or hypothesis of reading)."
       },
@@ -545,7 +545,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/deletion",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The type for a reading that is a deletion (i.e. it was marked or somehow indicated by the author or scribe as deleted)."
       },
@@ -623,7 +623,7 @@
     "superClasses" : [ "24" ]
   }, {
     "iri" : "https://w3id.org/cao/ReadingCause",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
@@ -639,7 +639,7 @@
     },
     "individuals" : [ {
       "iri" : "https://w3id.org/cao/dittography",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The unintentional repetition of a letter, word or phrase."
       },
@@ -648,7 +648,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/saut-du-meme-au-meme",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The accidental skipping of some text in between two similar words or phrases; a particular type of haplography."
       },
@@ -657,7 +657,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/homeoarchy",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The accidental skipping of a word or phrase having the same beginning. A polyptoton is a particular type of homeoarchy."
       },
@@ -666,7 +666,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/incorporation",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The accidental incorporation of materials, such as marginalia."
       },
@@ -675,7 +675,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/polyptoton",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The accidental skipping of a word or phrase forming a polyptoton (i.e. presenting the same root word). A polyptoton is a particular type of homeoarchy."
       },
@@ -684,7 +684,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/homeoteleuton",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The accidental skipping of a word or phrase having the same ending."
       },
@@ -693,7 +693,7 @@
       }
     }, {
       "iri" : "https://w3id.org/cao/haplography",
-      "baseIri" : "http://purl.org/cao",
+      "baseIri" : "https://w3id.org/cao",
       "comment" : {
         "en" : "The accidental omission of a letter, word or phrase. Homeoarchy, homeoteleuton, saut du même au même are particular types of haplography."
       },
@@ -1113,7 +1113,7 @@
     "superClasses" : [ "151" ]
   }, {
     "iri" : "https://w3id.org/cao/BaseReading",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
@@ -1579,7 +1579,7 @@
     "id" : "191"
   }, {
     "iri" : "https://w3id.org/cao/Reading",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
@@ -2233,7 +2233,7 @@
     "superClasses" : [ "24" ]
   }, {
     "iri" : "https://w3id.org/cao/VariationLocation",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
@@ -3052,7 +3052,7 @@
     "id" : "51"
   }, {
     "iri" : "https://w3id.org/cao/wasCorrectionOf",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "8",
     "label" : {
       "IRI-based" : "wasCorrectionOf",
@@ -3101,7 +3101,7 @@
     "id" : "63"
   }, {
     "iri" : "https://w3id.org/cao/isVariantOf",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -3176,7 +3176,7 @@
     "id" : "69"
   }, {
     "iri" : "https://w3id.org/cao/isReadingTypeOf",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -3310,7 +3310,7 @@
     "id" : "93"
   }, {
     "iri" : "https://w3id.org/cao/isBaseReadingOf",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -3569,7 +3569,7 @@
   }, {
     "iri" : "https://w3id.org/cao/hasReadingType",
     "inverse" : "72",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "36",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -3639,7 +3639,7 @@
   }, {
     "iri" : "https://w3id.org/cao/hasReadingCause",
     "inverse" : "135",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "73",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -3779,7 +3779,7 @@
   }, {
     "iri" : "https://w3id.org/cao/hasBaseReading",
     "inverse" : "97",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "148",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -4046,7 +4046,7 @@
     "id" : "173"
   }, {
     "iri" : "https://w3id.org/cao/hasSubvariationUnit",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "1",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -4068,7 +4068,7 @@
     "id" : "175"
   }, {
     "iri" : "https://w3id.org/cao/isAttributedHandOf",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -4087,7 +4087,7 @@
     "id" : "177"
   }, {
     "iri" : "https://w3id.org/cao/isFollowedBy",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "3",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -4190,7 +4190,7 @@
     "id" : "188"
   }, {
     "iri" : "https://w3id.org/cao/witnesses",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -4448,7 +4448,7 @@
   }, {
     "iri" : "https://w3id.org/cao/hasAttributedHand",
     "inverse" : "177",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "47",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -4563,7 +4563,7 @@
   }, {
     "iri" : "https://w3id.org/cao/wasCorrectedTo",
     "inverse" : "53",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "3",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -4586,7 +4586,7 @@
     "id" : "180"
   }, {
     "iri" : "https://w3id.org/cao/isReadingOf",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -4850,7 +4850,7 @@
   }, {
     "iri" : "https://w3id.org/cao/hasVariant",
     "inverse" : "66",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "3",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -5202,7 +5202,7 @@
   }, {
     "iri" : "https://w3id.org/cao/hasReading",
     "inverse" : "98",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "3",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -5230,7 +5230,7 @@
     "id" : "275"
   }, {
     "iri" : "https://w3id.org/cao/isReadingCauseOf",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "44",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -5321,7 +5321,7 @@
   }, {
     "iri" : "https://w3id.org/cao/follows",
     "inverse" : "179",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "3",
     "annotations" : {
       "isDefinedBy" : [ {
@@ -5466,7 +5466,7 @@
   }, {
     "iri" : "https://w3id.org/cao/isWitnessedBy",
     "inverse" : "189",
-    "baseIri" : "http://purl.org/cao",
+    "baseIri" : "https://w3id.org/cao",
     "range" : "33",
     "annotations" : {
       "isDefinedBy" : [ {
